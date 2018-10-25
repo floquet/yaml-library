@@ -1,0 +1,54 @@
+# #  aarch
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.1.0-dxuc75dr564hqvehlboqm77ardlphrca/bin/gcc
+      cxx: /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.1.0-dxuc75dr564hqvehlboqm77ardlphrca/bin/g++
+      f77: /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.1.0-dxuc75dr564hqvehlboqm77ardlphrca/bin/gfortran
+      fc:  /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.1.0-dxuc75dr564hqvehlboqm77ardlphrca/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-6.4.0-pxvv6nc62bbdd2cm2ro6rzpuypvh73hu/bin/gcc
+      cxx: /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-6.4.0-pxvv6nc62bbdd2cm2ro6rzpuypvh73hu/bin/g++
+      f77: /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-6.4.0-pxvv6nc62bbdd2cm2ro6rzpuypvh73hu/bin/gfortran
+      fc:  /scratch/users/dantopa/new-spack/spack.arm.ompi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-6.4.0-pxvv6nc62bbdd2cm2ro6rzpuypvh73hu/bin/gfortran
+    spec: gcc@6.4.0
+    target: aarch64

@@ -1,0 +1,66 @@
+# #  power9
+  #  - clang
+  #  - gcc
+  #  - pgi
+  #  - xl
+compilers:
+  # # # xl
+  # module load ibm/xlc-16.1.1-xlf-16.1.1-beta2
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-16.1.1-xlf-16.1.1-beta6]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1-beta6/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1-beta6/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1-beta6/xlf/16.1.1/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1-beta6/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1.1
+    target: ppc64le
+    # module load ibm/xlc-16.1.0-xlf-16.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-16.1.0-xlf-16.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.0/xlC/16.1.0/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.0/xlC/16.1.0/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.0/xlf/16.1.0/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.0/xlf/16.1.0/bin/xlf95
+    spec: xl@16.1.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-16.1.0-xlf-16.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.0/xlC/16.1.0/bin/xlc_r
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.0/xlC/16.1.0/bin/xlC_r
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.0/xlf/16.1.0/bin/xlf_r
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.0/xlf/16.1.0/bin/xlf2008_r
+    spec: xl_r@16.1.0
+    target: ppc64le
+  #  module load ibm/xlc-13.1.7-xlf-15.1.7-beta2
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-13.1.7-xlf-15.1.7-beta2]
+    operating_system: rhel7
+    paths:
+      cc:  null
+      cxx: null
+      f77: /projects/opt/ppc64le/ibm/xlf-15.1.7-beta2/xlf/15.1.7/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-15.1.7-beta2/xlf/15.1.7/bin/xlf95
+    spec: xl@15.1.7
+    target: ppc64le

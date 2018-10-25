@@ -1,0 +1,494 @@
+% %  x86_64
+  %  - clang
+  %  - gcc
+  %  - intel
+  %  - pgi
+
+  % % % clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/clang/5.0.1/bin/clang
+      cxx: /projects/opt/centos7/clang/5.0.1/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@5.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/clang/4.0.1/bin/clang
+      cxx: /projects/opt/centos7/clang/4.0.1/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@4.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-6.4.0/llvm-3.9.1-l53kqp4e6pvf7gkke7sfiwwbjwcfcfnc/bin/clang
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-6.4.0/llvm-3.9.1-l53kqp4e6pvf7gkke7sfiwwbjwcfcfnc/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@3.9.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/clang/3.8.1/bin/clang
+      cxx: /projects/opt/centos7/clang/3.8.1/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@3.8.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/clang/3.7.1/bin/clang
+      cxx: /projects/opt/centos7/clang/3.7.1/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@3.7.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/clang/3.5.2/bin/clang
+      cxx: /projects/opt/centos7/clang/3.5.2/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   clang@3.5.2
+    target: x86_64
+  % % % gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-8.1.0-2zrl55ruhyamdzgwxnmgbmxatkr65333/bin/gcc
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-8.1.0-2zrl55ruhyamdzgwxnmgbmxatkr65333/bin/g++
+      f77: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-8.1.0-2zrl55ruhyamdzgwxnmgbmxatkr65333/bin/gfortran
+      fc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-8.1.0-2zrl55ruhyamdzgwxnmgbmxatkr65333/bin/gfortran
+    spec:   gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /projects/opt/centos7/gcc/7.3.0/lib64
+    extra_rpaths:      /projects/opt/centos7/gcc/7.3.0/lib64
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+    spec:   gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.2.0-ou3d5nkqtelirxljxkkqq3gc76vhtfe3/bin/gcc
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.2.0-ou3d5nkqtelirxljxkkqq3gc76vhtfe3/bin/g++
+      f77: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.2.0-ou3d5nkqtelirxljxkkqq3gc76vhtfe3/bin/gfortran
+      fc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.2.0-ou3d5nkqtelirxljxkkqq3gc76vhtfe3/bin/gfortran
+    spec:   gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-ntuh6mhpf32kestnriwire62emxepe3t/bin/gcc
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-ntuh6mhpf32kestnriwire62emxepe3t/bin/g++
+      f77: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-ntuh6mhpf32kestnriwire62emxepe3t/bin/gfortran
+      fc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-ntuh6mhpf32kestnriwire62emxepe3t/bin/gfortran
+    spec:   gcc@7.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-6.4.0-z3457r46gt7ctihyd6ejkz4asud4i47r/bin/gcc
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-6.4.0-z3457r46gt7ctihyd6ejkz4asud4i47r/bin/g++
+      f77: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-6.4.0-z3457r46gt7ctihyd6ejkz4asud4i47r/bin/gfortran
+      fc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-6.4.0-z3457r46gt7ctihyd6ejkz4asud4i47r/bin/gfortran
+    spec:   gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+    spec:   gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.2.0/bin/gfortran
+    spec:   gcc@6.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.1.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.1.0/bin/gfortran
+    spec:   gcc@6.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-5.5.0-5kgoebe5hicwizdvzm7yyvocmfevzyzs/bin/gcc
+      cxx: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-5.5.0-5kgoebe5hicwizdvzm7yyvocmfevzyzs/bin/g++
+      f77: /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-5.5.0-5kgoebe5hicwizdvzm7yyvocmfevzyzs/bin/gfortran
+      fc:  /projects/draco/vendors/spack.haswell-0.11.2/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-5.5.0-5kgoebe5hicwizdvzm7yyvocmfevzyzs/bin/gfortran
+    spec:   gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+    spec:   gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+    spec:   gcc@5.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.2.0/bin/gfortran
+    spec:   gcc@5.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.1.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.1.0/bin/gfortran
+    spec:   gcc@5.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.3/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.3/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+    spec:   gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.2/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.2/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+    spec:   gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.1/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.1/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.1/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.1/bin/gfortran
+    spec:   gcc@4.9.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.0/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.0/bin/gfortran
+    spec:   gcc@4.9.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec:   gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.6.4/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.6.4/bin/g++
+      f77: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+    spec:   gcc@4.6.4
+    target: x86_64
+
+  % % % intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/bin/icc
+      cxx: /projects/opt/intel/bin/icpc
+      f77: /projects/opt/intel/bin/ifort
+      fc:  /projects/opt/intel/bin/ifort
+    spec:   intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.1.163/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.1.163/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.1.163/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.1.163/linux/bin/intel64/ifort
+    spec:   intel@18.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+    spec:   pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec:   intel@17.0.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+    spec:   intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+    spec:   pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+    spec:   intel@16.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+    spec:   intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/parallel_studio_xe_2016_update1/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/parallel_studio_xe_2016_update1/compilers_and_libraries_2016/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/parallel_studio_xe_2016_update1/compilers_and_libraries_2016/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/parallel_studio_xe_2016_update1/compilers_and_libraries_2016/linux/bin/intel64/ifort
+    spec:   intel@16.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.0.109/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.0.109/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.0.109/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.0.109/linux/bin/intel64/ifort
+    spec:   intel@16.0.0
+    target: x86_64
+  % % % pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+    spec:   pgi@18.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+    spec:   pgi@17.4
+    target: x86_64
