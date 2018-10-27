@@ -1,0 +1,106 @@
+compilers:
+  #  #  gcc 8.2.0  8.1.0  7.3.0  7.2.0  7.1.0  6.4.0  5.5.0  4.9.3
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-fctsj4ukswd3zq4z27f22nztrct5zeqx/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-fctsj4ukswd3zq4z27f22nztrct5zeqx/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-fctsj4ukswd3zq4z27f22nztrct5zeqx/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-fctsj4ukswd3zq4z27f22nztrct5zeqx/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-5mu65ml4hc5hebhuf2xwkfi4pofxah7c/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-5mu65ml4hc5hebhuf2xwkfi4pofxah7c/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-5mu65ml4hc5hebhuf2xwkfi4pofxah7c/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-5mu65ml4hc5hebhuf2xwkfi4pofxah7c/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-pmszgvy26wscdmeakx53cpyxkocs7sgs/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-pmszgvy26wscdmeakx53cpyxkocs7sgs/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-pmszgvy26wscdmeakx53cpyxkocs7sgs/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-pmszgvy26wscdmeakx53cpyxkocs7sgs/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-37eejrhnkuxrlurskzg7b7k2ytf4zu62/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-37eejrhnkuxrlurskzg7b7k2ytf4zu62/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-37eejrhnkuxrlurskzg7b7k2ytf4zu62/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-37eejrhnkuxrlurskzg7b7k2ytf4zu62/bin/gfortran
+    spec: gcc@7.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.4.0-b4lhgql3k5nahmjimjbm2wirfyudyl3f/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.4.0-b4lhgql3k5nahmjimjbm2wirfyudyl3f/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.4.0-b4lhgql3k5nahmjimjbm2wirfyudyl3f/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.4.0-b4lhgql3k5nahmjimjbm2wirfyudyl3f/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-yj5lrm2xwn27k4jf7paycltuvvbk2eot/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-yj5lrm2xwn27k4jf7paycltuvvbk2eot/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-yj5lrm2xwn27k4jf7paycltuvvbk2eot/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-yj5lrm2xwn27k4jf7paycltuvvbk2eot/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-2ilh5punmaguobruez7orkib4oidrs5o/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-2ilh5punmaguobruez7orkib4oidrs5o/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-2ilh5punmaguobruez7orkib4oidrs5o/bin/gfortran
+      fc:  /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-2ilh5punmaguobruez7orkib4oidrs5o/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64

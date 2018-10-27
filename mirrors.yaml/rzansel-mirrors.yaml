@@ -1,0 +1,2 @@
+mirrors:
+  local_filesystem: file:///p/gpfs1/topa1/spack/spack.mirror

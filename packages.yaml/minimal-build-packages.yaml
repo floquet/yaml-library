@@ -13,7 +13,6 @@ packages:
       #lapack: [netlib-lapack]
       #
       mpi: [openmpi]
-      pil: [py-pillow]
       #
       awk: [gawk]
       daal: [intel-daal]
@@ -26,6 +25,7 @@ packages:
       opencl: [pocl]
       openfoam: [openfoam-com, openfoam-org, foam-extend]
       pkgconfig: [pkgconf]
+      pil: [py-pillow]
       scalapack: [netlib-scalapack]
       szip: [libszip, libaec]
       tbb: [intel-tbb]
@@ -89,11 +89,6 @@ packages:
   hdf5:
     variants: [+fortran, +mpi]
     version: [1.8.17]
-  # # # # #
-  # help2man:
-  #   paths:
-  #     autoconf: /usr
-  #   buildable: false
   # # # # #
   hypre:
     variants: [~internal, +mpi, -superlu]
