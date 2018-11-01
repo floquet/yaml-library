@@ -1,0 +1,53 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gcc
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/g++
+      f77: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gfortran
+      fc: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.2.0-2a5qouw6oxwhomkeltcthb6cetdusz4b/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.1-hwbp2v6rzcti6uelj3fieszxs6iv4rub/bin/clang
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.1-hwbp2v6rzcti6uelj3fieszxs6iv4rub/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@5.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-epc2gzkmtuhmcjw6u6ynq2v6xly2mm2k/bin/clang
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-epc2gzkmtuhmcjw6u6ynq2v6xly2mm2k/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@4.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-a2rewvqmxm3wiyyjq5aktsavkf4oceii/bin/clang
+      cxx: /net/scratch3/dantopa/spack/spack.standard.compilers/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-a2rewvqmxm3wiyyjq5aktsavkf4oceii/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@3.9.1
+    target: x86_64
