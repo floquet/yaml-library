@@ -1,69 +1,3 @@
-# dantopa@cn800:defaults $ gcc --version
-# gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-36)
-#
-# dantopa@cn800:defaults $ show_names
-# ${host_name} = darwin
-# ${partition} = arm
-# ${node_name} = cn800
-compilers:
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: []
-    operating_system: rhel7
-    paths:
-      cc:  /usr/bin/gcc
-      cxx: /usr/bin/g++
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: gcc@4.8.5
-    target: aarch64
-#  #  #  darwin ARM
-#  #  #  ARM clang
-#  #  #  18.4.2  18.4.1  18.4
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2]
-    operating_system: rhel7
-    paths:
-      cc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
-      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
-      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      f90: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      fc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-    spec: clang@18.4.2
-    target: aarch64
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1]
-    operating_system: rhel7
-    paths:
-      cc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
-      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
-      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      f90: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      fc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-    spec: clang@18.4.1
-    target: aarch64
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0]
-    operating_system: rhel7
-    paths:
-      cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
-      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
-      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      f90: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-      fc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
-    spec: clang@18.4.0
-    target: aarch64
 #  #  #  darwin ARM
 #  #  #  gcc compilers built by spack
 #  #  #  8.2.0  8.1.0
@@ -71,6 +5,7 @@ compilers:
 #  #  #  6.4.0
 #  #  #  5.5.0
 #  #  #  4.9.3
+compilers:
 - compiler:
     environment: {}
     extra_rpaths: []

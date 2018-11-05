@@ -139,7 +139,6 @@ modules:
       - xz
       - zip
       - zlib
-      - '%clang'
   prefix_inspections:
     bin:
       - PATH
