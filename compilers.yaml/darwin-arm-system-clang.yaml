@@ -1,0 +1,46 @@
+#  #  #  darwin ARM
+#  #  #  ARM clang
+#  #  #  18.4.2  18.4.1  18.4
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      f90: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      f90: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      f90: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64

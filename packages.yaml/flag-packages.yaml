@@ -6,11 +6,11 @@ packages:
       #blas: [intel-mkl]
       #lapack: [intel-mkl]
       #
-      blas: [openblas]
-      lapack: [openblas]
+      #blas: [openblas]
+      #lapack: [openblas]
       #
-      #blas: [netlib-lapack]
-      #lapack: [netlib-lapack]
+      blas: [netlib-lapack]
+      lapack: [netlib-lapack]
       #
       mpi: [openmpi]
       pil: [py-pillow]
