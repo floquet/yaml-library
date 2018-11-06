@@ -1,0 +1,44 @@
+##   ##  intel
+##   ##  18.0.2  17.0.4
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  intel/18.0.2
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+# - compiler:
+#     environment: {}
+#     extra_rpaths: []
+#     flags: {}
+#     modules: []
+#     operating_system: rhel7
+#     paths:
+#       cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gcc
+#       cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/g++
+#       f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gfortran
+#       fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gfortran
+#     spec: gcc@5.3.0
+#     target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  gcc/5.3.0
+      -  intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
