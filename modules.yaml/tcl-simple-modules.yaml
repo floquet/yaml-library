@@ -30,14 +30,6 @@ modules:
         #^openblas@0.2.20: 'openblas@0.2.20'
     blacklist:
       # redundant installs
-      - cmake@3.9.4%gcc@6.4.0
-      - cmake@3.9.4%gcc@7.2.0
-      - gcc@5.5.0%gcc@4.8.5
-      - gcc@6.4.0%gcc@4.8.5
-      - gcc@7.1.0%gcc@4.8.5
-      - gcc@7.2.0%gcc@4.8.5
-      - netlib-lapack@3.6.1%gcc@7.2.0
-      - openblas@0.2.20%gcc@7.2.0
       - python@2.7.14%gcc@6.4.0
       - python@2.7.14%gcc@7.1.0
       # tpls
