@@ -1,4 +1,4 @@
-dantopa@nid00024:howard.ompi.cray $ cat etc/spack/defaults/compilers.yaml
+#dantopa@nid00024:howard.ompi.cray $ cat etc/spack/defaults/compilers.yaml
 # #  cray: 8.7.5, 8.6.5
 # #  gcc:  7.3.0, 6.3.0
 # #  intel: 18.0.2, 17.0.4
