@@ -1,0 +1,40 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.4.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc34
+      cxx: /usr/bin/g++34
+      f77: null
+      fc: null
+    spec: gcc@3.4.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc46
+      cxx: /usr/bin/g++46
+      f77: /usr/bin/gfortran46
+      fc: /usr/bin/gfortran46
+    spec: gcc@4.6.1
+    target: x86_64

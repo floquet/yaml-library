@@ -1,0 +1,118 @@
+dantopa@nid00024:howard.ompi.cray $ cat etc/spack/defaults/compilers.yaml
+# #  cray: 8.7.5, 8.6.5
+# #  gcc:  7.3.0, 6.3.0
+# #  intel: 18.0.2, 17.0.4
+compilers:
+    # # cray
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - cce/8.7.5
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.5
+    target: any
+      #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - cce/8.6.5
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.6.5
+    target: any
+    # # gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - gcc/7.3.0
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - gcc/6.3.0
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.3.0
+    target: any
+    # # intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - intel/18.0.3
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@18.0.3
+    target: any
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - intel/18.0.2
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@18.0.2
+    target: any
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - intel/17.0.4
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@17.0.4
+    target: any
+    #

@@ -1,0 +1,1165 @@
+# dantopa@nid00024:linux $ cat arXive-01-compilers.yaml
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc46
+      cxx: /usr/bin/g++46
+      f77: /usr/bin/gfortran46
+      fc: /usr/bin/gfortran46
+    spec: gcc@4.6.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.4.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /usr/bin/gcc34
+      cxx: /usr/bin/g++34
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@3.4.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin/gfortran
+    spec: gcc@5.3.0
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/17.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/15.10/linux86-64/15.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/15.10/linux86-64/15.10/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/15.10/linux86-64/15.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/15.10/linux86-64/15.10/bin/pgf90
+    spec: pgi@15.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-wofkaba5u6fvtsq2nqajvebcw3ri56p7/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-wofkaba5u6fvtsq2nqajvebcw3ri56p7/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-wofkaba5u6fvtsq2nqajvebcw3ri56p7/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.2.0-wofkaba5u6fvtsq2nqajvebcw3ri56p7/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-fkhqu7uxeuu6r66madqada2lbqjmbblj/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-fkhqu7uxeuu6r66madqada2lbqjmbblj/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-fkhqu7uxeuu6r66madqada2lbqjmbblj/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.1.0-fkhqu7uxeuu6r66madqada2lbqjmbblj/bin/gfortran
+    spec: gcc@7.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.3.0-ogjecfqn2osndt7l5l66d3mihx4yjpcc/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.3.0-ogjecfqn2osndt7l5l66d3mihx4yjpcc/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.3.0-ogjecfqn2osndt7l5l66d3mihx4yjpcc/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.3.0-ogjecfqn2osndt7l5l66d3mihx4yjpcc/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.2.0-l2evmz6ymcmwm2ix5vadek24a44276wa/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.2.0-l2evmz6ymcmwm2ix5vadek24a44276wa/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.2.0-l2evmz6ymcmwm2ix5vadek24a44276wa/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.2.0-l2evmz6ymcmwm2ix5vadek24a44276wa/bin/gfortran
+    spec: gcc@6.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-4kxirbn5gcj7uxlxeob7wad7e4q2yq3d/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-4kxirbn5gcj7uxlxeob7wad7e4q2yq3d/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-4kxirbn5gcj7uxlxeob7wad7e4q2yq3d/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-4kxirbn5gcj7uxlxeob7wad7e4q2yq3d/bin/gfortran
+    spec: gcc@6.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-26dw7waoqodyccq6w7ihkdika2njljzf/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-26dw7waoqodyccq6w7ihkdika2njljzf/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-26dw7waoqodyccq6w7ihkdika2njljzf/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.5.0-26dw7waoqodyccq6w7ihkdika2njljzf/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.4.0-q4eve5swepzsb7jirm6ekds5h6lrmhdo/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.4.0-q4eve5swepzsb7jirm6ekds5h6lrmhdo/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.4.0-q4eve5swepzsb7jirm6ekds5h6lrmhdo/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.4.0-q4eve5swepzsb7jirm6ekds5h6lrmhdo/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.2.0-rqs2r7hdb6l45jjjopkc7etxoiztt33k/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.2.0-rqs2r7hdb6l45jjjopkc7etxoiztt33k/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.2.0-rqs2r7hdb6l45jjjopkc7etxoiztt33k/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.2.0-rqs2r7hdb6l45jjjopkc7etxoiztt33k/bin/gfortran
+    spec: gcc@5.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.1.0-cw2uoqp4ffidwyxicmgmoclg5sockom7/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.1.0-cw2uoqp4ffidwyxicmgmoclg5sockom7/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.1.0-cw2uoqp4ffidwyxicmgmoclg5sockom7/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-5.1.0-cw2uoqp4ffidwyxicmgmoclg5sockom7/bin/gfortran
+    spec: gcc@5.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.4-ucslauaebjq4wrhye4exqjcjg6hemkuo/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.4-ucslauaebjq4wrhye4exqjcjg6hemkuo/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.4-ucslauaebjq4wrhye4exqjcjg6hemkuo/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.4-ucslauaebjq4wrhye4exqjcjg6hemkuo/bin/gfortran
+    spec: gcc@4.9.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-rb7fpnobbr5zo7ej4adbt2rq7psho7bs/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-rb7fpnobbr5zo7ej4adbt2rq7psho7bs/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-rb7fpnobbr5zo7ej4adbt2rq7psho7bs/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.3-rb7fpnobbr5zo7ej4adbt2rq7psho7bs/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.2-nz3hwuqe553p6jbk4mgqxq5exi6vkxeg/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.2-nz3hwuqe553p6jbk4mgqxq5exi6vkxeg/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.2-nz3hwuqe553p6jbk4mgqxq5exi6vkxeg/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.2-nz3hwuqe553p6jbk4mgqxq5exi6vkxeg/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.1-25hzmrweetiizfmfcq3l3w4eczxi6p3j/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.1-25hzmrweetiizfmfcq3l3w4eczxi6p3j/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.1-25hzmrweetiizfmfcq3l3w4eczxi6p3j/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.9.1-25hzmrweetiizfmfcq3l3w4eczxi6p3j/bin/gfortran
+    spec: gcc@4.9.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.8.4-kl4hmgqktxyvxxdmvbfv635atk6xy2we/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.8.4-kl4hmgqktxyvxxdmvbfv635atk6xy2we/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.8.4-kl4hmgqktxyvxxdmvbfv635atk6xy2we/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-4.8.4-kl4hmgqktxyvxxdmvbfv635atk6xy2we/bin/gfortran
+    spec: gcc@4.8.4
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.0-auiguujxvsx73opku3n2daluybg4ndgg/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.0-auiguujxvsx73opku3n2daluybg4ndgg/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.0-auiguujxvsx73opku3n2daluybg4ndgg/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-5.0.0-auiguujxvsx73opku3n2daluybg4ndgg/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@5.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-al42zpg7qjcndb7fvravdgq5tnhq3q7w/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-al42zpg7qjcndb7fvravdgq5tnhq3q7w/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-al42zpg7qjcndb7fvravdgq5tnhq3q7w/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.1-al42zpg7qjcndb7fvravdgq5tnhq3q7w/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@4.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.0-crw6lywyygjuaqfdzcqc6rfsxq3hjqay/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.0-crw6lywyygjuaqfdzcqc6rfsxq3hjqay/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.0-crw6lywyygjuaqfdzcqc6rfsxq3hjqay/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-4.0.0-crw6lywyygjuaqfdzcqc6rfsxq3hjqay/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@4.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-cs3dbzbwxaz7tcqzbly6vrbtmfb6qjn5/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-cs3dbzbwxaz7tcqzbly6vrbtmfb6qjn5/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-cs3dbzbwxaz7tcqzbly6vrbtmfb6qjn5/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.1-cs3dbzbwxaz7tcqzbly6vrbtmfb6qjn5/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.9.1
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.0-cke47oz2ad4fgeppfzdxunijeojolone/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.0-cke47oz2ad4fgeppfzdxunijeojolone/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.0-cke47oz2ad4fgeppfzdxunijeojolone/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.9.0-cke47oz2ad4fgeppfzdxunijeojolone/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.9.0
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.1-d2de2hgfxweppmiihnwiievsj4re2cnt/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.1-d2de2hgfxweppmiihnwiievsj4re2cnt/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.1-d2de2hgfxweppmiihnwiievsj4re2cnt/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.1-d2de2hgfxweppmiihnwiievsj4re2cnt/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.8.1
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.0-bdy6ahignl3i5g55ummblpyfepdie3yb/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.0-bdy6ahignl3i5g55ummblpyfepdie3yb/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.0-bdy6ahignl3i5g55ummblpyfepdie3yb/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.8.0-bdy6ahignl3i5g55ummblpyfepdie3yb/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.8.0
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.1-x6ginjlkknvghkdlmttowm7du3diu5nv/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.1-x6ginjlkknvghkdlmttowm7du3diu5nv/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.1-x6ginjlkknvghkdlmttowm7du3diu5nv/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.1-x6ginjlkknvghkdlmttowm7du3diu5nv/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.7.1
+    target: x86_64
+- compiler:
+    environment: {}
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.0-m2aoi47mpg2jcatz2u5vltzby6fnis2y/lib
+    extra_rpaths: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.0-m2aoi47mpg2jcatz2u5vltzby6fnis2y/lib
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.0-m2aoi47mpg2jcatz2u5vltzby6fnis2y/bin/clang
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-snow/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/llvm-3.7.0-m2aoi47mpg2jcatz2u5vltzby6fnis2y/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@3.7.0
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/lib/intel64
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/lib/intel64
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.2
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.2.046/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.1.038/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.0.033/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.0.033/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.0.033/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.0.033/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.0
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: null
+    set:
+      LD_LIBRARY_PATH: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64
+    extra_rpaths: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.2.028/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/ifort
+    spec: intel@15.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.3.0-gic6jb7fr4uvcgaahl4t7fhc3rsgxmcj/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.3.0-gic6jb7fr4uvcgaahl4t7fhc3rsgxmcj/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.3.0-gic6jb7fr4uvcgaahl4t7fhc3rsgxmcj/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.3.0-gic6jb7fr4uvcgaahl4t7fhc3rsgxmcj/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.2.0-qorzfrgouywcectmlfybqppichhrj7ni/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.2.0-qorzfrgouywcectmlfybqppichhrj7ni/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.2.0-qorzfrgouywcectmlfybqppichhrj7ni/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.2.0-qorzfrgouywcectmlfybqppichhrj7ni/bin/gfortran
+    spec: gcc@6.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.1.0-n7nqaq26f42fxhmbx45khs2e33qawlfr/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.1.0-n7nqaq26f42fxhmbx45khs2e33qawlfr/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.1.0-n7nqaq26f42fxhmbx45khs2e33qawlfr/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.1.0-n7nqaq26f42fxhmbx45khs2e33qawlfr/bin/gfortran
+    spec: gcc@6.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.5.0-dwzalqpkld3gh5wd3csxxaafqkeybn3p/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.5.0-dwzalqpkld3gh5wd3csxxaafqkeybn3p/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.5.0-dwzalqpkld3gh5wd3csxxaafqkeybn3p/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.5.0-dwzalqpkld3gh5wd3csxxaafqkeybn3p/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.4.0-b5bhenxejbr6ojjq6ws7aygeyk6eifsk/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.4.0-b5bhenxejbr6ojjq6ws7aygeyk6eifsk/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.4.0-b5bhenxejbr6ojjq6ws7aygeyk6eifsk/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.4.0-b5bhenxejbr6ojjq6ws7aygeyk6eifsk/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.1.0-v5ks5s7jtl327pvpnbipeousoutqi3u7/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.1.0-v5ks5s7jtl327pvpnbipeousoutqi3u7/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.1.0-v5ks5s7jtl327pvpnbipeousoutqi3u7/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.1.0-v5ks5s7jtl327pvpnbipeousoutqi3u7/bin/gfortran
+    spec: gcc@5.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.4-fvyhe2p5k7qyplcptogk2sgscgmodicr/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.4-fvyhe2p5k7qyplcptogk2sgscgmodicr/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.4-fvyhe2p5k7qyplcptogk2sgscgmodicr/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.4-fvyhe2p5k7qyplcptogk2sgscgmodicr/bin/gfortran
+    spec: gcc@4.9.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.3-4s2qyrpuqh3u4jjbjuid2ua3w5umxpbz/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.3-4s2qyrpuqh3u4jjbjuid2ua3w5umxpbz/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.3-4s2qyrpuqh3u4jjbjuid2ua3w5umxpbz/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.3-4s2qyrpuqh3u4jjbjuid2ua3w5umxpbz/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.2-zgvcxumtybmwn3eo6qbrews6ub37qthl/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.2-zgvcxumtybmwn3eo6qbrews6ub37qthl/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.2-zgvcxumtybmwn3eo6qbrews6ub37qthl/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.2-zgvcxumtybmwn3eo6qbrews6ub37qthl/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.1-42dtykjgrzqzqcdy3zascuwp53upmlho/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.1-42dtykjgrzqzqcdy3zascuwp53upmlho/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.1-42dtykjgrzqzqcdy3zascuwp53upmlho/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.1-42dtykjgrzqzqcdy3zascuwp53upmlho/bin/gfortran
+    spec: gcc@4.9.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.5-yn3bm3lifxhijxn3trpqpaejjzuxibys/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.5-yn3bm3lifxhijxn3trpqpaejjzuxibys/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.5-yn3bm3lifxhijxn3trpqpaejjzuxibys/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.5-yn3bm3lifxhijxn3trpqpaejjzuxibys/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.4-kikaimqqtszzfodpf6xsnwecb2k3vtvm/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.4-kikaimqqtszzfodpf6xsnwecb2k3vtvm/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.4-kikaimqqtszzfodpf6xsnwecb2k3vtvm/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.8.4-kikaimqqtszzfodpf6xsnwecb2k3vtvm/bin/gfortran
+    spec: gcc@4.8.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.2.0-a6nzsoempw6kx36346c5otxgi4yyegpq/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.2.0-a6nzsoempw6kx36346c5otxgi4yyegpq/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.2.0-a6nzsoempw6kx36346c5otxgi4yyegpq/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.2.0-a6nzsoempw6kx36346c5otxgi4yyegpq/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.1.0-6sc3qwim7cgmrtlqzwmt36awy62njkgt/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.1.0-6sc3qwim7cgmrtlqzwmt36awy62njkgt/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.1.0-6sc3qwim7cgmrtlqzwmt36awy62njkgt/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-7.1.0-6sc3qwim7cgmrtlqzwmt36awy62njkgt/bin/gfortran
+    spec: gcc@7.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.4.0-7ckefoyu5mqmoyzdf3dzbuimckhq546w/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.4.0-7ckefoyu5mqmoyzdf3dzbuimckhq546w/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.4.0-7ckefoyu5mqmoyzdf3dzbuimckhq546w/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.4.0-7ckefoyu5mqmoyzdf3dzbuimckhq546w/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.3.0-k6kslprhh4y5o4pbpxqau3xxlcskuaqr/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.3.0-k6kslprhh4y5o4pbpxqau3xxlcskuaqr/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.3.0-k6kslprhh4y5o4pbpxqau3xxlcskuaqr/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-6.3.0-k6kslprhh4y5o4pbpxqau3xxlcskuaqr/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.3.0-46zn2bbjs5fuaoh7bks76i2k5dz3p5y3/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.3.0-46zn2bbjs5fuaoh7bks76i2k5dz3p5y3/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.3.0-46zn2bbjs5fuaoh7bks76i2k5dz3p5y3/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.3.0-46zn2bbjs5fuaoh7bks76i2k5dz3p5y3/bin/gfortran
+    spec: gcc@5.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.2.0-n2qyr7w4kvvusu6eq2kf2l6otsyzuzi2/bin/gcc
+      cxx: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.2.0-n2qyr7w4kvvusu6eq2kf2l6otsyzuzi2/bin/g++
+      f77: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.2.0-n2qyr7w4kvvusu6eq2kf2l6otsyzuzi2/bin/gfortran
+      fc: /yellow/usr/projects/artab/users/dantopa/github/hpc/spack-wolf/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-5.2.0-n2qyr7w4kvvusu6eq2kf2l6otsyzuzi2/bin/gfortran
+    spec: gcc@5.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.11.339/composer_xe_2011.11.339/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.11.339/composer_xe_2011.11.339/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.11.339/composer_xe_2011.11.339/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.11.339/composer_xe_2011.11.339/bin/intel64/ifort
+    spec: intel@12.1.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2015.5.223/composer_xe_2015.5.223/bin/intel64/ifort
+    spec: intel@15.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.2/linux86-64/13.2/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.2/linux86-64/13.2/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.2/linux86-64/13.2/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.2/linux86-64/13.2/bin/pgf90
+    spec: pgi@13.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.0/bin/gfortran
+    spec: gcc@4.7.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.1.117/composer_xe_2013.1.117/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.1.117/composer_xe_2013.1.117/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.1.117/composer_xe_2013.1.117/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.1.117/composer_xe_2013.1.117/bin/intel64/ifort
+    spec: intel@13.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.7/linux86-64/13.7/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.7/linux86-64/13.7/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.7/linux86-64/13.7/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.7/linux86-64/13.7/bin/pgf90
+    spec: pgi@13.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.2/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.2/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.2/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.7.2/bin/gfortran
+    spec: gcc@4.7.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.2.146/composer_xe_2013.2.146/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.2.146/composer_xe_2013.2.146/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.2.146/composer_xe_2013.2.146/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.2.146/composer_xe_2013.2.146/bin/intel64/ifort
+    spec: intel@13.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2017.1.024/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/14.10/linux86-64/14.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/14.10/linux86-64/14.10/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/14.10/linux86-64/14.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/14.10/linux86-64/14.10/bin/pgf90
+    spec: pgi@14.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.8.2/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.8.2/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.8.2/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/gcc/4.8.2/bin/gfortran
+    spec: gcc@4.8.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.5.192/composer_xe_2013.5.192/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.5.192/composer_xe_2013.5.192/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.5.192/composer_xe_2013.5.192/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013.5.192/composer_xe_2013.5.192/bin/intel64/ifort
+    spec: intel@13.1.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/15.10/linux86-64/15.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/15.10/linux86-64/15.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/15.10/linux86-64/15.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/15.10/linux86-64/15.10/bin/pgfortran
+    spec: pgi@15.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.2.144/composer_xe_2013_sp1.2.144/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.2.144/composer_xe_2013_sp1.2.144/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.2.144/composer_xe_2013_sp1.2.144/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.2.144/composer_xe_2013_sp1.2.144/bin/intel64/ifort
+    spec: intel@14.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/10.9/linux86-64/10.9/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/10.9/linux86-64/10.9/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/10.9/linux86-64/10.9/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/10.9/linux86-64/10.9/bin/pgf90
+    spec: pgi@10.9
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/16.10/linux86-64/16.10/bin/pgf90
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.4.211/composer_xe_2013_sp1.4.211/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.4.211/composer_xe_2013_sp1.4.211/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.4.211/composer_xe_2013_sp1.4.211/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2013_sp1.4.211/composer_xe_2013_sp1.4.211/bin/intel64/ifort
+    spec: intel@14.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.10/linux86-64/12.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.10/linux86-64/12.10/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.10/linux86-64/12.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.10/linux86-64/12.10/bin/pgf90
+    spec: pgi@12.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/17.10/linux86-64/17.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/17.10/linux86-64/17.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/17.10/linux86-64/17.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/17.10/linux86-64/17.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/11.1.072/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/11.1.072/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/11.1.072/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/11.1.072/bin/intel64/ifort
+    spec: intel@11.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.0.022/composer_xe_2015.0.090/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.0.022/composer_xe_2015.0.090/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.0.022/composer_xe_2015.0.090/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.0.022/composer_xe_2015.0.090/bin/intel64/ifort
+    spec: intel@15.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.6/linux86-64/12.6/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.6/linux86-64/12.6/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.6/linux86-64/12.6/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/12.6/linux86-64/12.6/bin/pgf90
+    spec: pgi@12.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.8.273/composer_xe_2011.8.273/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.8.273/composer_xe_2011.8.273/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.8.273/composer_xe_2011.8.273/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel/2011.8.273/composer_xe_2011.8.273/bin/intel64/ifort
+    spec: intel@12.1.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.3.032/composer_xe_2015.3.187/bin/intel64/icc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.3.032/composer_xe_2015.3.187/bin/intel64/icpc
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.3.032/composer_xe_2015.3.187/bin/intel64/ifort
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2015.0.3.032/composer_xe_2015.3.187/bin/intel64/ifort
+    spec: intel@15.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.10/linux86-64/13.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.10/linux86-64/13.10/bin/pgCC
+      f77: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.10/linux86-64/13.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss2/common/pgi/13.10/linux86-64/13.10/bin/pgf90
+    spec: pgi@13.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+      cc: /yellow/usr/projects/draco/vendors/spack.wf-0.11.2/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-8.1.0-bbmgih6uez4hesajimqhxo44mslbsotf/bin/gcc
+      cxx: /yellow/usr/projects/draco/vendors/spack.wf-0.11.2/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-8.1.0-bbmgih6uez4hesajimqhxo44mslbsotf/bin/g++
+      f77: /yellow/usr/projects/draco/vendors/spack.wf-0.11.2/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-8.1.0-bbmgih6uez4hesajimqhxo44mslbsotf/bin/gfortran
+      fc: /yellow/usr/projects/draco/vendors/spack.wf-0.11.2/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-8.1.0-bbmgih6uez4hesajimqhxo44mslbsotf/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
