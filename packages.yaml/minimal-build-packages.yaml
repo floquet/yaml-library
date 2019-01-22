@@ -173,7 +173,7 @@ packages:
   # # # # #
   openmpi:
     variants: [~memchecker, ~pmi]
-    version: [3.1.2,2.1.5]
+    #version: [3.1.2,2.1.5]
   # # # # #
   openssl:
     paths:
