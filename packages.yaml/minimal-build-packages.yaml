@@ -24,7 +24,7 @@ packages:
       mpe: [mpe2]
       opencl: [pocl]
       openfoam: [openfoam-com, openfoam-org, foam-extend]
-      pkgconfig: [pkgconf]
+      pkgconfig: [pkg-config]
       pil: [py-pillow]
       scalapack: [netlib-scalapack]
       szip: [libszip, libaec]
