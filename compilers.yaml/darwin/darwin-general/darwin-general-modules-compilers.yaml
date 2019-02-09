@@ -7,7 +7,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/8.2.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/8.2.0/bin/gcc
@@ -20,7 +20,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/8.1.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/8.1.0/bin/gcc
@@ -33,7 +33,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/7.3.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/7.3.0/bin/gcc
@@ -46,7 +46,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/7.2.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/7.2.0/bin/gcc
@@ -59,7 +59,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/6.4.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
@@ -72,7 +72,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/6.3.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/6.3.0/bin/gcc
@@ -85,7 +85,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/5.5.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/5.5.0/bin/gcc
@@ -98,7 +98,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/5.4.0]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/5.4.0/bin/gcc
@@ -111,7 +111,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/4.9.3]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/4.9.3/bin/gcc
@@ -124,7 +124,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/4.9.2]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/4.9.2/bin/gcc
@@ -150,7 +150,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [gcc/4.6.4]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/gcc/4.6.4/bin/gcc
@@ -164,7 +164,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel/18.0.3]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
@@ -177,7 +177,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel/18.0.2]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc
@@ -190,7 +190,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel/17.0.6]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
@@ -203,7 +203,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel/17.0.1]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
@@ -216,7 +216,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel/16.0.4]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
@@ -229,7 +229,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [intel@16.0.3]
     operating_system: centos7
     paths:
       cc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
@@ -243,7 +243,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/18.7]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgcc
@@ -256,7 +256,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/18.4]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgcc
@@ -269,7 +269,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/18.3]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
@@ -282,7 +282,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/17.10]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
@@ -295,7 +295,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/17.4]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
@@ -308,7 +308,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/16.10]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
