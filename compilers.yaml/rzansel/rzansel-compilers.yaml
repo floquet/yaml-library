@@ -137,21 +137,7 @@ compilers:
     extra_rpaths: []
     flags:
       fflags: -qzerosize
-    modules: [xl/beta-2018.10.10]
-    operating_system: rhel7
-    paths:
-      cc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlc
-      cxx: /usr/tce/packages/xl/xl-2018.04.29/bin/xlC
-      f77: /usr/tce/packages/xl/xl-2018.04.29/bin/xlf
-      fc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlf2003
-    spec:   xl@16.1
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags:
-      fflags: -qzerosize
-    modules: [xl/2018.05.18]
+    modules: [xl/2019.02.07]
     operating_system: rhel7
     paths:
       cc:  /usr/tce/packages/xl/xl-2018.05.18/bin/xlc
@@ -159,4 +145,18 @@ compilers:
       f77: /usr/tce/packages/xl/xl-2018.05.18/bin/xlf
       fc:  /usr/tce/packages/xl/xl-2018.05.18/bin/xlf2003
     spec:   xl@16.2
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [xl/2018.11.26]
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlc
+      cxx: /usr/tce/packages/xl/xl-2018.04.29/bin/xlC
+      f77: /usr/tce/packages/xl/xl-2018.04.29/bin/xlf
+      fc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlf2003
+    spec:   xl@16.1
     target: ppc64le
