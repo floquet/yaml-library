@@ -1,3 +1,6 @@
+#! /bin/bash
+printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
 # intel-mpi
 
 wget http://registrationcenter-download.intel.com/akdlm/irc_nas/tec/14879/l_mpi_2019.1.144.tgz &
