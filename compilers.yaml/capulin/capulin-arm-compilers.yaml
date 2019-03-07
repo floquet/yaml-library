@@ -1,0 +1,14 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: sles12
+    paths:
+      cc:  /usr/bin/gcc-4.8
+      cxx: /usr/bin/g++-4.8
+      f77: null
+      fc:  null
+    spec: gcc@4.8
+    target: aarch64
