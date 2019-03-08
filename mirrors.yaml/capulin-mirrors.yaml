@@ -1,0 +1,2 @@
+mirrors:
+  local_filesystem: file:///pfs/cpscratch1/turquoise/dantopa/spack/spack.mirror
