@@ -1,0 +1,85 @@
+# l127914@pn1248056.lanl.gov:top $ port select --list gcc
+# Available versions for gcc:
+# 	mp-gcc5 (active)
+# 	mp-gcc6
+# 	mp-gcc7
+# 	mp-gcc8
+# 	mp-gcc9
+
+# l127914@pn1248056.lanl.gov:spack $ date
+# Wed Mar 20 20:20:50 MDT 2019
+
+# l127914@pn1248056.lanl.gov:spack $ pwd
+# /Users/l127914/repos/spack/spack
+compilers:
+  # # gcc@9.0.1  8.3.0  7.4.0  6.5.0  5.5.0
+- compiler:
+  # sudo port select --set gcc mp-gcc9
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc: /opt/local/bin/gfortran
+    spec: gcc@9.0.1
+    target: x86_64
+- compiler:
+  # sudo port select --set gcc mp-gcc8
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc: /opt/local/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+  # sudo port select --set gcc mp-gcc7
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc: /opt/local/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+  # sudo port select --set gcc mp-gcc6
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc: /opt/local/bin/gfortran
+    spec: gcc@6.5.0
+    target: x86_64
+- compiler:
+  # sudo port select --set gcc mp-gcc6
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc: /opt/local/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
