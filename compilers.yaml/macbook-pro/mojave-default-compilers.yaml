@@ -1,0 +1,81 @@
+# l127914@pn1248056.lanl.gov:darwin $ pwd
+# /Users/l127914/.spack/darwin
+
+# l127914@pn1248056.lanl.gov:spack $ gcc --version
+# Configured with: --prefix=/Applications/Utilities/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Utilities/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1
+# Apple LLVM version 9.1.0 (clang-902.0.39.1)
+# Target: x86_64-apple-darwin18.2.0
+# Thread model: posix
+# InstalledDir: /Applications/Utilities/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+# l127914@pn1248056.lanl.gov:darwin $ date
+# Tue Mar 19 20:11:34 MDT 2019
+
+# l127914@pn1248056.lanl.gov:darwin $ cat compilers.yaml
+compilers:
+  # # clang@10.0.0-apple  clang@9.1.0-apple  clang@5.0.2  clang@6.0.1
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /usr/bin/clang
+      cxx: /usr/bin/clang++
+      f77: /opt/local/bin/gfortran
+      fc:  /opt/local/bin/gfortran
+    spec: clang@10.0.0-apple
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /usr/bin/clang
+      cxx: /usr/bin/clang++
+      f77: /opt/local/bin/gfortran
+      fc:  /opt/local/bin/gfortran
+    spec: clang@9.1.0-apple
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/clang-mp-6.0
+      cxx: /opt/local/bin/clang++-mp-6.0
+      f77: null
+      fc:  null
+    spec: clang@6.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/clang-mp-5.0
+      cxx: /opt/local/bin/clang++-mp-5.0
+      f77: null
+      fc:  null
+    spec: clang@5.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /opt/local/bin/gcc
+      cxx: /opt/local/bin/g++
+      f77: /opt/local/bin/gfortran
+      fc:  /opt/local/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
