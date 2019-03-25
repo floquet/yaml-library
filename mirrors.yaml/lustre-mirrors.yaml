@@ -1,0 +1,2 @@
+mirrors:
+  local_filesystem: file:///lustre/ttscratch1/dantopa/repos/gitlab/topa-mirror-spack

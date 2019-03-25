@@ -1,6 +1,6 @@
   #   #   #  intel 18.0.3 18.0.2 17.0.6 17.0.1 16.10 16.0.4 16.0.3
   #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
-  #   #   #  pgi  18.7 18.4 18.3 17.10 17.4 16.10
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
 compilers:
   #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
 - compiler:
@@ -238,7 +238,20 @@ compilers:
       fc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
     spec: intel@16.0.3
     target: x86_64
-  #   #   #  pgi  18.7 18.4 18.3 17.10 17.4 16.10
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: x86_64
 - compiler:
     environment: {}
     extra_rpaths: []

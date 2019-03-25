@@ -3,6 +3,45 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/8.2.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/7.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
     modules: []
     operating_system: rhel7
     paths:
@@ -12,9 +51,39 @@ compilers:
       fc:  /usr/bin/gfortran
     spec: gcc@4.8.5
     target: aarch64
+#  #  #  clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc:  /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
 #  #  #  darwin ARM
 #  #  #  ARM clang
 #  #  #  18.4.2  18.4.1  18.4.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -47,7 +116,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0]
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
     operating_system: rhel7
     paths:
       cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
