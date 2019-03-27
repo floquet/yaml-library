@@ -5,6 +5,20 @@ compilers:
     extra_rpaths: []
     flags: {}
     modules:
+      - pgi/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-19.1/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-19.1/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-19.1/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-19.1/bin/pgf90
+    spec:   pgi@19.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
       - pgi/18.10
     operating_system: rhel7
     paths:

@@ -1,0 +1,181 @@
+# # RZAnsel Power9
+# # 2019-02-13
+# # ppc64le compilers
+# #   clang  4.0.0  3.9.1
+compilers:
+    #  #  clang  9.0.0  4.0.0  3.9.1
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tcetmp/bin/clang-gpu
+      cxx: /usr/tcetmp/bin/clang++-gpu
+      f77: /usr/bin/gfortran
+      fc7: /usr/bin/gfortran
+    spec: clang@9.0.0
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tcetmp/packages/clang/clang-4.0.0/bin/clang
+      cxx: /usr/tcetmp/packages/clang/clang-4.0.0/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@4.0.0
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tcetmp/packages/clang/clang-3.9.1/bin/clang
+      cxx: /usr/tcetmp/packages/clang/clang-3.9.1/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@3.9.1
+    target: ppc64le
+    #  #  gcc  7.3.1  4.9.3  4.8.5
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.3.1]
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/gcc/gcc-7.3.1/bin/gcc
+      cxx: /usr/tce/packages/gcc/gcc-7.3.1/bin/g++
+      f77: /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
+      fc:  /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
+    spec: gcc@7.3.1
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tcetmp/bin/gcc
+      cxx: /usr/tcetmp/bin/g++
+      f77: /usr/tcetmp/bin/gfortran
+      fc:  /usr/tcetmp/bin/gfortran
+    spec: gcc@4.9.3
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+    #  #  pgi  19.1  18.10  18.7
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-19.1/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-19.1/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-19.1/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-19.1/bin/pgf90
+    spec:   pgi@19.1
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-18.10/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-18.10/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-18.10/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-18.10/bin/pgf90
+    spec:   pgi@18.10
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/18.7
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-18.7/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-18.7/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-18.7/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-18.7/bin/pgf90
+    spec:   pgi@18.7
+    target: ppc64le
+    #  #  xl  16.2  16.1.1 16.1
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [xl/2019.02.07]
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/xl/xl-2018.05.18/bin/xlc
+      cxx: /usr/tce/packages/xl/xl-2018.05.18/bin/xlC
+      f77: /usr/tce/packages/xl/xl-2018.05.18/bin/xlf
+      fc:  /usr/tce/packages/xl/xl-2018.05.18/bin/xlf2003
+    spec:   xl@16.2
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - xl/2019.02.07
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/xl/xl-2019.02.07/bin/xlc
+      cxx: /usr/tce/packages/xl/xl-2019.02.07/bin/xlC
+      f77: /usr/tce/packages/xl/xl-2019.02.07/bin/xlf
+      fc:  /usr/tce/packages/xl/xl-2019.02.07/bin/xlf2003
+    spec:   xl@16.1.1
+    target: ppc64le
+       #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - xl/2018.11.26
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlc
+      cxx: /usr/tce/packages/xl/xl-2018.04.29/bin/xlC
+      f77: /usr/tce/packages/xl/xl-2018.04.29/bin/xlf
+      fc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlf2003
+    spec:   xl@16.1
+    target: ppc64le
