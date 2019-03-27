@@ -14,7 +14,7 @@ compilers:
       cc:  /usr/tcetmp/bin/clang-gpu
       cxx: /usr/tcetmp/bin/clang++-gpu
       f77: /usr/bin/gfortran
-      fc7: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
     spec: clang@9.0.0
     target: ppc64le
        #
