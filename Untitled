@@ -1,0 +1,15 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    operating_system: cnl6
+    paths:
+      cc:  gcc
+      cxx: g++
+      f77: null
+      fc:  null
+    spec: gcc@4.8.5
+    target: any
