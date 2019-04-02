@@ -93,10 +93,10 @@ packages:
   hypre:
     variants: [~internal, +mpi, -superlu]
   # # # # #
-  json-c:
-    paths:
-      json: /usr/lib64
-    buildable: False
+  #json-c:
+    #paths:
+    #  json: /usr/lib64
+    #buildable: False
   # # # # #
   libjpeg-turbo:
     paths:

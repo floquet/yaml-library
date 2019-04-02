@@ -1,0 +1,155 @@
+## gcc    4.8.5, 6.4.0, 7.4.0, 8.2.0
+## intel  17.0.4, 18.0.5, 19.0.1
+## pgi    16.10, 17.10, 18.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:  #
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: centos7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
