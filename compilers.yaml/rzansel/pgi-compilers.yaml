@@ -1,5 +1,5 @@
 compilers:
-    #  #  pgi  18.10  18.7  18.5  18.4  18.3  18.2  18.1
+    #  #  pgi  19.1  18.10  18.7  18.5  18.4  18.3  18.2  18.1  17.10
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -111,4 +111,18 @@ compilers:
       f77: /usr/tce/packages/pgi/pgi-18.1/bin/pgfortran
       fc:  /usr/tce/packages/pgi/pgi-18.1/bin/pgf90
     spec:   pgi@18.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-17.10/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-17.10/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-17.10/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-17.10/bin/pgf90
+    spec:   pgi@17.10
     target: ppc64le

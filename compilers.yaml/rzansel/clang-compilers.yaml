@@ -8,6 +8,34 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
+    modules:
+    - clang/upstream-2019.03.19
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/clang/clang-upstream-2019.03.19/bin/clang
+      cxx: /usr/tce/packages/clang/clang-upstream-2019.03.19/bin/clang++
+      f77: /usr/bin/gfortran
+      fc7: /usr/bin/gfortran
+    spec: clang@19.03.19
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/6.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/clang/clang-6.0.0/bin/clang
+      cxx: /usr/tce/packages/clang/clang-6.0.0/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@6.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
     modules: []
     operating_system: rhel7
     paths:
