@@ -1,0 +1,135 @@
+# # # Trinitite system compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ date
+# Tue Jan 29 19:06:30 MST 2019
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ pwd
+# /lustre/ttscratch1/dantopa/repos/spack/spack.trinitite.compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ spack compilers
+# ==> Available compilers
+# -- cce cnl6-any -------------------------------------------------
+# cce@8.7.9  cce@8.7.8
+#
+# -- gcc cnl6-any -------------------------------------------------
+# gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+#
+# -- intel cnl6-any -----------------------------------------------
+# intel@19.0.1  intel@18.0.5
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.8'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.8
+    target: any
+# # # GCC
+  #  # gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.3.0
+    target: any
+# # # intel
+  # #  intel@19.0.1  intel@18.0.5
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/19.0.1'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@19.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/18.0.5'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@18.0.5
+    target: any
+    
