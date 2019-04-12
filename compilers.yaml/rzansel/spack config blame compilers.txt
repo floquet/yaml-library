@@ -1,0 +1,204 @@
+topa1@rzansel61:spack.rzansel.ompi $ spack compilers
+==> Available compilers
+==> Error: Invalid configuration for [compiler "clang@19.03.19"]:
+Compiler configuration must contain entries for all compilers: ['cc', 'cxx', 'f77', 'fc']
+topa1@rzansel61:spack.rzansel.ompi $ spack -d compilers
+==> [2019-04-11-13:11:28.275081] Imported compilers from built-in commands
+==> [2019-04-11-13:11:28.276732] Imported compilers from built-in commands
+==> [2019-04-11-13:11:28.387915] Reading config file /usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/modules.yaml
+==> [2019-04-11-13:11:28.441892] Reading config file /usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/linux/modules.yaml
+==> [2019-04-11-13:11:28.446661] Reading config file /usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/config.yaml
+==> [2019-04-11-13:11:28.520831] Available compilers
+==> [2019-04-11-13:11:28.521069] Reading config file /usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml
+==> [2019-04-11-13:11:28.578388] Error: Invalid configuration for [compiler "clang@19.03.19"]:
+Compiler configuration must contain entries for all compilers: ['cc', 'cxx', 'f77', 'fc']
+Traceback (most recent call last):
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/main.py", line 695, in main
+    return _invoke_command(command, parser, args, unknown)
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/main.py", line 446, in _invoke_command
+    return_val = command(parser, args)
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/cmd/compilers.py", line 24, in compilers
+    compiler_list(args)
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/cmd/compiler.py", line 159, in compiler_list
+    index = index_by(spack.compilers.all_compilers(scope=args.scope),
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/compilers/__init__.py", line 233, in all_compilers
+    compilers.append(compiler_from_config_entry(items))
+  File "/usr/WS1/topa1/spack-home/spack.rzansel.ompi/lib/spack/spack/compilers/__init__.py", line 271, in compiler_from_config_entry
+    raise InvalidCompilerConfigurationError(cspec)
+spack.compilers.InvalidCompilerConfigurationError: Invalid configuration for [compiler "clang@19.03.19"]:
+    Compiler configuration must contain entries for all compilers: ['cc', 'cxx', 'f77', 'fc']
+topa1@rzansel61:spack.rzansel.ompi $ vcp
+topa1@rzansel61:spack.rzansel.ompi $ spack compilers
+==> Available compilers
+==> Error: Invalid configuration for [compiler "clang@19.03"]:
+Compiler configuration must contain entries for all compilers: ['cc', 'cxx', 'f77', 'fc']
+topa1@rzansel61:spack.rzansel.ompi $ vcp
+topa1@rzansel61:spack.rzansel.ompi $ vcp
+topa1@rzansel61:spack.rzansel.ompi $ spack config blame compiler
+usage: spack config blame [-h] SECTION
+spack config blame: error: argument SECTION: invalid choice: 'compiler' choose from:
+    compilers  config  mirrors  modules  packages  repos  upstreams
+
+topa1@rzansel61:spack.rzansel.ompi $ spack config blame compilers
+---                                                                                 compilers:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:9    - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:10       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:11       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:12       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:13       modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:14       - gcc/7.3.1
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:15       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:16       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:17         cc: /usr/tce/packages/gcc/gcc-7.3.1/bin/gcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:18         cxx: /usr/tce/packages/gcc/gcc-7.3.1/bin/g++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:19         f77: /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:20         fc: /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:21       spec: gcc@7.3.1
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:22       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:24   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:25       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:26       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:27       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:28       modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:29       - gcc/4.9.3
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:30       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:31       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:32         cc: /usr/tcetmp/bin/gcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:33         cxx: /usr/tcetmp/bin/g++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:34         f77: /usr/tcetmp/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:35         fc: /usr/tcetmp/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:36       spec: gcc@4.9.3
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:37       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:39   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:40       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:41       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:42       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:43       modules: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:44       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:45       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:46         cc: /usr/bin/gcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:47         cxx: /usr/bin/g++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:48         f77: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:49         fc: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:50       spec: gcc@4.8.5
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:51       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:53   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:54       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:55       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:56       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:57       modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:58       - clang/upstream-2019.03.19
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:59       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:60       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:61         cc: /usr/tce/packages/clang/clang-upstream-2019.03.19/bin/clang
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:62         cxx: /usr/tce/packages/clang/clang-upstream-2019.03.19/bin/clang++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:63         f77: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:64         fc7: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:65       spec: clang@19.03
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:66       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:68   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:69       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:70       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:71       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:72       modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:73       - clang/6.0.0
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:74       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:75       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:76         cc: /usr/tce/packages/clang/clang-6.0.0/bin/clang
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:77         cxx: /usr/tce/packages/clang/clang-6.0.0/bin/clang++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:78         f77: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:79         fc: /usr/bin/gfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:80       spec: clang@6.0.0
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:81       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:83   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:84       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:85       extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:86       flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:87       modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:88       - pgi/19.1
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:89       operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:90       paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:91         cc: /usr/tce/packages/pgi/pgi-19.1/bin/pgcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:92         cxx: /usr/tce/packages/pgi/pgi-19.1/bin/pgc++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:93         f77: /usr/tce/packages/pgi/pgi-19.1/bin/pgfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:94         fc: /usr/tce/packages/pgi/pgi-19.1/bin/pgf90
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:95       spec: pgi@19.1
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:96       target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:98   - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:99       environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:100      extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:101      flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:102      modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:103      - pgi/18.10
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:104      operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:105      paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:106        cc: /usr/tce/packages/pgi/pgi-18.10/bin/pgcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:107        cxx: /usr/tce/packages/pgi/pgi-18.10/bin/pgc++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:108        f77: /usr/tce/packages/pgi/pgi-18.10/bin/pgfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:109        fc: /usr/tce/packages/pgi/pgi-18.10/bin/pgf90
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:110      spec: pgi@18.10
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:111      target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:113  - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:114      environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:115      extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:116      flags: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:117      modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:118      - pgi/17.10
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:119      operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:120      paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:121        cc: /usr/tce/packages/pgi/pgi-17.10/bin/pgcc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:122        cxx: /usr/tce/packages/pgi/pgi-17.10/bin/pgc++
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:123        f77: /usr/tce/packages/pgi/pgi-17.10/bin/pgfortran
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:124        fc: /usr/tce/packages/pgi/pgi-17.10/bin/pgf90
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:125      spec: pgi@17.10
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:126      target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:128  - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:129      environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:130      extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:131      flags:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:132        fflags: -qzerosize
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:133      modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:134      - xl/2019.02.07
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:135      operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:136      paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:137        cc: /usr/tce/packages/xl/xl-2019.02.07/bin/xlc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:138        cxx: /usr/tce/packages/xl/xl-2019.02.07/bin/xlC
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:139        f77: /usr/tce/packages/xl/xl-2019.02.07/bin/xlf
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:140        fc: /usr/tce/packages/xl/xl-2019.02.07/bin/xlf2003
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:141      spec: xl@16.1.2
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:142      target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:144  - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:145      environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:146      extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:147      flags:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:148        fflags: -qzerosize
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:149      modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:150      - xl/test-2019.03.22
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:151      operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:152      paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:153        cc: /usr/tce/packages/xl/xl-test-2019.03.22/xlC/16.1.1/bin/xlc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:154        cxx: /usr/tce/packages/xl/xl-test-2019.03.22/xlC/16.1.1/bin/xlC
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:155        f77: /usr/tce/packages/xl/xl-test-2019.03.22/xlC/16.1.1/bin/xlf
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:156        fc: /usr/tce/packages/xl/xl-test-2019.03.22/xlC/16.1.1/bin/xlf2003
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:157      spec: xl@16.1.1
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:158      target: ppc64le
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:160  - compiler:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:161      environment: {}
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:162      extra_rpaths: []
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:163      flags:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:164        fflags: -qzerosize
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:165      modules:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:166      - xl/beta-2018.11.02
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:167      operating_system: rhel7
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:168      paths:
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:169        cc: /usr/tce/modulefiles/Compiler/xl/beta-2018.11.02/bin/xlc
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:170        cxx: /usr/tce/modulefiles/Compiler/xl/beta-2018.11.02/bin/xlC
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:171        f77: /usr/tce/modulefiles/Compiler/xl/beta-2018.11.02/bin/xlf
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:172        fc: /usr/tce/modulefiles/Compiler/xl/beta-2018.11.02/bin/xlf2003
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:173      spec: xl@16.1.0
+/usr/WS1/topa1/spack-home/spack.rzansel.ompi/etc/spack/defaults/compilers.yaml:174      target: ppc64le
+topa1@rzansel61:spack.rzansel.ompi $ vcp
+topa1@rzansel61:spack.rzansel.ompi $ date
+Thu Apr 11 13:36:09 PDT 2019
+topa1@rzansel61:spack.rzansel.ompi $ pwd
+/usr/workspace/wsrzc/topa1/spack-home/spack.rzansel.ompi
