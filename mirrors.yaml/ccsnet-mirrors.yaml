@@ -1,0 +1,2 @@
+mirrors:
+  local_filesystem: file:///scratch/vendors/spack.mirror

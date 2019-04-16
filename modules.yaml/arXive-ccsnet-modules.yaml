@@ -1,53 +1,35 @@
+dantopa@ccscs5.lanl.gov:defaults $ date
+Mon Apr 15 16:56:08 MDT 2019
+dantopa@ccscs5.lanl.gov:defaults $ pwd
+/scratch/dantopa/spack.ccs5-0.11.2/etc/spack/defaults
+dantopa@ccscs5.lanl.gov:defaults $ cat modules.yaml
 modules:
   enable:
     - tcl
     - dotkit
   tcl:
     hash_length: 0
-    naming_scheme: '${PACKAGE}-${VERSION}-${COMPILERNAME}-${COMPILERVER}'
+    naming_scheme: '${PACKAGE}/${VERSION}-${COMPILERNAME}-${COMPILERVER}'
     all:
       suffixes:
-          #
-        ^openmpi@4.0.1:  'openmpi@4.0.1'
-        ^openmpi@4.0.0:  'openmpi@4.0.0'
-          #
-        ^openmpi@3.1.3:  'openmpi@3.1.3'
-        ^openmpi@3.1.2:  'openmpi@3.1.2'
-        ^openmpi@3.1.1:  'openmpi@3.1.1'
-        ^openmpi@3.1.0:  'openmpi@3.1.0'
-          #
-        ^openmpi@3.0.3:  'openmpi@3.0.3'
-        ^openmpi@3.0.2:  'openmpi@3.0.2'
-        ^openmpi@3.0.1:  'openmpi@3.0.1'
         ^openmpi@3.0.0:  'openmpi@3.0.0'
-          #
-        ^openmpi@2.1.6:  'openmpi@2.1.6'
-        ^openmpi@2.1.5:  'openmpi@2.1.5'
-        ^openmpi@2.1.4:  'openmpi@2.1.4'
-        ^openmpi@2.1.3:  'openmpi@2.1.3'
         ^openmpi@2.1.2:  'openmpi@2.1.2'
         ^openmpi@2.1.1:  'openmpi@2.1.1'
         ^openmpi@2.1.0:  'openmpi@2.1.0'
-          #
-        ^openmpi@1.10.7: 'openmpi@1.10.7'
         ^openmpi@1.10.5: 'openmpi@1.10.5'
             #
         ^python@2.7.14:  'python@2.7.14'
         ^python@3.6.2:   'python@3.6.2'
             #
-        #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
+        ^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
             #
-        #^openblas@0.2.20: 'openblas@0.2.20'
+        ^openblas@0.2.20: 'openblas@0.2.20'
     blacklist:
-      # redundant installs
-      #- cmake@3.9.4%gcc@6.4.0
-      # tpls
       - autoconf
       - automake
       - binutils
       - bison
       - bzip2
-      - cairo
       - curl
       - expat
       - flex
@@ -58,21 +40,16 @@ modules:
       - gettext
       - git
       - glib
-      - glm
-      - gobject-introspection
       - gmp
       - gperf
-      - harfbuzz
       - help2man
       - icu4c
       - inputproto
       - isl
       - kbproto
       - lcms
-      - libarchive
       - libbsd
       - libedit
-      - libelf
       - libffi
       - libgcrypt
       - libgpg-error
@@ -85,25 +62,17 @@ modules:
       - libsigsegv
       - libtiff
       - libtool
-      - libuv
       - libx11
       - libxau
       - libxcb
       - libxdmcp
       - libxml2
-      - libxslt
-      - lz4
-      - lzo
-      - nettle
-      - numactl
       - m4
       - mpc
       - mpfr
-      - nasm
       - ncurses
       - nghttp2
       - openssl
-      - pango
       - pcre
       - perl
       - pkg-config
@@ -115,7 +84,6 @@ modules:
       - py-enum34
       - py-flake8
       - py-functools32
-      - py-git-review
       - py-gnuplot
       - py-lit
       - py-matplotlib
@@ -136,7 +104,6 @@ modules:
       - py-sympy
       - qhull
       - readline
-      - rhash
       - sqlite
       - swig
       - tar
@@ -148,8 +115,13 @@ modules:
       - xproto
       - xtrans
       - xz
-      - zip
       - zlib
+      - '%clang'
+      - 'cmake@3.9.4%gcc@5.5.0'
+      - 'cmake@3.9.4%gcc@6.4.0'
+      - '%gcc@4.8.5'
+      - '%gcc@7.3.0'
+      - 'python@2.7.14%gcc@5.5.0'
   prefix_inspections:
     bin:
       - PATH

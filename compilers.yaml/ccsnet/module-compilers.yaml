@@ -1,0 +1,59 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - user_contrib
+    - gcc/7.3.0
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gcc
+      cxx: /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/g++
+      f77: /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gfortran
+      fc:  /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-7.3.0-qrjpi76aeo4bysagruwwfii6oneh56lj/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - user_contrib
+    - gcc/8.1.0
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-3c5hjkqndywdp3w2l5vts62xlllrsbtq/bin/gcc
+      cxx: /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-3c5hjkqndywdp3w2l5vts62xlllrsbtq/bin/g++
+      f77: /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-3c5hjkqndywdp3w2l5vts62xlllrsbtq/bin/gfortran
+      fc:  /scratch/vendors/spack.20180425/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-8.1.0-3c5hjkqndywdp3w2l5vts62xlllrsbtq/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - user_contrib
+    - intel/16.0.3
+    operating_system: rhel7
+    paths:
+      cc:  /ccs/opt/intel/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /ccs/opt/intel/compilers_and_libraries_2016/linux/bin/intel64/icpc
+      f77: /ccs/opt/intel/compilers_and_libraries_2016/linux/bin/intel64/ifort
+      fc:  /ccs/opt/intel/compilers_and_libraries_2016/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
