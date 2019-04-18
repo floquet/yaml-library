@@ -16,6 +16,7 @@
 #
 # -- intel cnl6-any -----------------------------------------------
 # intel@19.0.1  intel@18.0.5
+compilers:
 - compiler:
     environment: {}
     extra_rpaths: []
