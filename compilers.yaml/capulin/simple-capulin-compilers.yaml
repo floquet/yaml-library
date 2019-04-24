@@ -1,0 +1,110 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: sles15
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: null
+      fc: null
+    spec: gcc@7.4.0
+    target: aarch64
