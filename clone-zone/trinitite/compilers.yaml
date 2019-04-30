@@ -24,14 +24,14 @@ compilers:
     modules:
     - PrgEnv-cray
     - !!python/unicode
-      'cce/8.7.9'
+      'cce/8.7.10'
     operating_system: cnl6
     paths:
       cc:  cc
       cxx: CC
       f77: ftn
       fc:  ftn
-    spec: cce@8.7.9
+    spec: cce@8.7.10
     target: any
 - compiler:
     environment: {}
@@ -40,14 +40,14 @@ compilers:
     modules:
     - PrgEnv-cray
     - !!python/unicode
-      'cce/8.7.8'
+      'cce/8.7.9'
     operating_system: cnl6
     paths:
       cc:  cc
       cxx: CC
       f77: ftn
       fc:  ftn
-    spec: cce@8.7.8
+    spec: cce@8.7.9
     target: any
 # # # GCC
   #  # gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
