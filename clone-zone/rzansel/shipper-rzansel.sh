@@ -5,14 +5,16 @@ target_dir="${SPACK_ROOT}/etc/spack/defaults"
 
 function copier(){
     echo ""
+    echo "\${1} = ${1}"
     echo "cp ${1}.yaml ${target_dir}"
           cp ${1}.yaml ${target_dir}
 }
 
 function rename(){
     echo ""
-    echo "mv ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
-         "mv ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+    lss ${target_dir}/${1}.yaml
+    echo "mv -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+         "mv -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
 }
 
 export list_yaml="compilers lmod-modules tcl-modules mirrors packages system-compilers"
