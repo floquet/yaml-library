@@ -19,6 +19,7 @@ export list_yaml="compilers lmod-modules tcl-modules mirrors packages system-com
 
 # move yaml files to $SPACK_ROOT
 for y in ${list_yaml}; do
+    echo "yaml = ${y}"
     copier ${y}
 done
 
