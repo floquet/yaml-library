@@ -6,6 +6,6 @@ export tpls="libhio openmpi pmix ucx"
 for t in ${tpls}; do
     echo 'export SPACK_ROOT="${repos}/spack/libraries/rzansel-power9.${t}"'
           export SPACK_ROOT="${repos}/spack/libraries/rzansel-power9.${t}"
-    echo "source ${repos}Github/yaml-library/clone-zone/rzansel/shipper.sh"
-          source ${repos}Github/yaml-library/clone-zone/rzansel/shipper.sh
+    echo "source ${repos}/Github/yaml-library/clone-zone/rzansel/shipper-rzansel.sh"
+          source ${repos}/Github/yaml-library/clone-zone/rzansel/shipper-rzansel.sh
 done
