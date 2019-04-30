@@ -1,7 +1,7 @@
 #! /bin/bash
 printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-target_dir="${target_dir}"
+target_dir="${SPACK_ROOT}/etc/spack/defaults"
 
 function copier(){
     echo ""
