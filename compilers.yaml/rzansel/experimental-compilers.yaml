@@ -16,7 +16,7 @@ compilers:
       cc:  /usr/tcetmp/bin/clang-gpu
       cxx: /usr/tcetmp/bin/clang++-gpu
       f77: null
-      fc:  null
+      fc: null
     spec: clang@9.0.0
     target: ppc64le
 - compiler:
