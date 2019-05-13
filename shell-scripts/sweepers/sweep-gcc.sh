@@ -2,7 +2,7 @@
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
 export tpl="gcc"
-export versions="8.2.0 8.1.0 7.3.0 7.2.0 7.1.0 6.4.0 5.5.0 4.9.3"
+export versions="9.1.0 8.3.0 7.4.0 6.5.0 5.5.0 4.9.3"
 export arch=$(spack arch)
 
 for v in ${versions}; do
