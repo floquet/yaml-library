@@ -18,7 +18,7 @@ function rename(){
     echo "from: ${target_dir}/${1}.yaml"
     echo "to:   ${target_dir}/${2}.yaml"
     echo "cp -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
-         "cp -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+          cp -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml
 }
 
 export list_yaml="compilers lmod-modules tcl-modules mirrors packages system-compilers"
