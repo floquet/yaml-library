@@ -1,4 +1,4 @@
 mirrors:
   #local_filesystem: file:///p/gpfs1/topa1/spack/spack.mirror
-  local_filesystem: /usr/workspace/wsrzc/topa1/spack-home/mirror
+  local_filesystem: file:///usr/workspace/wsrzc/topa1/spack-home/mirror
   #local_filesystem: file:///usr/workspace/wsrzc/topa1/spack-home/mirror
