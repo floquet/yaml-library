@@ -7,7 +7,6 @@ printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 target_dir="${SPACK_ROOT}/etc/spack/defaults"
 
 function copier(){
-    echo ""
     #echo "\${1} = ${1}"
     echo "cp ${1}.yaml ${target_dir}"
           cp ${1}.yaml ${target_dir}
@@ -18,8 +17,8 @@ function rename(){
     lss ${target_dir}/${1}.yaml
     echo "from: ${target_dir}/${1}.yaml"
     echo "to:   ${target_dir}/${2}.yaml"
-    echo "mv -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
-         "mv -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+    echo "cp ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+         "cp ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
 }
 
 export list_yaml="compilers lmod-modules tcl-modules mirrors packages system-compilers"
@@ -31,6 +30,7 @@ for y in ${list_yaml}; do
 done
 
 # renames
+echo ""
 rename tcl-modules      modules
 rename system-compilers compilers
 
