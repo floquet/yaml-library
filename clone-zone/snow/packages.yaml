@@ -129,16 +129,15 @@ packages:
       munge: /usr/lib64
     buildable: False
   # # # # #
-  # creates havoc with gcc builds
-  # mpc:
-  #   paths:
-  #     mpc: /usr/lib64
-  #   buildable: False
+  mpc:
+    paths:
+      mpc: /usr/lib64
+    buildable: False
   # # # # #
-  # mpfr:
-  #   paths:
-  #     mpfr: /usr/lib64
-  #   buildable: False
+  mpfr:
+    paths:
+      mpfr: /usr/lib64
+    buildable: False
   # # # # #
   ncurses:
     paths:
