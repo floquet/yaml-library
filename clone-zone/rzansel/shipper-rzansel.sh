@@ -14,11 +14,11 @@ function copier(){
 
 function rename(){
     echo ""
-    lss ${target_dir}/${1}.yaml
+    lss ${target_dir}/${2}.yaml
     echo "from: ${target_dir}/${1}.yaml"
     echo "to:   ${target_dir}/${2}.yaml"
-    echo "cp ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
-         "cp ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+    echo "cp -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
+         "cp -f ${target_dir}/${1}.yaml ${target_dir}/${2}.yaml"
 }
 
 export list_yaml="compilers lmod-modules tcl-modules mirrors packages system-compilers"
