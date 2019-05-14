@@ -5,7 +5,7 @@ modules:
     - dotkit
   tcl:
     hash_length: 0
-    naming_scheme: '${PACKAGE}-${VERSION}-${COMPILERNAME}-${COMPILERVER}'
+    naming_scheme: '${PACKAGE}/${VERSION}-${COMPILERNAME}/${COMPILERVER}-${ARCHITECTURE}'
     all:
       suffixes:
           #
@@ -83,19 +83,19 @@ modules:
       - libiconv
       - libjpeg-turbo
       - libmng
-      - libpciaccess
+      #- libpciaccess
       - libpng
       - libpthread-stubs
       - libsigsegv
       - libtiff
       - libtool
       - libnl
-      - libuv
+      #- libuv
       - libx11
       - libxau
       - libxcb
       - libxdmcp
-      - libxml2
+      #- libxml2
       - libxslt
       - lz4
       - lzo
@@ -143,7 +143,7 @@ modules:
       - py-sympy
       - qhull
       - readline
-      - rdma-core
+      #- rdma-core
       - rhash
       - sqlite
       - swig
