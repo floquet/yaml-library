@@ -129,15 +129,15 @@ packages:
       munge: /usr/lib64
     buildable: False
   # # # # #
-  mpc:
-    paths:
-      mpc: /usr/lib64
-    buildable: False
+  # mpc:
+  #   paths:
+  #     mpc: /usr/lib64
+  #   buildable: False
   # # # # #
-  mpfr:
-    paths:
-      mpfr: /usr/lib64
-    buildable: False
+  # mpfr:
+  #   paths:
+  #     mpfr: /usr/lib64
+  #   buildable: False
   # # # # #
   ncurses:
     paths:
@@ -167,6 +167,10 @@ packages:
     paths:
       pkg-config: /usr
     buildable: False
+  # # # # #
+  python:
+    paths:
+      python: /usr
   # # # # #
   tar:
     paths:

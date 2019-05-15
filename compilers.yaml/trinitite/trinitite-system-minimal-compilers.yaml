@@ -9,15 +9,15 @@
 # dantopa@tt-fey1:spack.trinitite.compilers $ spack compilers
 # ==> Available compilers
 # -- cce cnl6-any -------------------------------------------------
-# cce@8.7.9  cce@8.7.8
+# cce@8.7.10  cce@8.7.9
 #
 # -- gcc cnl6-any -------------------------------------------------
-# gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+# gcc@8.3.0  gcc@7.3.0  gcc@6.3.0
 #
 # -- intel cnl6-any -----------------------------------------------
-# intel@19.0.1  intel@18.0.5
-#  Tue May 14 10:12:27 MDT 2019
+# intel@19.0.1  intel@18.0.5  intel@17.0.4  intel@16.0.3
 compilers:
+#  Tue May 14 10:12:27 MDT 2019
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -50,7 +50,7 @@ compilers:
     spec: cce@8.7.9
     target: any
 # # # GCC
-  #  # gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+  #  # gcc@8.3.0  7.3.0  6.3.0
 - compiler:
     environment: {}
     extra_rpaths: []

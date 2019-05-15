@@ -168,6 +168,10 @@ packages:
       pkg-config: /usr
     buildable: False
   # # # # #
+  python:
+    paths:
+      python: /usr
+  # # # # #
   tar:
     paths:
       tar: /usr
