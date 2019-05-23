@@ -1,6 +1,6 @@
 packages:
   all:
-    compiler: [gcc, intel, pgi, clang, xl, nag]
+    compiler: [gcc, intel, pgi, clang, cce, xl, nag]
     providers:
       #
       #blas: [intel-mkl]
@@ -84,15 +84,14 @@ packages:
       glib: /usr/lib64
     buildable: false
   # # # # #
-  #json-c:
-  # #   paths:
-  # json: /usr/lib64
-  # buildable: False
-  # # # # #
   libjpeg-turbo:
     paths:
       libjpeg: /usr/lib64
     buildable: False
+  # # # # #
+  libpciaccess:
+    modules:
+      libpciaccess@cce: libpciaccess/cce-gcc/7.3.0-cray-cnl6-haswell
   # # # # #
   libsigsegv:
     paths:
