@@ -88,6 +88,10 @@ packages:
   # #   paths:
   # json: /usr/lib64
   # buildable: False
+ # # # # #
+  libnl:
+    modules:
+      libnl@pgi: libnl-3.3.0-gcc-7.3.1
   # # # # #
   libjpeg-turbo:
     paths:
@@ -167,6 +171,10 @@ packages:
     paths:
       pkg-config: /usr
     buildable: False
+  # # # # #
+  rdma-core:
+    modules:
+      rdma-core@pgi: rdma-core-20-gcc-7.3.1
   # # # # #
   tar:
     paths:
