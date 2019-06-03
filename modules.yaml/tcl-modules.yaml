@@ -5,7 +5,7 @@ modules:
     - dotkit
   tcl:
     hash_length: 0
-    naming_scheme: '${PACKAGE}-${VERSION}-${COMPILERNAME}-${COMPILERVER}'
+    naming_scheme: '${PACKAGE}/${VERSION}-${COMPILERNAME}/${COMPILERVER}'
     all:
       suffixes:
           #
@@ -36,11 +36,13 @@ modules:
         ^openmpi@1.10.5: 'openmpi@1.10.5'
             #
         ^python@2.7.14:  'python@2.7.14'
+        ^python@2.7.15:  'python@2.7.15'
         ^python@3.6.2:   'python@3.6.2'
             #
         #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
             #
         #^openblas@0.2.20: 'openblas@0.2.20'
+        +fortran: '+fortran'
     blacklist:
       # redundant installs
       #- cmake@3.9.4%gcc@6.4.0
