@@ -59,13 +59,18 @@ packages:
 #      cmake: cmake/3.12.1
 #    buildable: false
   # # # # #
+  cmake:
+    version: [3.14.4, 3.13.4, 3.12.4, 3.11.4, 3.10.3]
   curl:
     paths:
       curl: /usr
     buildable: false
   # # # # #
   eospac:
-    versions: [6.4.0beta.2_69196eadbc77506561eef711f19d2f03b4ab0ffa]
+    version: [6.4.0beta.4, 6.4.0beta.2]
+  # # # # #
+  fftw:
+    version: [3.3.8, 3.3.6-pl2]
   # # # # #
   flex:
     paths:
@@ -82,18 +87,32 @@ packages:
       git: /usr
     buildable: false
   # # # # #
+  googletest:
+    version: [1.8.1, 1.7.0]
+  # # # # #
   glib:
     paths:
       glib: /usr/lib64
     buildable: false
   # # # # #
+  hdf5:
+    version: [1.10.5, 1.10.2]
+  # # # # #
   hypre:
-    variants: [+mpi,+int64]
+    version: [2.15.1, 2.11.2, 2.11.1, 2.10.0b]
+    variants: [+int64] # mpi is on by default
+  # # # # #
+  kokkos:
+    version: [2.8.00, 2.7.24, 2.7.00]
+    variants: [+openmp, +aggressive_vectorization, +disable_deprecated_code]
   # # # # #
   #json-c:
   # #   paths:
   # json: /usr/lib64
   # buildable: False
+  # # # # #
+  libhio:
+    version: [1.4.1.3, 1.4.1.2]
   # # # # #
   libjpeg-turbo:
     paths:
@@ -155,9 +174,12 @@ packages:
       numactl: /usr
     buildable: false
   # # # # #
+  openblas:
+    version: [0.3.6, 0.2.20]
+  # # # # #
   openmpi:
-    variants: [~memchecker, ~pmi]
-    #version: [3.1.2,2.1.5]
+    #variants: [~memchecker, ~pmi] off by default
+    version: [4.0.1, 3.1.4,3.0.4]
   # # # # #
   openssl:
     paths:
@@ -169,10 +191,21 @@ packages:
       perl: /usr
     buildable: false
   # # # # #
+  pfunit:
+    version: [3.2.9]
+    variants: [+mpi, +openmp]
+  # # # # #
   pkg-config:
     paths:
       pkg-config: /usr
     buildable: False
+  # # # # #
+  silo:
+    version: [4.10.2-bsd, 4.10.2, 4.9, 4.8]
+  # # # # #
+  sundials:
+    version: [4.1.0  4.0.1  3.2.1  3.2.0  3.1.2  3.1.0]
+    variants: [+int64, -mpi, -CVODES, -IDA, -KINSOL] # fcmix off by default
   # # # # #
   tar:
     paths:
