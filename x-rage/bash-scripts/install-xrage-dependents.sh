@@ -15,7 +15,7 @@ spack install cmake@3.10.3       % ${spack_compiler}
 
 spack install eospac@6.4.0beta.2 % ${spack_compiler}
 spack install eospac@6.4.0beta.4 % ${spack_compiler}
-spack install eospac@6.4.1alpha  % ${spack_compiler}
+# spack install eospac@6.4.1alpha  % ${spack_compiler}
 
 spack install fftw@3.3.8         % ${spack_compiler}
 spack install fftw@3.3.6-pl2     % ${spack_compiler}
