@@ -1,3 +1,4 @@
 mirrors:
   # local_filesystem: file:///scratch/vendors/spack.mirror
-  local_filesystem: file:///${cassio}/${L_EAP_PATH_REL_VAL}/${L_EAP_OS}/Build_xrage/spack.mirror
+  # local_filesystem: file:///${cassio}/${L_EAP_PATH_REL_VAL}/${L_EAP_OS}/Build_xrage/spack.mirror
+  local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
