@@ -138,6 +138,9 @@ packages:
   #     mpfr: /usr/lib64
   #   buildable: False
   # # # # #
+  nettle:
+    version: [3.3]
+  # # # # #
   ncurses:
     paths:
       ncurses: /usr
