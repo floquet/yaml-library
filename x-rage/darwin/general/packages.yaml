@@ -6,11 +6,11 @@ packages:
       #blas: [intel-mkl]
       #lapack: [intel-mkl]
       #
-      blas: [openblas]
-      lapack: [openblas]
+      #blas: [openblas]
+      #lapack: [openblas]
       #
-      #blas: [netlib-lapack]
-      #lapack: [netlib-lapack]
+      blas: [netlib-lapack]
+      lapack: [netlib-lapack]
       #
       mpi: [openmpi]
       #
@@ -54,13 +54,10 @@ packages:
       bzip2: /usr
     buildable: false
   # # # # #
-#  cmake:
-#    modules:
-#      cmake: cmake/3.12.1
-#    buildable: false
-  # # # # #
   cmake:
-    version: [3.14.4, 3.13.4, 3.12.4, 3.11.4, 3.10.3]
+    # version: [3.14.4, 3.13.4, 3.12.4, 3.11.4, 3.10.3]
+    modules:
+      cmake: cmake/3.12.4
   # # # # #
   curl:
     paths:

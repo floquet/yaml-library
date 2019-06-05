@@ -1,11 +1,11 @@
-#  2019-04-18
+#  2019-06-05
 modules:
   enable:
     - tcl
     - dotkit
   tcl:
     hash_length: 0
-    naming_scheme: '${PACKAGE}/${VERSION}-${COMPILERNAME}/${COMPILERVER}'
+    naming_scheme: '${PACKAGE}-${VERSION}::${COMPILERNAME}-${COMPILERVER}::${ARCHITECTURE}'
     all:
       suffixes:
           #
@@ -44,12 +44,22 @@ modules:
         ^openblas@0.3.6:  'openblas@0.3.6'
         ^openblas@0.2.20: 'openblas@0.2.20'
             #
-        +aggressive_vectorization: '+aggressive_vectorization'
-        +fortran: '+fortran'
-        +int64: '+int64'
-        +mpi: '+mpi'
-        -mpi: '-mpi'
-        +openmp: '+openmp'
+        ^netlib-lapack@3.8.0:  'netlib-lapack@3.8.0'
+        ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'
+        ^netlib-lapack@3.7.0: 'netlib-lapack@3.7.0'
+        ^netlib-lapack@3.6.1: 'netlib-lapack@3.6.1'
+        ^netlib-lapack@3.6.0: 'netlib-lapack@3.6.0'
+        ^netlib-lapack@3.5.0: 'netlib-lapack@3.5.0'
+        ^netlib-lapack@3.4.2: 'netlib-lapack@3.4.2'
+            #
+        +aggressive_vectorization: 'aggressive_vectorization'
+        +disable_deprecated_code: 'disable_deprecated_code'
+        +int64:   'int64'
+        +fortran: 'fortran'
+        +mpi:     'mpi'
+        ~mpi:     '~mpi'
+        +openmp:  'openmp'
+        +xblas:   'xblas'
     blacklist:
       # redundant installs
       #- cmake@3.9.4%gcc@6.4.0
@@ -92,19 +102,19 @@ modules:
       - libiconv
       - libjpeg-turbo
       - libmng
-      - libpciaccess
+      #- libpciaccess
       - libpng
       - libpthread-stubs
       - libsigsegv
       - libtiff
-      - libtool
+      #- libtool
       - libnl
       - libuv
       - libx11
       - libxau
       - libxcb
       - libxdmcp
-      - libxml2
+      #- libxml2
       - libxslt
       - lz4
       - lzo
@@ -122,7 +132,7 @@ modules:
       - pango
       - pcre
       - perl
-      - pkg-config
+      #- pkg-config
       - py-appdirs
       - py-configparser
       - py-cycler
