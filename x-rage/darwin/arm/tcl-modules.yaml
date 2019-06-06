@@ -42,6 +42,12 @@ modules:
         #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
             #
         ^openblas@0.3.6:  'openblas@0.3.6'
+        ^openblas@0.3.5:  'openblas@0.3.5'
+        ^openblas@0.3.4:  'openblas@0.3.4'
+        ^openblas@0.3.3:  'openblas@0.3.3'
+        ^openblas@0.3.2:  'openblas@0.3.2'
+        ^openblas@0.3.1:  'openblas@0.3.1'
+        ^openblas@0.3.0:  'openblas@0.3.0'
         ^openblas@0.2.20: 'openblas@0.2.20'
             #
         +aggressive_vectorization: '+aggressive_vectorization'
@@ -92,19 +98,19 @@ modules:
       - libiconv
       - libjpeg-turbo
       - libmng
-      - libpciaccess
+      #- libpciaccess
       - libpng
       - libpthread-stubs
       - libsigsegv
       - libtiff
-      - libtool
+      #- libtool
       - libnl
       - libuv
       - libx11
       - libxau
       - libxcb
       - libxdmcp
-      - libxml2
+      #- libxml2
       - libxslt
       - lz4
       - lzo
@@ -122,7 +128,7 @@ modules:
       - pango
       - pcre
       - perl
-      - pkg-config
+      #- pkg-config
       - py-appdirs
       - py-configparser
       - py-cycler
@@ -152,7 +158,7 @@ modules:
       - py-sympy
       - qhull
       - readline
-      - rdma-core
+      #- rdma-core
       - rhash
       - sqlite
       - swig
