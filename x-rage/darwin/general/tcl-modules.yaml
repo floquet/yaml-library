@@ -54,6 +54,9 @@ modules:
             #
         +aggressive_vectorization: 'aggressive_vectorization'
         +disable_deprecated_code: 'disable_deprecated_code'
+        ~CVODES:  'CVODES'
+        ~IDA:     'IDA'
+        ~KINSOL:  'KINSOL'
         +int64:   'int64'
         +fortran: 'fortran'
         +mpi:     'mpi'
