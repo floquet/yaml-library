@@ -1,0 +1,209 @@
+#  2019-06-05
+modules:
+  enable:
+    - tcl
+    - dotkit
+  tcl:
+    hash_length: 0
+    naming_scheme: '${PACKAGE}-${VERSION}::${COMPILERNAME}-${COMPILERVER}::${ARCHITECTURE}'
+    all:
+      suffixes:
+          #
+        ^openmpi@4.0.1:  'openmpi@4.0.1'
+        ^openmpi@4.0.0:  'openmpi@4.0.0'
+          #
+        ^openmpi@3.1.4:  'openmpi@3.1.4'
+        ^openmpi@3.1.3:  'openmpi@3.1.3'
+        ^openmpi@3.1.2:  'openmpi@3.1.2'
+        ^openmpi@3.1.1:  'openmpi@3.1.1'
+        ^openmpi@3.1.0:  'openmpi@3.1.0'
+          #
+        ^openmpi@3.0.4:  'openmpi@3.0.4'
+        ^openmpi@3.0.3:  'openmpi@3.0.3'
+        ^openmpi@3.0.2:  'openmpi@3.0.2'
+        ^openmpi@3.0.1:  'openmpi@3.0.1'
+        ^openmpi@3.0.0:  'openmpi@3.0.0'
+          #
+        ^openmpi@2.1.6:  'openmpi@2.1.6'
+        ^openmpi@2.1.5:  'openmpi@2.1.5'
+        ^openmpi@2.1.4:  'openmpi@2.1.4'
+        ^openmpi@2.1.3:  'openmpi@2.1.3'
+        ^openmpi@2.1.2:  'openmpi@2.1.2'
+        ^openmpi@2.1.1:  'openmpi@2.1.1'
+        ^openmpi@2.1.0:  'openmpi@2.1.0'
+          #
+        ^openmpi@1.10.7: 'openmpi@1.10.7'
+        ^openmpi@1.10.5: 'openmpi@1.10.5'
+            #
+        ^python@2.7.14:  'python@2.7.14'
+        ^python@2.7.15:  'python@2.7.15'
+        ^python@3.6.2:   'python@3.6.2'
+            #
+        #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
+            #
+        ^openblas@0.3.6:  'openblas@0.3.6'
+        ^openblas@0.2.20: 'openblas@0.2.20'
+            #
+        ^netlib-lapack@3.8.0:  'netlib-lapack@3.8.0'
+        ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'
+        ^netlib-lapack@3.7.0: 'netlib-lapack@3.7.0'
+        ^netlib-lapack@3.6.1: 'netlib-lapack@3.6.1'
+        ^netlib-lapack@3.6.0: 'netlib-lapack@3.6.0'
+        ^netlib-lapack@3.5.0: 'netlib-lapack@3.5.0'
+        ^netlib-lapack@3.4.2: 'netlib-lapack@3.4.2'
+            #
+        +aggressive_vectorization: 'aggressive_vectorization'
+        +disable_deprecated_code: 'disable_deprecated_code'
+        ~CVODES:  'CVODES'
+        ~IDA:     'IDA'
+        ~KINSOL:  'KINSOL'
+        +int64:   'int64'
+        +fortran: 'fortran'
+        +mpi:     'mpi'
+        ~mpi:     '~mpi'
+        +openmp:  'openmp'
+        +xblas:   'xblas'
+    blacklist:
+      # redundant installs
+      #- cmake@3.9.4%gcc@6.4.0
+      # tpls
+      - autoconf
+      - automake
+      - binutils
+      - bison
+      - bzip2
+      - cairo
+      - curl
+      - expat
+      - flex
+      - font-util
+      - fontconfig
+      - freetype
+      - gdbm
+      - gettext
+      - git
+      - glib
+      - glm
+      - gobject-introspection
+      - gmp
+      - gperf
+      - harfbuzz
+      - help2man
+      - icu4c
+      - inputproto
+      - isl
+      - json-c
+      - kbproto
+      - lcms
+      - libarchive
+      - libbsd
+      - libedit
+      - libelf
+      - libffi
+      - libgcrypt
+      - libgpg-error
+      - libiconv
+      - libjpeg-turbo
+      - libmng
+      #- libpciaccess
+      - libpng
+      - libpthread-stubs
+      - libsigsegv
+      - libtiff
+      #- libtool
+      - libnl
+      - libuv
+      - libx11
+      - libxau
+      - libxcb
+      - libxdmcp
+      #- libxml2
+      - libxslt
+      - lz4
+      - lzo
+      - nettle
+      - numactl
+      - m4
+      - mpc
+      - mpfr
+      - nasm
+      - ncurses
+      - nettle
+      - nghttp2
+      - numactl
+      - openssl
+      - pango
+      - pcre
+      - perl
+      #- pkg-config
+      - py-appdirs
+      - py-configparser
+      - py-cycler
+      - py-cython
+      - py-dateutil
+      - py-enum34
+      - py-flake8
+      - py-functools32
+      - py-git-review
+      - py-gnuplot
+      - py-lit
+      - py-matplotlib
+      - py-mccabe
+      - py-mpmath
+      - py-numpy
+      - py-packaging
+      - py-pbr
+      - py-pillow
+      - py-pycodestyle
+      - py-pyflakes
+      - py-pyparsing
+      - py-pytz
+      - py-requests
+      - py-setuptools
+      - py-six
+      - py-subprocess32
+      - py-sympy
+      - qhull
+      - readline
+      - rdma-core
+      - rhash
+      - sqlite
+      - swig
+      - tar
+      - tcl
+      - tk
+      - util-macros
+      - xcb-proto
+      - xextproto
+      - xproto
+      - xtrans
+      - xz
+      - zip
+      - zlib
+  prefix_inspections:
+    bin:
+      - PATH
+    man:
+      - MANPATH
+    share/man:
+      - MANPATH
+    share/aclocal:
+      - ACLOCAL_PATH
+    lib:
+      - LIBRARY_PATH
+      - LD_LIBRARY_PATH
+    lib64:
+      - LIBRARY_PATH
+      - LD_LIBRARY_PATH
+    include:
+      - CPATH
+    lib/pkgconfig:
+      - PKG_CONFIG_PATH
+    lib64/pkgconfig:
+      - PKG_CONFIG_PATH
+    '':
+      - CMAKE_PREFIX_PATH
+
+  lmod:
+    hierarchy:
+      - mpi
