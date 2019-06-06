@@ -94,6 +94,10 @@ packages:
       libjpeg: /usr/lib64
     buildable: False
   # # # # #
+  libpciaccess:
+    modules:
+      libpciaccess%pgi: libpciaccess-0.13.5::gcc-4.8.5::linux-centos7-x86_64
+  # # # # #
   libsigsegv:
     paths:
       libsigsegv: /usr/lib64
