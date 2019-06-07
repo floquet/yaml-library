@@ -5,14 +5,17 @@ printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 # export spack_compiler="gcc@8.20"
 export spack_compiler=${gcc_system_compiler}
 
+echo ""; echo "selected compiler = ${spack_compiler}"
+echo ""; echo "\${SPACK_ROOT} = ${SPACK_ROOT}"
+
 spack install calico@2           % ${spack_compiler}
 
 echo ""; echo "cmake"
-spack install cmake@3.14.4       % ${spack_compiler}
-spack install cmake@3.13.4       % ${spack_compiler}
-spack install cmake@3.12.4       % ${spack_compiler}
-spack install cmake@3.11.4       % ${spack_compiler}
-spack install cmake@3.10.3       % ${spack_compiler}
+#spack install cmake@3.14.4       % ${spack_compiler}
+#spack install cmake@3.13.4       % ${spack_compiler}
+#spack install cmake@3.12.4       % ${spack_compiler}
+#spack install cmake@3.11.4       % ${spack_compiler}
+#spack install cmake@3.10.3       % ${spack_compiler}
 
 echo ""; echo "eospac"
 spack install eospac@6.4.0beta.2 % ${spack_compiler}
