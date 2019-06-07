@@ -103,6 +103,10 @@ packages:
     version: [2.15.1, 2.11.2, 2.11.1, 2.10.0b]
     variants: [+int64] # mpi is on by default
   # # # # #
+  hwloc:
+    modules:
+      hwloc@pgi: hwloc-1.11.11-gcc-4.8.5
+  # # # # #
   kokkos:
     version: [2.8.00, 2.7.24, 2.7.00]
     variants: [+openmp, +aggressive_vectorization, +disable_deprecated_code]
