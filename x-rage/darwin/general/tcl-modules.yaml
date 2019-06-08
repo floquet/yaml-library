@@ -44,7 +44,7 @@ modules:
         ^openblas@0.3.6:  'openblas@0.3.6'
         ^openblas@0.2.20: 'openblas@0.2.20'
             #
-        ^netlib-lapack@3.8.0:  'netlib-lapack@3.8.0'
+        ^netlib-lapack@3.8.0: 'netlib-lapack@3.8.0'
         ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'
         ^netlib-lapack@3.7.0: 'netlib-lapack@3.7.0'
         ^netlib-lapack@3.6.1: 'netlib-lapack@3.6.1'
