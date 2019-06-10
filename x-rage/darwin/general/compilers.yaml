@@ -243,7 +243,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: [pgi/18.10]
     operating_system: centos7
     paths:
       cc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
