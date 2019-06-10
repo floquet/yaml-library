@@ -1,4 +1,7 @@
 #  2019-06-05
+#  Daniel Topa CCS-2
+#  XRage packages
+#  build modules for problematic tpls
 modules:
   enable:
     - tcl
@@ -96,7 +99,7 @@ modules:
       - kbproto
       - lcms
       - libarchive
-      - libbsd
+      #- libbsd
       - libedit
       - libelf
       - libffi
@@ -165,7 +168,7 @@ modules:
       - py-sympy
       - qhull
       - readline
-      - rdma-core
+      #- rdma-core
       - rhash
       - sqlite
       - swig

@@ -76,7 +76,7 @@ modules:
       - kbproto
       - lcms
       - libarchive
-      - libbsd
+      #- libbsd
       - libedit
       - libelf
       - libffi
@@ -115,7 +115,7 @@ modules:
       - pango
       - pcre
       - perl
-      - pkg-config
+      #- pkg-config
       - py-appdirs
       - py-configparser
       - py-cycler
