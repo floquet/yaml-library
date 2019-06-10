@@ -109,6 +109,10 @@ packages:
   # json: /usr/lib64
   # buildable: False
   # # # # #
+  libbsd:
+    modules:
+      libbsd%pgi: libbsd-0.9.1::gcc-4.8.5::linux-centos7-x86_64
+  # # # # #
   libhio:
     version: [1.4.1.3, 1.4.1.2]
   # # # # #

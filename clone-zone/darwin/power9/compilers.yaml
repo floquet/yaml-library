@@ -9,7 +9,22 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+    - clang/8.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/p9/clang/8.0.0/bin/clang
+      cxx: /projects/opt/ppc64le/p9/clang/8.0.0/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@8.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
@@ -19,6 +34,20 @@ compilers:
     spec: clang@7.0.0
     target: ppc64le
   # # # gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/9.1.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/p9/gcc/9.1.0/bin/gcc
+      cxx: /projects/opt/ppc64le/p9/gcc/9.1.0/bin/g++
+      f77: /projects/opt/ppc64le/p9/gcc/9.1.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/p9/gcc/9.1.0/bin/gfortran
+    spec: gcc@9.1.0
+    target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -49,7 +78,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [gcc/7.3.0]
+    modules:
+    - gcc/7.3.0
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
@@ -62,7 +92,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [gcc/6.4.0]
+    modules:
+    - gcc/6.4.0
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/gcc/6.4.0/bin/gcc
@@ -85,12 +116,12 @@ compilers:
     spec: gcc@4.8.5
     target: ppc64le
   # # # pgi
-
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/18.10]
+    modules:
+    - pgi/18.10
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
@@ -103,7 +134,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/18.7]
+    modules:
+    - pgi/18.7
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgcc
@@ -116,7 +148,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/17.10]
+    modules:
+    - pgi/17.10
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
@@ -129,7 +162,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/16.10]
+    modules:
+    - pgi/16.10
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc

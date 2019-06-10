@@ -7,10 +7,18 @@ modules:
     - tcl
     - dotkit
   tcl:
-    hash_length: 0
+    hash_length: 4
     naming_scheme: '${PACKAGE}-${VERSION}::${COMPILERNAME}-${COMPILERVER}::${ARCHITECTURE}'
     all:
       suffixes:
+          #
+        ^hwloc@2.0.2:   'hwloc@2.0.2'
+        ^hwloc@2.0.1:   'hwloc@2.0.1'
+        ^hwloc@2.0.0:   'hwloc@2.0.0'
+        ^hwloc@1.11.11: 'hwloc@1.11.11'
+        ^hwloc@1.11.10: 'hwloc@1.11.10'
+        ^hwloc@1.11.9:  'hwloc@1.11.9'
+        ^hwloc@1.11.8:  'hwloc@1.11.8'
           #
         ^openmpi@4.0.1:  'openmpi@4.0.1'
         ^openmpi@4.0.0:  'openmpi@4.0.0'
