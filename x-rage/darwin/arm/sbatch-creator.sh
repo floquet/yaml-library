@@ -51,11 +51,14 @@ echo "cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spa
       cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml
 
 new_step "Base installs"
+echo "cd ${SPACK_ROOT}"
+      cd ${SPACK_ROOT}
+
 echo "source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts/install-xrage-dependents.sh ${gcc_system_compiler}"
       source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts/install-xrage-dependents.sh ${gcc_system_compiler}
 
 new_step "Secondary installs"
-echo "No secondary installs"
+echo  "No secondary installs"
 
 new_step "Verify module creation"
 echo "spack module tcl  refresh --delete-tree"
