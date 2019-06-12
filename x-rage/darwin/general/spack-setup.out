@@ -13,3 +13,27 @@ Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scrip
 Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
 Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
 Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+cp: cannot stat ‘/home/dantopa/.libraries-darwin.sh’: No such file or directory
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+[master 4f14012] darwin-general-cn213 Wed Jun 12 17:02:06 MDT 2019
+ 1 file changed, 15 insertions(+)
+ create mode 100644 x-rage/darwin/general/spack-setup.out
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Jun 12 17:02:06 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
