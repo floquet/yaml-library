@@ -1,14 +1,16 @@
 #!/bin/bash -l
 
-# # darwin arm login
+# # darwin general login
 #SBATCH --nodes=1
 #SBATCH --qos=long
 #SBATCH --time=10:00:00
-#SBATCH --partition=arm
-#SBATCH --output=darwin-arm-batch.out
-#SBATCH --job-name=arm-builds
+#SBATCH --partition=general
+#SBATCH --output=darwin-general-batch.out
+#SBATCH --job-name=general-builds
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
+
+export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
 
 function new_step(){
     counter=$((counter+1))
@@ -17,8 +19,8 @@ function new_step(){
 }
 
 new_step "Jump to spack directory"
-echo "cd /scratch/users/dantopa/repos/spack/xrage/arm/xrage-darwin-arm"
-      cd /scratch/users/dantopa/repos/spack/xrage/arm/xrage-darwin-arm
+echo "cd /scratch/users/dantopa/repos/spack/xrage/general/xrage-darwin-general"
+      cd /scratch/users/dantopa/repos/spack/xrage/general/xrage-darwin-general
 echo "\${pwd} = ${pwd}"
 
 new_step "Initialize spack"
@@ -42,7 +44,15 @@ echo "spack providers mpi"
       spack providers mpi
 
 new_step "List requested compilers"
-export compilers="arm@19.1  arm@18.4.2  arm@18.4.1 clang@8.0.0  clang@7.0.0"
+export compilers=""
+export compilers="${compilers} gcc@9.1.0  gcc@8.2.0  gcc@7.3.0  gcc@6.4.0"
+export compilers="${compilers} intel@18.0.3  intel@17.0.6  intel@16.0.4"
+export compilers="${compilers} intel@18.0.3  intel@17.0.6  intel@16.0.4"
+export compilers="${compilers} pgi@18.10  pgi@17.10  pgi@16.10"
+
+census=( ${compilers} )
+echo "${#census[@]} Spack-recognized compilers loaded:"
+echo "${compilers}"
 
 for c in ${compilers}; do
     new_step "Run installs with compiler ${c}"
@@ -54,3 +64,6 @@ done
 new_step "List all spack builds"
 echo "spack find"
       spack find
+
+new_step "Archive batch output"
+mv darwin-general-batch.out darwin-general-batch-${ymd}.out
