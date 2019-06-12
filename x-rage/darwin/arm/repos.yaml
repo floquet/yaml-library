@@ -1,0 +1,4 @@
+repos:
+  - $spack/var/spack/repos/builtin
+  - /usr/projects/packages/user_contrib/spack.asc
+  - /usr/projects/packages/user_contrib/spack.lapdev/inputs/repo

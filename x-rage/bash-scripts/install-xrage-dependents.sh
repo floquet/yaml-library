@@ -42,6 +42,10 @@ echo ""; echo "libhio"
 spack install libhio@1.4.1.2     % ${spack_compiler}
 spack install libhio@1.4.1.3     % ${spack_compiler}
 
+echo ""; echo "netlib-lapack"
+spack install netlib-lapack@3.8.0 % ${spack_compiler}
+spack install netlib-lapack@3.7.1 % ${spack_compiler}
+
 echo ""; echo "openblas"
 spack install openblas@0.3.6     % ${spack_compiler}
 spack install openblas@0.2.20    % ${spack_compiler}
@@ -62,7 +66,6 @@ spack install silo@4.9           % ${spack_compiler}
 
 echo ""; echo "sundials"
 spack install sundials@4.1.0     % ${spack_compiler}
-spack install sundials@3.2.1     % ${spack_compiler}
 spack install sundials@3.1.2     % ${spack_compiler}
 
 date
