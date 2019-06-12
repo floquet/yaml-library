@@ -233,3 +233,6 @@ packages:
     paths:
       zip: /usr
   # # # # #
+  zlib:
+    modules:
+      zlib % pgi: 4v3ticy

@@ -10,7 +10,9 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
+export partition="arm"
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+export dir_recipe="/scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts"
 
 function new_step(){
     counter=$((counter+1))
@@ -19,9 +21,10 @@ function new_step(){
 }
 
 new_step "Jump to spack directory"
-echo "cd /scratch/users/dantopa/repos/spack/xrage/arm/xrage-darwin-arm"
-      cd /scratch/users/dantopa/repos/spack/xrage/arm/xrage-darwin-arm
-echo "\${pwd} = ${pwd}"
+echo "cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}"
+      cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}
+echo "\${pwd}        = ${pwd}"
+echo "\${dir_recipe} = ${dir_recipe}"
 
 new_step "Initialize spack"
 echo ". share/spack/setup-env.sh"
@@ -45,7 +48,7 @@ echo "spack providers mpi"
 
 new_step "List requested compilers"
 export compilers=""
-export compilers="${compilers} arm@19.1  arm@18.4.2  arm@18.4.1 clang@8.0.0  clang@7.0.0"
+export compilers="${compilers} arm@19.1  arm@18.4.2 clang@8.0.0  clang@7.0.0"
 
 census=( ${compilers} )
 echo "${#census[@]} Spack-recognized compilers loaded:"
@@ -53,8 +56,8 @@ echo "${compilers}"
 
 for c in ${compilers}; do
     new_step "Run installs with compiler ${c}"
-    echo ". topa/install-xrage-dependents.sh ${c}"
-          . topa/install-xrage-dependents.sh ${c}
+    echo ". ${dir_recipe}/install-xrage-dependents.sh ${c}"
+          . ${dir_recipe}/install-xrage-dependents.sh ${c}
     spack clean -a
 done
 
@@ -63,4 +66,4 @@ echo "spack find"
       spack find
 
 new_step "Archive batch output"
-mv darwin-arm-batch.out darwin-arm-batch-${ymd}.out
+mv darwin-${partition}-batch.out darwin-${partition}-batch-${ymd}.out

@@ -182,7 +182,7 @@ modules:
       - xtrans
       - xz
       - zip
-      - zlib
+      #- zlib
   prefix_inspections:
     bin:
       - PATH

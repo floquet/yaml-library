@@ -10,8 +10,9 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
-export $partition="power9"
+export partition="power9"
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+export dir_recipe="/scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts"
 
 function new_step(){
     counter=$((counter+1))
@@ -22,7 +23,8 @@ function new_step(){
 new_step "Jump to spack directory"
 echo "cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}"
       cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}
-echo "\${pwd} = ${pwd}"
+echo "\${pwd}        = ${pwd}"
+echo "\${dir_recipe} = ${dir_recipe}"
 
 new_step "Initialize spack"
 echo ". share/spack/setup-env.sh"
@@ -57,8 +59,8 @@ echo "${compilers}"
 
 for c in ${compilers}; do
     new_step "Run installs with compiler ${c}"
-    echo ". topa/install-xrage-dependents.sh ${c}"
-          . topa/install-xrage-dependents.sh ${c}
+    echo ". ${dir_recipe}/install-xrage-dependents.sh ${c}"
+          . ${dir_recipe}/install-xrage-dependents.sh ${c}
     spack clean -a
 done
 
