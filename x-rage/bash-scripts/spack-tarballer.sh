@@ -31,6 +31,7 @@ echo "spack clean --all"
 
 new_step "Record current state"
 echo "mkdir -p topa"
+      mkdir -p topa
 echo "spack find -ldf > topa/spack-find-ldf.txt"
       spack find -ldf > topa/spack-find-ldf.txt
 echo "spack find      > topa/spack-find.txt"
@@ -42,15 +43,18 @@ for c in ${configs}; do
           spack config blame ${c} > topa/config-${c}.txt
 done
 
+echo "module avail > topa/module-avail.txt"
+      module avail > topa/module-avail.txt
+
 new_step "Make tarball"
 echo "cd .."
       cd ..
-echo 'tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack'
-      tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack
+echo 'tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack > tar-file-list.txt'
+      tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack > tar-file-list.txt
 
 new_step "Post tarball to $dir_artab"
-echo 'cp "${host_name}-${partition}-${ymd}.tgz" "${dir_artab}"'
+echo "cp '${host_name}-${partition}-${ymd}.tgz' '${dir_artab}'"
       cp "${host_name}-${partition}-${ymd}.tgz" "${dir_artab}"
 
 new_step "Exit"
-echo "time used = ${SECONDS}"
+echo "time used = ${SECONDS} s"

@@ -62,7 +62,6 @@ spack install silo@4.9           % ${spack_compiler}
 
 echo ""; echo "sundials"
 spack install sundials@4.1.0     % ${spack_compiler}
-spack install sundials@4.0.1     % ${spack_compiler}
 spack install sundials@3.2.1     % ${spack_compiler}
 spack install sundials@3.1.2     % ${spack_compiler}
 
