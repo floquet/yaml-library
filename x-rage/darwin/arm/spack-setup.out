@@ -13,3 +13,33 @@ Wed Jun 12 16:57:23 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scrip
 Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
 Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
 Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+cp: cannot stat ‘/home/dantopa/.libraries-darwin.sh’: No such file or directory
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+[master bcec5ec] darwin-arm-cn806 Wed Jun 12 16:57:24 MDT 2019
+ 7 files changed, 15 insertions(+), 1120 deletions(-)
+ rewrite x-rage/darwin/arm/spack-setup.out (81%)
+ delete mode 100644 x-rage/darwin/arm/topa/config-compilers.txt
+ delete mode 100644 x-rage/darwin/arm/topa/config-mirrors.txt
+ delete mode 100644 x-rage/darwin/arm/topa/config-modules.txt
+ delete mode 100644 x-rage/darwin/arm/topa/config-packages.txt
+ delete mode 100644 x-rage/darwin/arm/topa/modules-after.txt
+ delete mode 100644 x-rage/darwin/arm/topa/spack-setup-2019-06-12-16-47.out
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Jun 12 16:57:24 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
