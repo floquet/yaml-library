@@ -11,8 +11,8 @@ echo "\${spack_compiler} = ${spack_compiler}"
 spack install calico@2           % ${spack_compiler}
 
 echo ""; echo "eospac"
-spack install eospac@6.4.0beta.2 % ${spack_compiler}
-spack install eospac@6.4.0beta.4 % ${spack_compiler}
+spack install eospac@6.4.0       % ${spack_compiler}
+spack install eospac@6.3.1       % ${spack_compiler}
 # spack install eospac@6.4.1alpha  % ${spack_compiler}
 
 echo ""; echo "hypre"
@@ -52,6 +52,8 @@ spack install openmpi@3.1.4      % ${spack_compiler}
 spack install openmpi@4.0.1      % ${spack_compiler}
 
 echo ""; echo "pfunit"
+spack install pfunit@3.3.3       % ${spack_compiler}
+spack install pfunit@3.2.10      % ${spack_compiler}
 spack install pfunit@3.2.9       % ${spack_compiler}
 
 echo ""; echo "silo"
@@ -62,5 +64,6 @@ echo ""; echo "sundials"
 spack install sundials@4.1.0     % ${spack_compiler}
 spack install sundials@4.0.1     % ${spack_compiler}
 spack install sundials@3.2.1     % ${spack_compiler}
-spack install sundials@3.2.0     % ${spack_compiler}
 spack install sundials@3.1.2     % ${spack_compiler}
+
+date

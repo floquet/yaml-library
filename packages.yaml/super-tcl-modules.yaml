@@ -7,7 +7,7 @@ modules:
     - tcl
     - dotkit
   tcl:
-    hash_length: 4
+    hash_length: 0
     naming_scheme: '${PACKAGE}-${VERSION}::${COMPILERNAME}-${COMPILERVER}::${ARCHITECTURE}'
     all:
       suffixes:
@@ -50,10 +50,17 @@ modules:
         ^python@2.7.15:  'python@2.7.15'
         ^python@3.6.2:   'python@3.6.2'
             #
-        #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
+                # blas providers
             #
         ^openblas@0.3.6:  'openblas@0.3.6'
         ^openblas@0.2.20: 'openblas@0.2.20'
+            #
+        ^intel-mkl@2019.3.199: 'intel-mkl@2019.3.199'
+        ^intel-mkl@2019.1.144: 'intel-mkl@2019.1.144'
+        ^intel-mkl@2019.0.117: 'intel-mkl@2019.0.117'
+        ^intel-mkl@2018.4.274: 'intel-mkl@2018.4.274'
+        ^intel-mkl@2018.3.222: 'intel-mkl@2018.3.222'
+        ^intel-mkl@2017.4.239: 'intel-mkl@2017.4.239'
             #
         ^netlib-lapack@3.8.0: 'netlib-lapack@3.8.0'
         ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'

@@ -7,6 +7,20 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
+    modules:
+    - gcc/9.1.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/9.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/9.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/9.1.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/9.1.0/bin/gfortran
+    spec: gcc@9.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
     modules: [gcc/8.2.0]
     operating_system: centos7
     paths:
