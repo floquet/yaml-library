@@ -1,2 +1,0 @@
----                                                                                                    mirrors:
-/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/mirrors.yaml:8    local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
