@@ -10,6 +10,8 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
+export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+
 function new_step(){
     counter=$((counter+1))
     echo ""
@@ -42,7 +44,12 @@ echo "spack providers mpi"
       spack providers mpi
 
 new_step "List requested compilers"
-export compilers="arm@19.1  arm@18.4.2  arm@18.4.1 clang@8.0.0  clang@7.0.0"
+export compilers=""
+export compilers="${compilers} arm@19.1  arm@18.4.2  arm@18.4.1 clang@8.0.0  clang@7.0.0"
+
+census=( ${compilers} )
+echo "${#census[@]} Spack-recognized compilers loaded:"
+echo "${compilers}"
 
 for c in ${compilers}; do
     new_step "Run installs with compiler ${c}"
@@ -54,3 +61,6 @@ done
 new_step "List all spack builds"
 echo "spack find"
       spack find
+
+new_step "Archive batch output"
+mv darwin-arm-batch.out darwin-arm-batch-${ymd}.out

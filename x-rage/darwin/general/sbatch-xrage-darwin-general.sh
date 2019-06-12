@@ -47,7 +47,6 @@ new_step "List requested compilers"
 export compilers=""
 export compilers="${compilers} gcc@9.1.0  gcc@8.2.0  gcc@7.3.0  gcc@6.4.0"
 export compilers="${compilers} intel@18.0.3  intel@17.0.6  intel@16.0.4"
-export compilers="${compilers} intel@18.0.3  intel@17.0.6  intel@16.0.4"
 export compilers="${compilers} pgi@18.10  pgi@17.10  pgi@16.10"
 
 census=( ${compilers} )

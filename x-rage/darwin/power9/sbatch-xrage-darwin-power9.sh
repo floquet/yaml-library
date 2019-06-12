@@ -10,6 +10,9 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
+export $partition="power9"
+export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+
 function new_step(){
     counter=$((counter+1))
     echo ""
@@ -17,8 +20,8 @@ function new_step(){
 }
 
 new_step "Jump to spack directory"
-echo "cd /scratch/users/dantopa/repos/spack/xrage/power9/xrage-darwin-power9"
-      cd /scratch/users/dantopa/repos/spack/xrage/power9/xrage-darwin-power9
+echo "cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}"
+      cd /scratch/users/dantopa/repos/spack/xrage/${partition}/xrage-darwin-${partition}
 echo "\${pwd} = ${pwd}"
 
 new_step "Initialize spack"
@@ -29,6 +32,10 @@ new_step "List modules"
 echo "module list"
       module list
 
+new_step "List compilers recognized by spack"
+echo "spack compilers"
+      spack compilers
+
 new_step "List blas providers recognized by spack"
 echo "spack providers blas"
       spack providers blas
@@ -37,12 +44,16 @@ new_step "List mpi providers recognized by spack"
 echo "spack providers mpi"
       spack providers mpi
 
-new_step "List compilers recognized by spack"
-echo "spack compilers"
-      spack compilers
-
 new_step "List requested compilers"
-export compilers="clang@8.0.0 clang@7.0.0 pgi@18.10 pgi@17.10 pgi@16.10 xl@16.1.1.3  xl@16.1.1.2  xl@16.1.1.0  xl@16.1.1"
+export compilers=""
+export compilers="${compilers} clang@8.0.0  clang@7.0.0"
+export compilers="${compilers} gcc@9.1.0  gcc@8.2.0  gcc@7.3.0  gcc@6.4.0"
+export compilers="${compilers} pgi@18.10  pgi@17.10  pgi@16.10"
+export compilers="${compilers} xl@16.1.1.3  xl@16.1.1"
+
+census=( ${compilers} )
+echo "${#census[@]} Spack-recognized compilers loaded:"
+echo "${compilers}"
 
 for c in ${compilers}; do
     new_step "Run installs with compiler ${c}"
@@ -54,3 +65,6 @@ done
 new_step "List all spack builds"
 echo "spack find"
       spack find
+
+new_step "Archive batch output"
+mv darwin-${partition}-batch.out darwin-${partition}-batch-${ymd}.out
