@@ -22,8 +22,8 @@ function new_step(){
 }
 
 new_step "Jump to spack directory"
-cd "/scratch/users/dantopa/repos/spack/xrage/arm"
-    /scratch/users/dantopa/repos/spack/xrage/arm
+echo "cd /scratch/users/dantopa/repos/spack/xrage/arm"
+      cd /scratch/users/dantopa/repos/spack/xrage/arm
 
 new_step "Clone spack"
 echo "rm -rf ${dir_spack}"
