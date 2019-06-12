@@ -1,0 +1,209 @@
+---                                                                                                           modules:
+/home/dantopa/.spack/linux/modules.yaml:2                                                                       enable:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:8           - tcl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:9           - dotkit
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:10          tcl:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:11            hash_length: 0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:12            naming_scheme: ${PACKAGE}-${VERSION}::${COMPILERNAME}-${COMPILERVER}::${ARCHITECTURE}
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:13            all:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:14              suffixes:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:16                ^openmpi@4.0.1: openmpi@4.0.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:17                ^openmpi@4.0.0: openmpi@4.0.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:19                ^openmpi@3.1.4: openmpi@3.1.4
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:20                ^openmpi@3.1.3: openmpi@3.1.3
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:21                ^openmpi@3.1.2: openmpi@3.1.2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:22                ^openmpi@3.1.1: openmpi@3.1.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:23                ^openmpi@3.1.0: openmpi@3.1.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:25                ^openmpi@3.0.4: openmpi@3.0.4
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:26                ^openmpi@3.0.3: openmpi@3.0.3
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:27                ^openmpi@3.0.2: openmpi@3.0.2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:28                ^openmpi@3.0.1: openmpi@3.0.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:29                ^openmpi@3.0.0: openmpi@3.0.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:31                ^openmpi@2.1.6: openmpi@2.1.6
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:32                ^openmpi@2.1.5: openmpi@2.1.5
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:33                ^openmpi@2.1.4: openmpi@2.1.4
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:34                ^openmpi@2.1.3: openmpi@2.1.3
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:35                ^openmpi@2.1.2: openmpi@2.1.2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:36                ^openmpi@2.1.1: openmpi@2.1.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:37                ^openmpi@2.1.0: openmpi@2.1.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:39                ^openmpi@1.10.7: openmpi@1.10.7
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:40                ^openmpi@1.10.5: openmpi@1.10.5
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:42                ^python@2.7.14: python@2.7.14
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:43                ^python@2.7.15: python@2.7.15
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:44                ^python@3.6.2: python@3.6.2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:48                ^openblas@0.3.6: openblas@0.3.6
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:49                ^openblas@0.2.20: openblas@0.2.20
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:51                ^netlib-lapack@3.8.0: netlib-lapack@3.8.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:52                ^netlib-lapack@3.7.1: netlib-lapack@3.7.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:53                ^netlib-lapack@3.7.0: netlib-lapack@3.7.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:54                ^netlib-lapack@3.6.1: netlib-lapack@3.6.1
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:55                ^netlib-lapack@3.6.0: netlib-lapack@3.6.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:56                ^netlib-lapack@3.5.0: netlib-lapack@3.5.0
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:57                ^netlib-lapack@3.4.2: netlib-lapack@3.4.2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:59                +aggressive_vectorization: aggressive_vectorization
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:60                +disable_deprecated_code: disable_deprecated_code
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:61                ~CVODES: CVODES
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:62                ~IDA: IDA
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:63                ~KINSOL: KINSOL
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:64                +int64: int64
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:65                +fortran: fortran
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:66                +mpi: mpi
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:67                ~mpi: ~mpi
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:68                +openmp: openmp
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69                +xblas: xblas
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69              filter:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69                environment_blacklist: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69              load: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69              environment:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69                unset: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:69              conflict: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:70            blacklist:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:74            - autoconf
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:75            - automake
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:76            - binutils
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:77            - bison
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:78            - bzip2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:79            - cairo
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:80            - curl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:81            - expat
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:82            - flex
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:83            - font-util
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:84            - fontconfig
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:85            - freetype
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:86            - gdbm
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:87            - gettext
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:88            - git
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:89            - glib
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:90            - glm
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:91            - gobject-introspection
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:92            - gmp
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:93            - gperf
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:94            - harfbuzz
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:95            - help2man
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:96            - icu4c
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:97            - inputproto
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:98            - isl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:99            - json-c
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:100           - kbproto
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:101           - lcms
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:102           - libarchive
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:104           - libedit
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:105           - libelf
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:106           - libffi
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:107           - libgcrypt
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:108           - libgpg-error
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:109           - libiconv
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:110           - libjpeg-turbo
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:111           - libmng
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:113           - libpng
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:114           - libpthread-stubs
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:115           - libsigsegv
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:116           - libtiff
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:118           - libnl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:119           - libuv
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:120           - libx11
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:121           - libxau
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:122           - libxcb
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:123           - libxdmcp
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:125           - libxslt
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:126           - lz4
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:127           - lzo
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:128           - nettle
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:129           - numactl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:130           - m4
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:131           - mpc
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:132           - mpfr
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:133           - nasm
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:134           - ncurses
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:135           - nettle
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:136           - nghttp2
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:137           - numactl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:138           - openssl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:139           - pango
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:140           - pcre
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:141           - perl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:143           - py-appdirs
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:144           - py-configparser
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:145           - py-cycler
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:146           - py-cython
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:147           - py-dateutil
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:148           - py-enum34
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:149           - py-flake8
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:150           - py-functools32
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:151           - py-git-review
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:152           - py-gnuplot
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:153           - py-lit
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:154           - py-matplotlib
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:155           - py-mccabe
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:156           - py-mpmath
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:157           - py-numpy
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:158           - py-packaging
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:159           - py-pbr
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:160           - py-pillow
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:161           - py-pycodestyle
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:162           - py-pyflakes
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:163           - py-pyparsing
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:164           - py-pytz
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:165           - py-requests
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:166           - py-setuptools
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:167           - py-six
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:168           - py-subprocess32
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:169           - py-sympy
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:170           - qhull
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:171           - readline
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:173           - rhash
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:174           - sqlite
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:175           - swig
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:176           - tar
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:177           - tcl
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:178           - tk
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:179           - util-macros
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:180           - xcb-proto
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:181           - xextproto
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:182           - xproto
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:183           - xtrans
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:184           - xz
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:185           - zip
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:186           - zlib
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:186           blacklist_implicits: False
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:186           verbose: False
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:186           whitelist: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/linux/modules.yaml:17    prefix_inspections:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:188           bin:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:189           - PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:190           man:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:191           - MANPATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:192           share/man:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:193           - MANPATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:194           share/aclocal:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:195           - ACLOCAL_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/linux/modules.yaml:18      lib:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/linux/modules.yaml:19      - LD_LIBRARY_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:197           - LIBRARY_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/linux/modules.yaml:20      lib64:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/linux/modules.yaml:21      - LD_LIBRARY_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:200           - LIBRARY_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:202           include:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:203           - CPATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:204           lib/pkgconfig:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:205           - PKG_CONFIG_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:206           lib64/pkgconfig:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:207           - PKG_CONFIG_PATH
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:209           ? ''
+/home/dantopa/.spack/linux/modules.yaml:3                                                                         : - CMAKE_PREFIX_PATH
+/home/dantopa/.spack/linux/modules.yaml:16                                                                      lmod:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           hierarchy:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           - mpi
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           all:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213             conflict: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213             environment:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213               unset: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213             filter:
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213               environment_blacklist: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213             load: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           blacklist_implicits: False
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           verbose: False
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           whitelist: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           blacklist: []
+/scratch/users/dantopa/repos/spack/xrage/arm/darwin-arm-xrage.spack/etc/spack/defaults/modules.yaml:213           hash_length: 7
+/home/dantopa/.spack/linux/modules.yaml:14                                                                        core_compilers:
