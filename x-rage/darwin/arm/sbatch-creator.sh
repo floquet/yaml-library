@@ -51,8 +51,8 @@ echo "cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spa
       cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml
 
 new_step "Base installs"
-echo "source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scriptsinstall-xrage-dependents.sh ${gcc_system_compiler}"
-      source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scriptsinstall-xrage-dependents.sh ${gcc_system_compiler}
+echo "source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts/install-xrage-dependents.sh ${gcc_system_compiler}"
+      source /scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts/install-xrage-dependents.sh ${gcc_system_compiler}
 
 new_step "Secondary installs"
 echo "No secondary installs"
