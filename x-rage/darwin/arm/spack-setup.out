@@ -23,3 +23,16 @@ Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scrip
 cp: cannot stat ‘/home/dantopa/.libraries-darwin.sh’: No such file or directory
 Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
 Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+[master 1c07e5d] darwin-general-cn70 Thu Jun 13 09:40:21 MDT 2019
+ 1 file changed, 25 insertions(+), 45 deletions(-)
+ rewrite x-rage/darwin/arm/spack-setup.out (68%)
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu Jun 13 09:40:21 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
