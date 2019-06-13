@@ -63,8 +63,8 @@ echo "cd ${dir_spack}"
 echo ". share/spack/setup-env.sh"
       . share/spack/setup-env.sh
 
-echo "cd ${dir_xrage}/${host_name}"
-      cd ${dir_xrage}/${host_name}
+echo "cd ${dir_xrage}/${host_name}/${partition}"
+      cd ${dir_xrage}/${host_name}/${partition}
 
 # tailored yaml files
 echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
