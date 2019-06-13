@@ -11,6 +11,7 @@ printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
 SECONDS=0
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+export faust="--disable-locks"
 
 export dir_spack="capulin-arm-xrage.spack"
 
@@ -38,8 +39,8 @@ echo "cd ${dir_spack}"
 echo ". share/spack/setup-env.sh"
       . share/spack/setup-env.sh
 
-echo "cd /lustre/cpscratch1/dantopa/repos/github/yaml-library/yaml-library/x-rage/capulin/arm"
-      cd /lustre/cpscratch1/dantopa/repos/github/yaml-library/yaml-library/x-rage/capulin/arm
+echo "cd /lustre/cpscratch1/dantopa/repos/github/yaml-library//x-rage/capulin"
+      cd /lustre/cpscratch1/dantopa/repos/github/yaml-library//x-rage/capulin
 
 # tailored yaml files
 echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
@@ -71,8 +72,8 @@ echo "module avail > topa/modules-after.txt"
 
 export configs="compilers mirrors modules packages"
 for c in ${configs}; do
-    echo "spack config blame ${c} > topa/config-${c}.txt"
-          spack config blame ${c} > topa/config-${c}.txt
+    echo "spack ${faust} config blame ${c} > topa/config-${c}.txt"
+          spack ${faust} config blame ${c} > topa/config-${c}.txt
 done
 
 new_step "Conclude"
