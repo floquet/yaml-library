@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-# # ${host_name} arm login
+# # capulin arm login
 #SBATCH --nodes=1
 #SBATCH --qos=long
 #SBATCH --time=10:00:00
@@ -9,20 +9,14 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
-# set by human
-export host_name="darwin"
-export partition="arm"
-export spack_compiler="gcc @ 4.8.5"
-export faust="" # faustian bargain to run of fs without flock
-
-# set by human
-export dir_spack="${host_name}-${partition}-xrage.spack" # created at run time
-export dir_xrage="/scratch/users/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
-export dir_build="/scratch/users/dantopa/repos/spack/xrage/${host_name}/${partition}" # where to build
-
+SECONDS=0
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
+export faust="--disable-locks" # faustian bargain to run of fs without flock
 
-export SECONDS=0
+export dir_spack="capulin-arm-xrage.spack" # created at run time
+export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
+export dir_build="/lustre/cpscratch1/dantopa/repos/spack/xrage" # where to build
+
 export counter=0
 function new_step(){
     counter=$((counter+1))
@@ -42,6 +36,16 @@ if [[ ! -d "${dir_build}" ]]; then
     exit -1
 fi
 
+new_step "Cray module swaps"
+export spack_compiler="gcc @ 8.3.0"
+echo "spack compiler: \${spack_compiler} =  ${spack_compiler}"
+echo "module switch PrgEnv-cray PrgEnv-gnu"
+      module switch PrgEnv-cray PrgEnv-gnu
+echo "module switch cce gcc/8.3.0"
+      module switch cce gcc/8.3.0
+echo "module list"
+      module list
+
 new_step "Jump to spack directory"
 echo "cd ${dir_build}"
       cd ${dir_build}
@@ -60,8 +64,8 @@ echo "cd ${dir_spack}"
 echo ". share/spack/setup-env.sh"
       . share/spack/setup-env.sh
 
-echo "cd ${dir_xrage}/${host_name}"
-      cd ${dir_xrage}/${host_name}
+echo "cd ${dir_xrage}/capulin"
+      cd ${dir_xrage}/capulin
 
 # tailored yaml files
 echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
@@ -136,5 +140,5 @@ new_step "Conclude"
 echo "time used = ${SECONDS} s"
 
 echo ""
-echo "mv ${dir_xrage}/${host_name}/${partition}/spack-setup.out topa/spack-setup-${ymd}.out"
-      mv ${dir_xrage}/${host_name}/${partition}/spack-setup.out topa/spack-setup-${ymd}.out
+echo "mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out"
+      mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out
