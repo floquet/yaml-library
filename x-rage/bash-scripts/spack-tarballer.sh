@@ -69,13 +69,15 @@ echo "module avail > topa/module-avail.txt"
 # pack spack directory into tarball
 new_step "Make tarball"
 echo "cd .."
-      cd ..
-echo 'tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack > tar-file-list.txt'
-      tar --exclude=".*" -czvf ${host_name}-${partition}-${ymd}.tgz ${host_name}-${partition}-xrage.spack > tar-file-list.txt
+      cd ..s
+echo 'tar --exclude=".*" -czf ${host_name}-${partition}-${ymd}.tar ${host_name}-${partition}-xrage.spack'
+      tar --exclude=".*" -czf ${host_name}-${partition}-${ymd}.tar ${host_name}-${partition}-xrage.spack
+echo "ls -alh"
+      ls -alh
 
 new_step "Post tarball to ${dir_artab}"
-echo "cp '${host_name}-${partition}-${ymd}.tgz' '${dir_artab}'"
-      cp "${host_name}-${partition}-${ymd}.tgz" "${dir_artab}"
+echo "cp '${host_name}-${partition}-${ymd}.tar' '${dir_artab}'"
+      cp "${host_name}-${partition}-${ymd}.tar" "${dir_artab}"
 
 new_step "Exit"
 echo "time used = ${SECONDS} s"
