@@ -15,6 +15,7 @@ function new_step(){
 export dir_xrage_spack="/scratch/users/dantopa/repos/spack/xrage/${host_name}/${partition}"
 export       dir_artab="/usr/projects/artab/users/dantopa/spack-tarballs"
 
+# stop execution if paths won't work
 new_step "Validate directories"
 if [[ ! -d "${dir_xrage_spack}" ]]; then
     echo "directory not found: \${dir_xrage_spack} = ${dir_xrage_spack}"
@@ -45,6 +46,7 @@ new_step "Clean caches"
 echo "spack clean --all"
       spack clean --all
 
+# what was built, toolchains
 new_step "Record current state"
 echo "mkdir -p topa"
       mkdir -p topa
@@ -53,15 +55,18 @@ echo "spack find -ldf > topa/spack-find-ldf.txt"
 echo "spack find      > topa/spack-find.txt"
       spack find      > topa/spack-find.txt
 
+# record configuration details
 export configs="compilers mirrors modules packages"
 for c in ${configs}; do
     echo "spack config blame ${c} > topa/config-${c}.txt"
           spack config blame ${c} > topa/config-${c}.txt
 done
 
+# record availabole modules
 echo "module avail > topa/module-avail.txt"
       module avail > topa/module-avail.txt
 
+# pack spack directory into tarball
 new_step "Make tarball"
 echo "cd .."
       cd ..
