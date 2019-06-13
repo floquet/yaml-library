@@ -11,7 +11,7 @@ printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
 SECONDS=0
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
-export faust="--disable-locks"
+export faust="--disable-locks" # faustian bargain to run of fs without flock
 
 export dir_spack="capulin-arm-xrage.spack" # created at run time
 export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
@@ -103,6 +103,9 @@ new_step "Base installs"
 echo "cd ${SPACK_ROOT}"
       cd ${SPACK_ROOT}
 
+echo "spack clean --all"
+      spack clean --all
+
 for t in ${list_tpl}; do
     echo ""; echo "*  *  *"
     echo "spack ${faust} install ${t} % ${spack_compiler} arch=${thisArch}"
@@ -135,7 +138,7 @@ done
 
 new_step "Conclude"
 echo "time used = ${SECONDS} s"
-/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage/bash-scripts
+
 echo ""
 echo "mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out"
       mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out
