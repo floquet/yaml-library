@@ -14,7 +14,8 @@ export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
 export faust="--disable-locks"
 
 export dir_spack="capulin-arm-xrage.spack" # created at run time
-export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for
+export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
+export dir_build="/lustre/cpscratch1/dantopa/repos/spack/xrage" # where to build
 
 export counter=0
 function new_step(){
@@ -29,6 +30,11 @@ if [[ ! -d "${dir_xrage}" ]]; then
     echo "looking for yaml library and bash scripts"
     exit -1
 fi
+if [[ ! -d "${dir_build}" ]]; then
+    echo "directory not found: \${dir_build} = ${dir_build}"
+    echo "target directory to build spack"
+    exit -1
+fi
 
 new_step "Cray module swaps"
 export spack_compiler="gcc @ 8.3.0"
@@ -41,8 +47,8 @@ echo "module list"
       module list
 
 new_step "Jump to spack directory"
-echo "cd /lustre/cpscratch1/dantopa/repos/spack/xrage"
-      cd /lustre/cpscratch1/dantopa/repos/spack/xrage
+echo "cd ${dir_build}"
+      cd ${dir_build}
 
 new_step "Clone spack"
 echo "rm -rf ${dir_spack}"
@@ -58,8 +64,8 @@ echo "cd ${dir_spack}"
 echo ". share/spack/setup-env.sh"
       . share/spack/setup-env.sh
 
-echo "cd ${dir_yaml}/capulin"
-      cd ${dir_yaml}/capulin
+echo "cd ${dir_xrage}/capulin"
+      cd ${dir_xrage}/capulin
 
 # tailored yaml files
 echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
@@ -68,6 +74,9 @@ echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
 # chose tcl over lmod
 echo "cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml"
       cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml
+
+export thisArch=$(spack arch);
+echo "\${thisArch} = ${thisArch}"
 
 new_step "Load list of applications"
 list_tpl=""
@@ -94,6 +103,11 @@ new_step "Base installs"
 echo "cd ${SPACK_ROOT}"
       cd ${SPACK_ROOT}
 
+for t in ${list_tpl}; do
+    echo ""; echo "*  *  *"
+    echo "spack ${faust} install ${t} % ${spack_compiler} arch=${thisArch}"
+          spack ${faust} install ${t} % ${spack_compiler} arch=${thisArch}
+done
 echo "source ${dir_yaml}/bash-scripts/install-xrage-dependents.sh ${spack_compiler}"
       source ${dir_yaml}/bash-scripts/install-xrage-dependents.sh ${spack_compiler}
 
@@ -121,7 +135,7 @@ done
 
 new_step "Conclude"
 echo "time used = ${SECONDS} s"
-
+/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage/bash-scripts
 echo ""
-echo "mv spack-setup.out topa/spack-setup-${ymd}.out"
-      mv spack-setup.out topa/spack-setup-${ymd}.out
+echo "mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out"
+      mv ${dir_xrage}/capulin/spack-setup.out topa/spack-setup-${ymd}.out
