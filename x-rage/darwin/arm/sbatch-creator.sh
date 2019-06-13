@@ -41,6 +41,9 @@ if [[ ! -d "${dir_build}" ]]; then
     echo "target directory to build spack"
     exit -1
 fi
+echo "Validated directories:"
+echo "\${dir_xrage} = ${dir_xrage}"
+echo "\${dir_build} = ${dir_build}"
 
 new_step "Jump to spack directory"
 echo "cd ${dir_build}"
