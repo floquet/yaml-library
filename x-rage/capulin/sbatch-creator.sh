@@ -13,9 +13,9 @@ SECONDS=0
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
 export faust="--disable-locks" # faustian bargain to run of fs without flock
 
-export dir_spack="capulin-arm-xrage.spack" # created at run time
 export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
 export dir_build="/lustre/cpscratch1/dantopa/repos/spack/xrage" # where to build
+export dir_spack="capulin-arm-super.spack" # what to build
 
 export counter=0
 function new_step(){
@@ -121,14 +121,14 @@ new_step "Secondary installs"
 echo  "No secondary installs"
 
 new_step "Verify module creation"
+echo "module list > topa/modules-before.txt"
+      module list > topa/modules-before.txt
+
 echo "spack ${faust} module tcl  refresh --delete-tree"
       spack ${faust} module tcl  refresh --delete-tree
 
 echo "mkdir -p topa"
       mkdir -p topa
-
-echo "module list > topa/modules-list.txt"
-      module list > topa/modules-list.txt
 
 echo "module avail > topa/modules-after.txt"
       module avail > topa/modules-after.txt
