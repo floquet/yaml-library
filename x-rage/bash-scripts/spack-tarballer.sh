@@ -69,7 +69,7 @@ echo "module avail > topa/module-avail.txt"
 # pack spack directory into tarball
 new_step "Make tarball"
 echo "cd .."
-      cd ..s
+      cd ..
 echo 'tar -czf ${host_name}-${partition}-${ymd}.tar ${host_name}-${partition}-xrage.spack'
       tar -czf ${host_name}-${partition}-${ymd}.tar ${host_name}-${partition}-xrage.spack
 echo "ls -alh"
