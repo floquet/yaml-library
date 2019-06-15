@@ -2,7 +2,7 @@
 
 # # capulin arm login
 #SBATCH --nodes=1
-#SBATCH --qos=long
+#SBATCH --qos=standard
 #SBATCH --time=10:00:00
 #SBATCH --output=spack-setup.out
 #SBATCH --job-name=spack-setup
@@ -11,7 +11,7 @@ printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
 SECONDS=0
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
-export faust="--disable-locks" # faustian bargain to run of fs without flock
+export faust="--disable-locks" # faustian bargain to run fs without flock
 
 export dir_xrage="/lustre/cpscratch1/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
 export dir_build="/lustre/cpscratch1/dantopa/repos/spack/xrage" # where to build
@@ -105,6 +105,9 @@ echo "${list_tpl}"
 new_step "Base installs"
 echo "cd ${SPACK_ROOT}"
       cd ${SPACK_ROOT}
+
+echo "mkdir -p topa"
+      mkdir -p topa
 
 echo "spack clean --all"
       spack clean --all
