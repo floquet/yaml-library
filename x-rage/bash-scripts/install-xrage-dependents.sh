@@ -15,6 +15,11 @@ spack ${faust} install eospac@6.4.0       % ${spack_compiler}
 spack ${faust} install eospac@6.3.1       % ${spack_compiler}
 # spack ${faust} install eospac@6.4.1alpha  % ${spack_compiler}
 
+echo ""; echo "openmpi"
+spack ${faust} install openmpi@3.0.4      % ${spack_compiler}
+spack ${faust} install openmpi@3.1.4      % ${spack_compiler}
+spack ${faust} install openmpi@4.0.1      % ${spack_compiler}
+
 echo ""; echo "hypre"
 spack ${faust} install fftw@3.3.8         % ${spack_compiler}
 spack ${faust} install fftw@3.3.6-pl2     % ${spack_compiler}
@@ -49,11 +54,6 @@ spack ${faust} install netlib-lapack@3.7.1 % ${spack_compiler}
 echo ""; echo "openblas"
 spack ${faust} install openblas@0.3.6     % ${spack_compiler}
 spack ${faust} install openblas@0.2.20    % ${spack_compiler}
-
-echo ""; echo "openmpi"
-spack ${faust} install openmpi@3.0.4      % ${spack_compiler}
-spack ${faust} install openmpi@3.1.4      % ${spack_compiler}
-spack ${faust} install openmpi@4.0.1      % ${spack_compiler}
 
 echo ""; echo "pfunit"
 spack ${faust} install pfunit@3.3.3       % ${spack_compiler}
