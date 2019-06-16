@@ -3,7 +3,7 @@
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 # launch point: ${dir_xrage}/${host_name}/${partition}
 
-export dir_xrage="/scratch/users/dantopa/repos/github/yaml-library/x-rage/bash-scripts"
+export dir_xrage="/scratch/users/dantopa/repos/github/yaml-library/x-rage"
 
 export host_name="darwin"
 export partition="arm"
@@ -50,7 +50,7 @@ echo "cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spa
 export thisArch=$(spack arch);
 echo "\${thisArch} = ${thisArch}"
 
-sbatch ${dir_scripts}/bash-scripts/sbatch-sweeper.sh gcc@4.8.5
-sbatch ${dir_scripts}/bash-scripts/sbatch-sweeper.sh gcc@7.1.0
-sbatch ${dir_scripts}/bash-scripts/sbatch-sweeper.sh gcc@8.2.0
-sbatch ${dir_scripts}/bash-scripts/sbatch-sweeper.sh gcc@9.1.0
+sbatch ${dir_xrage}/bash-scripts/sbatch-sweeper.sh gcc@4.8.5
+sbatch ${dir_xrage}/bash-scripts/sbatch-sweeper.sh gcc@7.1.0
+sbatch ${dir_xrage}/bash-scripts/sbatch-sweeper.sh gcc@8.2.0
+sbatch ${dir_xrage}/bash-scripts/sbatch-sweeper.sh gcc@9.1.0
