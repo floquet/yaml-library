@@ -9,16 +9,17 @@
 
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
+spack_compiler=${1}
+
 # set by human
 export host_name="darwin"
 export partition="arm"
-export spack_compiler="gcc @ 4.8.5"
-export faust="" # faustian bargain to run of fs without flock
+export faust="" # faustian bargain to run on fs without flock
 
 # set by human
-export dir_xrage="/scratch/users/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
-export dir_build="/scratch/users/dantopa/repos/spack/xrage/${host_name}/${partition}" # where to build
-export dir_spack="${host_name}-${partition}-xrage.spack" # what to build
+#export dir_xrage="/scratch/users/dantopa/repos/github/yaml-library/x-rage" # source for yamls and scripts
+#export dir_build="/scratch/users/dantopa/repos/spack/xrage/${host_name}/${partition}" # where to build
+# export dir_spack="${host_name}-${partition}-xrage.spack" # what to build
 
 export ymd=$(date +%Y-%m-%d-%H-%M) # timestamp results
 
@@ -29,53 +30,6 @@ function new_step(){
     echo ""
     echo "Step ${counter}: ${1}"
 }
-
-new_step "Validate directories"
-if [[ ! -d "${dir_xrage}" ]]; then
-    echo "directory not found: \${dir_xrage} = ${dir_xrage}"
-    echo "looking for yaml library and bash scripts"
-    exit -1
-fi
-if [[ ! -d "${dir_build}" ]]; then
-    echo "directory not found: \${dir_build} = ${dir_build}"
-    echo "target directory to build spack"
-    exit -1
-fi
-echo "Validated directories:"
-echo "\${dir_xrage} = ${dir_xrage}"
-echo "\${dir_build} = ${dir_build}"
-
-new_step "Jump to spack directory"
-echo "cd ${dir_build}"
-      cd ${dir_build}
-
-new_step "Clone spack"
-echo "rm -rf ${dir_spack}"
-      rm -rf ${dir_spack}
-
-echo "git clone https://github.com/spack/spack ${dir_spack}"
-      git clone https://github.com/spack/spack ${dir_spack}
-
-new_step "Initialize spack"
-echo "cd ${dir_spack}"
-      cd ${dir_spack}
-
-echo ". share/spack/setup-env.sh"
-      . share/spack/setup-env.sh
-
-echo "cd ${dir_xrage}/${host_name}/${partition}"
-      cd ${dir_xrage}/${host_name}/${partition}
-
-# tailored yaml files
-echo "cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/"
-      cp *.yaml ${SPACK_ROOT}/etc/spack/defaults/
-
-# chose tcl over lmod
-echo "cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml"
-      cp ${SPACK_ROOT}/etc/spack/defaults/tcl-modules.yaml ${SPACK_ROOT}/etc/spack/defaults/modules.yaml
-
-export thisArch=$(spack arch);
-echo "\${thisArch} = ${thisArch}"
 
 new_step "Load list of applications"
 list_tpl=""
