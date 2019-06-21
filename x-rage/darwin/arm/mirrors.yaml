@@ -5,5 +5,5 @@
 #  XRage packages
 #  build modules for problematic tpls
 mirrors:
-  local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
-  # local_filesystem: file:///scratch/users/dantopa/repos/gitlab/topa-mirror-spack
+  # local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
+  local_filesystem: file:///scratch/users/dantopa/repos/gitlab/topa-mirror-spack

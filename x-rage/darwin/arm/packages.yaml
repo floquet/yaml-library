@@ -1,9 +1,9 @@
-# Relies heavily on prebuilt software
 #  2019-06-05
 #  ARTAB
 #  Daniel Topa CCS-2
 #  XRage packages
-#  build modules for problematic tpls
+#    Pritchard Mandate: exploit system builds where practical
+#    build modules for problematic tpls
 packages:
   all:
     compiler: [gcc, intel, pgi, clang, xl, nag]
@@ -111,7 +111,7 @@ packages:
   # # # # #
   hwloc:
     modules:
-      hwloc@pgi: hwloc-1.11.11-gcc-4.8.5
+      hwloc%pgi: hwloc-1.11.11-gcc-4.8.5
   # # # # #
   kokkos:
     version: [2.8.00, 2.7.24, 2.7.00]
@@ -164,12 +164,12 @@ packages:
     paths:
       munge: /usr/lib64
     buildable: False
-  # # # # #
+  # # # # # # may need Spack build for gcc install
   mpc:
     paths:
       mpc: /usr/lib64
     buildable: False
-  # # # # #
+  # # # # # # may need Spack build for gcc install
   mpfr:
     paths:
       mpfr: /usr/lib64
@@ -191,7 +191,7 @@ packages:
   openmpi:
     #variants: [~memchecker, ~pmi] off by default
     version: [4.0.1, 3.1.4, 3.0.4]
-  # # # # #
+  # # # # # # let your secruity professionals build openssl
   openssl:
     paths:
       openssl: /usr
