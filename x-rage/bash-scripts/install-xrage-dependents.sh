@@ -1,5 +1,5 @@
 #! /bin/bash
-# Mon Jun 21
+# Friday Jun 21
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
 export SECONDS=0
@@ -27,7 +27,6 @@ new_step "install calico@2"
 spack ${faust} install calico@2           % ${spack_compiler}
 
 new_step "install cmake"
-spack ${faust} install cmake              % ${spack_compiler}
 spack ${faust} install cmake @ 3.14.4     % ${spack_compiler}
 spack ${faust} install cmake @ 3.13.4     % ${spack_compiler}
 spack ${faust} install cmake @ 3.12.4     % ${spack_compiler}
