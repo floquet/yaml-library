@@ -1,0 +1,441 @@
+Last login: Fri Jun 28 15:41:52 on ttys011
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/.profile
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/master-script.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-bitbucket.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-github.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-gitlab.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/apple.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bash.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/finds.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/fortran.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/gcc.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/git.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/macports.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/platforms-H.sh
+attempting to mkdir //log.in-pn1248056/dir-configuration
+mkdir: //log.in-pn1248056/dir-configuration: Permission denied
+directory of core scripts = ${core} = /Users/l127914/repos/bitbucket/mac-bash/core-scripts
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/prompt.sh
+Fri Jun 28 20:10:51 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/python.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/record-configuration.sh
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vim.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vpn.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/disk-usage.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/spack.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/uname.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/alias.sh
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/environment.sh
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+Fri Jun 28 20:10:52 MDT 2019, /Users/l127914/.bash-platform-specific
+[6]   Done                    source "${core}/environment.sh"
+l127914@pn1248056.lanl.gov:~ $ -bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+cp: //log.in-pn1248056/dir-configuration: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+l127914@pn1248056.lanl.gov:~ $ srngate
+-bash: srngate: command not found
+[5]-  Done                    source "${core}/uname.sh"
+[7]+  Exit 1                  cp ${HOME}/${extras} ${vault}
+l127914@pn1248056.lanl.gov:~ $ v
+vi /Users/l127914/.profile
+'; ssh dmtopa@srngate.sandia.gov"ias srngate="echo 'ssh dmtopa@srngate.sandia.gov'; echo 'sandia crypto 
+l127914@pn1248056.lanl.gov:~ $ srngate
+ssh dmtopa@srngate.sandia.gov
+sandia crypto
+
+Legal Notice Reminder - SF 2902-NTU (2-2009)
+
+         WARNING NOTICE TO USERS: SNL Systems Are Monitored
+
+ This Sandia National Laboratories (SNL) information system is monitored.
+ It is the property of the U.S. Government and is for authorized uses only.
+
+ --------------- Be aware you have no privacy on these systems. --------------
+
+    All users of this system and all information on this system are
+    subject to interception, monitoring, recording, copying, auditing,
+    and inspection at the discretion of Sandia Corporation, and
+    disclosure to Sandia Corporation and third parties, including,
+    but not limited to, the United States Government,any authorized
+    investigative and law enforcement personnel, and officials of
+    other entities, both domestic and foreign. By using or accessing
+    this system, you consent to and permit all of the above without
+    limit as to when such action may be undertaken.
+
+    Unauthorized or improper use of this SNL system may result in
+    disciplinary, administrative, civil, and/or criminal penalties.
+
+    LOGIN to acknowledge and agree with these terms and conditions or
+   DISCONTINUE all efforts to access or use this SNL information system.
+
+dmtopa@srngate.sandia.gov's password: 
+Last login: Fri Jun 28 15:01:13 2019 from 141.111.3.116
+speed 9600 baud; rows 32; columns 111; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?; eol2 = M-^?; swtch = <undef>; start = ^Q;
+stop = ^S; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V; flush = ^O; min = 1; time = 0;
+-parenb -parodd cs8 -hupcl -cstopb cread -clocal -crtscts -cdtrdsr
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe -echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Welcome dmtopa to the ssh gateway: srngate.sandia.gov
+
+               1 -  ssh session
+               2 -  kinit Acquire kerberos credentials
+               3 -  remove stored host keys for a hostname
+               Q -  Quit
+
+    Enter a selection from above: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Password for dantopa@lanl.gov: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Welcome dmtopa to the ssh gateway: srngate.sandia.gov
+
+               1 -  ssh session
+               2 -  kinit Acquire kerberos credentials
+               3 -  remove stored host keys for a hostname
+               Q -  Quit
+
+    Enter a selection from above: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Name: astra
+Username [dmtopa]: dmtopa
+dmtopa@astra's password: 
+Permission denied, please try again.
+dmtopa@astra's password: 
+Permission denied, please try again.
+dmtopa@astra's password: 
+Last failed login: Fri Jun 28 20:14:26 MDT 2019 from as70snllx.sandia.gov on ssh:notty
+There were 2 failed login attempts since the last successful login.
+Last login: Fri Jun 28 15:02:21 2019 from as70snllx.sandia.gov
+[dmtopa@astra-login1 ~]$ . .astra-bash 
+Fri Jun 28 20:14:51 MDT 2019 .astra-bash
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /ascldap/users/dmtopa/repos/gitlab/node-queries/astra/log.in-astra-login1/dir-configuration
+directory of core scripts = ${core} = /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+cp: cannot stat ‘/ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-panic-oom.txt’: No such file or directory
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[7]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[17]   Done                    proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[24]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+bash: gonode: command not found...
+Fri Jun 28 20:14:51 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+-bash: /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh: No such file or directory
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+cp: cannot stat ‘/ascldap/users/dmtopa/.gitconfig’: No such file or directory
+cp: cannot stat ‘/ascldap/users/dmtopa/.libraries-astra.sh’: No such file or directory
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+-bash: /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh: No such file or directory
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+bash: sinfo_s: command not found...
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+[11]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[22]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[27]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[29]   Done                    proc_probes "uptime" "uptime since restart"
+[30]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[33]   Done                    source ${core}/info-git.sh
+[34]+  Done                    source "${core}/copy-configuration.sh"
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+cp: cannot stat ‘/ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-panic-oom.txt’: No such file or directory
+[32]   Done                    source ${core}/info-slurm.sh
+[33]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[34]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[35]   Done                    proc_probes "cpuinfo" "type of processor used"
+[37]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[36]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[38]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[39]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[40]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[41]   Done                    proc_probes "fb" "frame buffer devices"
+[42]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[44]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[45]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[46]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[51]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[55]   Done                    proc_probes "partitions" "partition block allocation information"
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+bash: gonode: command not found...
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+[43]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[47]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[49]   Done                    proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[50]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[52]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[53]   Done                    proc_probes "mounts" "all mounts in use"
+[54]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[56]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[57]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[58]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[59]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[60]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[61]   Done                    proc_probes "uptime" "uptime since restart"
+[62]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[63]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+-bash: /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/alias.sh: No such file or directory
+-bash: /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/rsync.sh: No such file or directory
+Fri Jun 28 20:14:52 MDT 2019, /ascldap/users/dmtopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[65]   Done                    source ${core}/info-git.sh
+[66]   Done                    source "${core}/uname.sh"
+[48]   Done                    proc_probes "locks" "files currently locked by the kernel"
+bash: sinfo_s: command not found...
+[64]   Done                    source ${core}/info-slurm.sh
+[67]-  Done                    module available >> ${my_log} 2>&1
+[68]+  Done                    module list >> ${my_log} 2>&1
+dmtopa@astra-login1:~ $ lss
+total 100K
+drwx------   9 dmtopa dmtopa 4.0K Jun 28 15:33 .
+drwxr-xr-x 204 root   root    16K Jun 27 15:24 ..
+-rw-rw-r--   1 dmtopa dmtopa 1.3K Jun 28 15:33 .astra-bash
+-rw-------   1 dmtopa dmtopa 6.5K Jun 28 16:41 .bash_history
+-rw-------   1 dmtopa dmtopa   18 May 22  2018 .bash_logout
+-rw-------   1 dmtopa dmtopa  193 May 22  2018 .bash_profile
+-rw-------   1 dmtopa dmtopa  231 May 22  2018 .bashrc
+-rw-------   1 dmtopa dmtopa  334 Sep 12  2018 .emacs
+-rw-------   1 dmtopa dmtopa  172 May 28  2018 .kshrc
+drwxrwxr-x   3 dmtopa dmtopa 4.0K Jun 28 15:32 .lmod.d
+drwxrwxr-x   3 dmtopa dmtopa 4.0K Jun 28 14:30 .local
+drwx------   4 dmtopa dmtopa 4.0K May  8 15:22 .mozilla
+drwxrwxr-x   3 dmtopa dmtopa 4.0K Jun 28 15:08 repos
+drwxrwxr-x   2 dmtopa dmtopa 4.0K Jun 28 15:27 sandbox
+-rw-rw-r--   1 dmtopa dmtopa 1.2K Jun 28 15:28 .splash-alpha
+drwx------   2 dmtopa dmtopa 4.0K Jun 28 14:30 .ssh
+-rw-------   1 dmtopa dmtopa 6.9K Jun 28 15:33 .viminfo
+-rw-rw-r--   1 dmtopa dmtopa 5.6K Jun 28 15:06 .vimrc
+drwx------   2 dmtopa dmtopa 4.0K May  8 15:30 .xemacs
+-rw-------   1 dmtopa dmtopa  658 May  4  2018 .zshrc
+dmtopa@astra-login1:~ $ echo $HOSTNAME
+astra-login1
+dmtopa@astra-login1:~ $ cd /astraprojects
+-bash: cd: /astraprojects: No such file or directory
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate.lanl.gov:/users/dantopa/dan.del /home/dmtopa/test.txt
+ssh: connect to host ihpc-gate.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate1.lanl.gov:/users/dantopa/dan.del /home/dmtopa/test.txt
+ssh: connect to host ihpc-gate1.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ scp -P 2del /home/dmtopa/test.txt
+bash: del: command not found...
+dmtopa@astra-login1:~ $ pwd
+/ascldap/users/dmtopa
+dmtopa@astra-login1:~ $ /ascldap/users/dmtopa
+-bash: /ascldap/users/dmtopa: Is a directory
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate1.lanl.gov:/users/dantopa/dan.del /ascldap/users/dmtopa/test.txt
+ssh: connect to host ihpc-gate1.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ export http_proxy="wwwproxy.sandia.gov:80"
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate.lanl.gov:/users/dantopa/dan.del /home/dmtopa/test.txt
+ssh: connect to host ihpc-gate.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ echo $http_proxy 
+wwwproxy.sandia.gov:80
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate1.lanl.gov:/users/dantopa/dan.del /home/dmtopa/test.txt
+ssh: connect to host ihpc-gate1.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ scp -P 22 dantopa@ihpc-gate1.lanl.gov:/users/dantopa/dan.del .
+ssh: connect to host ihpc-gate1.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ scp dantopa@ihpc-gate1.lanl.gov:/users/dantopa/dan.del .
+ssh: connect to host ihpc-gate1.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ scp dantopa@ihpc-gate.lanl.gov:/users/dantopa/dan.del .
+ssh: connect to host ihpc-gate.lanl.gov port 22: Connection timed out
+dmtopa@astra-login1:~ $ /usr/bin/firefox 
+Failed to open connection to "session" message bus: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+Running without a11y support!
+Error: no DISPLAY environment variable specified
+dmtopa@astra-login1:~ $ export DISPLAY=:0
+dmtopa@astra-login1:~ $ /usr/bin/firefox 
+Failed to open connection to "session" message bus: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+Running without a11y support!
+Error: cannot open display: :0
+dmtopa@astra-login1:~ $ midori
+bash: midori: command not found...
+dmtopa@astra-login1:~ $ ping dantopa@ihpc-gate.lanl.gov
+ping: dantopa@ihpc-gate.lanl.gov: Name or service not known
+dmtopa@astra-login1:~ $ ping dantopa@ihpc-gate1.lanl.gov
+ping: dantopa@ihpc-gate1.lanl.gov: Name or service not known
+dmtopa@astra-login1:~ $ ping ihpc-gate1.lanl.gov
+PING ihpc-gate1.lanl.gov (204.121.67.9) 56(84) bytes of data.
+packet_write_wait: Connection to 134.253.26.24 port 22: Broken pipe
+l127914@pn1248056.lanl.gov:~ $ 
