@@ -1,0 +1,343 @@
+Last login: Tue Jun 25 12:34:58 on ttys009
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/.profile
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/master-script.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-bitbucket.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-github.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-gitlab.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/apple.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bash.sh
+Fri Jun 28 14:23:27 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/finds.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/fortran.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/gcc.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/git.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/macports.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/platforms-H.sh
+attempting to mkdir //log.in-pn1248056/dir-configuration
+mkdir: //log.in-pn1248056/dir-configuration: Permission denied
+directory of core scripts = ${core} = /Users/l127914/repos/bitbucket/mac-bash/core-scripts
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/prompt.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/python.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/record-configuration.sh
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vim.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vpn.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/disk-usage.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/spack.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/alias.sh
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/environment.sh
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/uname.sh
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+Fri Jun 28 14:23:28 MDT 2019, /Users/l127914/.bash-platform-specific
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+[6]   Done                    source "${core}/environment.sh"
+l127914@pn1248056.lanl.gov:~ $ cp: //log.in-pn1248056/dir-configuration: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+l127914@pn1248056.lanl.gov:~ $ ssh -l dantopa@lanl.gov srngate.gov
+ssh: Could not resolve hostname srngate.gov: nodename nor servname provided, or not known
+[5]-  Done                    source "${core}/uname.sh"
+[7]+  Exit 1                  cp ${HOME}/${extras} ${vault}
+l127914@pn1248056.lanl.gov:~ $ ssh -l dantopa@lanl.gov srngate.sandia.gov
+
+Legal Notice Reminder - SF 2902-NTU (2-2009)
+
+         WARNING NOTICE TO USERS: SNL Systems Are Monitored
+
+ This Sandia National Laboratories (SNL) information system is monitored.
+ It is the property of the U.S. Government and is for authorized uses only.
+
+ --------------- Be aware you have no privacy on these systems. --------------
+
+    All users of this system and all information on this system are
+    subject to interception, monitoring, recording, copying, auditing,
+    and inspection at the discretion of Sandia Corporation, and
+    disclosure to Sandia Corporation and third parties, including,
+    but not limited to, the United States Government,any authorized
+    investigative and law enforcement personnel, and officials of
+    other entities, both domestic and foreign. By using or accessing
+    this system, you consent to and permit all of the above without
+    limit as to when such action may be undertaken.
+
+    Unauthorized or improper use of this SNL system may result in
+    disciplinary, administrative, civil, and/or criminal penalties.
+
+    LOGIN to acknowledge and agree with these terms and conditions or
+   DISCONTINUE all efforts to access or use this SNL information system.
+
+dantopa@lanl.gov@srngate.sandia.gov's password: 
+Permission denied, please try again.
+dantopa@lanl.gov@srngate.sandia.gov's password: 
+Permission denied, please try again.
+dantopa@lanl.gov@srngate.sandia.gov's password: 
+dantopa@lanl.gov@srngate.sandia.gov: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+l127914@pn1248056.lanl.gov:~ $ ssh -l dmtopa@srngate.sandia.gov
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+l127914@pn1248056.lanl.gov:~ $ ssh  dmtopa@srngate.sandia.gov
+
+Legal Notice Reminder - SF 2902-NTU (2-2009)
+
+         WARNING NOTICE TO USERS: SNL Systems Are Monitored
+
+ This Sandia National Laboratories (SNL) information system is monitored.
+ It is the property of the U.S. Government and is for authorized uses only.
+
+ --------------- Be aware you have no privacy on these systems. --------------
+
+    All users of this system and all information on this system are
+    subject to interception, monitoring, recording, copying, auditing,
+    and inspection at the discretion of Sandia Corporation, and
+    disclosure to Sandia Corporation and third parties, including,
+    but not limited to, the United States Government,any authorized
+    investigative and law enforcement personnel, and officials of
+    other entities, both domestic and foreign. By using or accessing
+    this system, you consent to and permit all of the above without
+    limit as to when such action may be undertaken.
+
+    Unauthorized or improper use of this SNL system may result in
+    disciplinary, administrative, civil, and/or criminal penalties.
+
+    LOGIN to acknowledge and agree with these terms and conditions or
+   DISCONTINUE all efforts to access or use this SNL information system.
+
+dmtopa@srngate.sandia.gov's password: 
+Last login: Thu Jun 27 15:28:03 2019 from darwin-fe1.lanl.gov
+speed 9600 baud; rows 27; columns 96; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?; eol2 = M-^?; swtch = <undef>;
+start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V; flush = ^O;
+min = 1; time = 0;
+-parenb -parodd cs8 -hupcl -cstopb cread -clocal -crtscts -cdtrdsr
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc ixany
+imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe -echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Welcome dmtopa to the ssh gateway: srngate.sandia.gov
+
+               1 -  ssh session
+               2 -  kinit Acquire kerberos credentials
+               3 -  remove stored host keys for a hostname
+               Q -  Quit
+
+    Enter a selection from above: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Password for dantopa@lanl.gov: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Welcome dmtopa to the ssh gateway: srngate.sandia.gov
+
+               1 -  ssh session
+               2 -  kinit Acquire kerberos credentials
+               3 -  remove stored host keys for a hostname
+               Q -  Quit
+
+    Enter a selection from above: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Name: ssh astra
+Username [dmtopa]: 
+ssh: Could not resolve hostname ssh: Name or service not known
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Welcome dmtopa to the ssh gateway: srngate.sandia.gov
+
+               1 -  ssh session
+               2 -  kinit Acquire kerberos credentials
+               3 -  remove stored host keys for a hostname
+               Q -  Quit
+
+    Enter a selection from above: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Name: astra
+Username [dmtopa]: dmtopa
+dmtopa@astra's password: 
+Last failed login: Thu Jun 27 15:31:10 MDT 2019 from as70snllx.sandia.gov on ssh:notty
+There were 3 failed login attempts since the last successful login.
+No ssh authorized_keys found, generating.
+spawn /usr/bin/id
+uid=108156(dmtopa) gid=108156(dmtopa) groups=108156(dmtopa),1000007978(wg-astra-friendly-users)
+generating ssh key ...
+spawn /usr/bin/ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/ascldap/users/dmtopa/.ssh/id_rsa): 
+Created directory '/ascldap/users/dmtopa/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /ascldap/users/dmtopa/.ssh/id_rsa.
+Your public key has been saved in /ascldap/users/dmtopa/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:mgaQ5Ubw/RZR2jn6bKoO0dBums+KLpZQf5A/ttKRyv8 dmtopa@astra-login1
+The key's randomart image is:
++---[RSA 2048]----+
+|  ..o   ...      |
+|   * o   + .     |
+|  o =.o o +      |
+|  .oo+ . o .     |
+| . .oo+.S        |
+|.   .*B+ o       |
+|. ..+=++  +      |
+|.o .+=o  o       |
+|.oo .=*oE        |
++----[SHA256]-----+
+[dmtopa@astra-login1 ~]$ echo $HOSTNAME
+astra-login1
+[dmtopa@astra-login1 ~]$ 
