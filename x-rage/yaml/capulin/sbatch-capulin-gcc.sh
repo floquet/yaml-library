@@ -2,7 +2,7 @@
 
 # # ${host_name} arm login
 #SBATCH --nodes=1
-#SBATCH --qos=standard
+    #SBATCH --qos=standard
 #SBATCH --time=10:00:00
 #SBATCH --output=spack-setup.out
 #SBATCH --job-name=spack-setup
