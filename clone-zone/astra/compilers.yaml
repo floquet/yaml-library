@@ -1,0 +1,44 @@
+# dmtopa@astra-login1:~ $ gcc --version
+# gcc (GCC) 7.2.0
+# Copyright (C) 2017 Free Software Foundation, Inc.
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /opt/atse/compiler/gcc/7.2.0/bin/gcc
+      cxx: /opt/atse/compiler/gcc/7.2.0/bin/g++
+      f77: /opt/atse/compiler/gcc/7.2.0/bin/gfortran
+      fc:  /opt/atse/compiler/gcc/7.2.0/bin/gfortran
+    spec: gcc@7.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /bin/gcc
+      cxx: /bin/g++
+      f77: /bin/gfortran
+      fc:  /bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - arm/19.2
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-19.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-19.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.2
+    target: aarch64
