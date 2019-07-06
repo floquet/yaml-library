@@ -1,2 +1,3 @@
 mirrors:
-    local_filesystem: /ascldap/users/dmtopa/repos/github/astra-spack-mirror
+    local_filesystem0: file:///ascldap/users/dmtopa/repos/github/spack-mirror-astra
+    local_filesystem0: file:///ascldap/users/dmtopa/repos/github/astra-mirror-spack
