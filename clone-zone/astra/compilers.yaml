@@ -6,7 +6,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules: 
+    - gcc/7.2.0
     operating_system: rhel7
     paths:
       cc:  /opt/atse/compiler/gcc/7.2.0/bin/gcc
