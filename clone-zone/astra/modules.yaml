@@ -22,9 +22,9 @@ modules:
     all:
       suffixes:
           #
-      ^openmpi@4.0.1:  'openmpi@4.0.1'
-      ^openmpi@3.1.4:  'openmpi@3.1.4'
-      ^openmpi@3.0.4:  'openmpi@3.0.4'
+        ^openmpi@4.0.1:  'openmpi@4.0.1'
+        ^openmpi@3.1.4:  'openmpi@3.1.4'
+        ^openmpi@3.0.4:  'openmpi@3.0.4'
             #
             #^python@2.7.14:  'python@2.7.14'
             #^python@2.7.15:  'python@2.7.15'
@@ -32,22 +32,22 @@ modules:
             #
         #^intel-mkl@2018.0.128: 'intel-mkl@2018.0.128'
             #
-      ^openblas@0.3.6:  'openblas@0.3.6'
-      ^openblas@0.3.5:  'openblas@0.3.5'
-      ^openblas@0.3.4:  'openblas@0.3.4'
-      ^openblas@0.3.3:  'openblas@0.3.3'
-      ^openblas@0.3.2:  'openblas@0.3.2'
-      ^openblas@0.3.1:  'openblas@0.3.1'
-      ^openblas@0.3.0:  'openblas@0.3.0'
-      ^openblas@0.2.20: 'openblas@0.2.20'
+        ^openblas@0.3.6:  'openblas@0.3.6'
+        ^openblas@0.3.5:  'openblas@0.3.5'
+        ^openblas@0.3.4:  'openblas@0.3.4'
+        ^openblas@0.3.3:  'openblas@0.3.3'
+        ^openblas@0.3.2:  'openblas@0.3.2'
+        ^openblas@0.3.1:  'openblas@0.3.1'
+        ^openblas@0.3.0:  'openblas@0.3.0'
+        ^openblas@0.2.20: 'openblas@0.2.20'
             #
-      ^netlib-lapack@3.8.0: 'netlib-lapack@3.8.0'
-      ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'
-      ^netlib-lapack@3.7.0: 'netlib-lapack@3.7.0'
-      ^netlib-lapack@3.6.1: 'netlib-lapack@3.6.1'
-      ^netlib-lapack@3.6.0: 'netlib-lapack@3.6.0'
-      ^netlib-lapack@3.5.0: 'netlib-lapack@3.5.0'
-      ^netlib-lapack@3.4.2: 'netlib-lapack@3.4.2'
+        ^netlib-lapack@3.8.0: 'netlib-lapack@3.8.0'
+        ^netlib-lapack@3.7.1: 'netlib-lapack@3.7.1'
+        ^netlib-lapack@3.7.0: 'netlib-lapack@3.7.0'
+        ^netlib-lapack@3.6.1: 'netlib-lapack@3.6.1'
+        ^netlib-lapack@3.6.0: 'netlib-lapack@3.6.0'
+        ^netlib-lapack@3.5.0: 'netlib-lapack@3.5.0'
+        ^netlib-lapack@3.4.2: 'netlib-lapack@3.4.2'
             #
             #+aggressive_vectorization: 'aggressive_vectorization'
             #+disable_deprecated_code: 'disable_deprecated_code'
