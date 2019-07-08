@@ -4,7 +4,8 @@
 compilers:
 - compiler:
     environment: {}
-    extra_rpaths: []
+    extra_rpaths:
+    - /opt/atse/compiler/gcc/7.2.0/lib64
     flags: {}
     modules: 
     - gcc/7.2.0
