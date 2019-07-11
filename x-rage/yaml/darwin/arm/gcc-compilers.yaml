@@ -1,0 +1,28 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: # /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/share/spack/modules/linux-rhel7-aarch64
+    - gcc/7.4.0-gcc_4.8.5
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gcc
+      cxx: /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/g++
+      f77: /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gfortran
+      fc:  /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gfortran
+    spec: gcc@7.4.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64

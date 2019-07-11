@@ -1,0 +1,92 @@
+ cat ${MODULESHOME}/init/.modulespath
+#
+#  @(#)$Id: 38aa24cc33a5f54a93781d63005a084f74418022 $
+#  Module version 3.2.10
+#  init/.modulespath.  Generated from .modulespath.in by configure.
+#
+#  Modulepath initial setup
+#  ========================
+#
+#  This file defines the initial setup for the module files search path.
+#  Comments may be added anywhere, which begin on # and continue until the
+#     end of the line
+#  Each line containing a single path will be added to the MODULEPATH
+#     environment variable. You may add as many as you want - just
+#     limited by the maximum variable size of your shell.
+#
+#				# location of version files
+#/usr/share/Modules/$MODULE_VERSION/modulefiles	# Module pkg modulefiles (if versioning)
+/usr/share/Modules/modulefiles		# Module pkg modulefiles (if no versioning)
+/etc/modulefiles			# General module files
+#/usr/share/Modules/your_contribs	# Edit for your requirements
+/opt/modulefiles                        # Image module files
+/projects/darwin/modulefiles/centos7    # Darwin module files
+
+$ module use --append /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/share/spack/modules/linux-rhel7-aarch64
+dantopa@cn810:defaults $ ma
+
+----------------------------------------------------------------- /projects/artab/packages/spack/darwin-arm-new-flag-gcc740.spack/share/spack/modules/linux-rhel7-aarch64 ------------------------------------------------------------------
+   calico/1.7.0-gcc_7.4.0          eospac/6.4.0-gcc_7.4.0 (D)    hypre/2.11.2-gcc_7.4.0            ndi/2.2.0-gcc_7.4.0            papi/5.7.0-gcc_7.4.0     (D)    r3d/2019-04-24-gcc_7.4.0  (D)
+   cashdsd/16.11.21-gcc_7.4.0      fftw/3.3.8-gcc_7.4.0          hypre/2.15.1-gcc_7.4.0            openmpi/4.0.1-gcc_7.4.0 (D)    perflib/180621-gcc_7.4.0        silo/4.10.2-bsd-gcc_7.4.0
+   dsd/1.0.0beta5-gcc_7.4.0        hdf5/1.10.1-gcc_7.4.0         hypre/2.16.0-gcc_7.4.0     (D)    papi/5.5.1-gcc_7.4.0           r3d/2018-01-07-gcc_7.4.0        silo/4.10.2-gcc_7.4.0     (D)
+   eospac/6.4.0beta.2-gcc_7.4.0    hdf5/1.10.5-gcc_7.4.0  (D)    intergrid/180717-gcc_7.4.0        papi/5.6.0-gcc_7.4.0           r3d/2018-12-19-gcc_7.4.0        zoltan/3.83-gcc_7.4.0
+
+-------------------------------------------------------------------------------------------------------- /opt/ohpc/pub/modulefiles ---------------------------------------------------------------------------------------------------------
+   EasyBuild/3.8.1    autotools    cmake/3.13.4 (D)    gnu7/7.3.0    llvm5/5.0.1    prun/1.3    valgrind/3.14.0
+
+----------------------------------------------------------------------------------------------------------- /opt/arm/modulefiles -----------------------------------------------------------------------------------------------------------
+   Cortex-A57/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0               Generic-AArch64/RHEL/7/arm-hpc-compiler-18.4.2/armpl/18.4.2        Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/18.3
+   Cortex-A57/RHEL/7/gcc-7.1.0/armpl/18.3.0                           Generic-AArch64/RHEL/7/arm-hpc-compiler-18.4/armpl/18.4.0          Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/18.4
+   Cortex-A72/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0               Generic-AArch64/RHEL/7/arm-hpc-compiler-19.0/armpl/19.0.0          Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/18.4.1
+   Cortex-A72/RHEL/7/arm-hpc-compiler-18.4.1/armpl/18.4.1             Generic-AArch64/RHEL/7/arm-hpc-compiler-19.1/armpl/19.1.0          Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/18.4.2
+   Cortex-A72/RHEL/7/arm-hpc-compiler-18.4.2/armpl/18.4.2             Generic-AArch64/RHEL/7/arm-hpc-compiler/18.3                       Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/19.0
+   Cortex-A72/RHEL/7/arm-hpc-compiler-18.4/armpl/18.4.0               Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4                       Generic-AArch64/RHEL/7/suites/arm-compiler-for-hpc/19.1   (D)
+   Cortex-A72/RHEL/7/arm-hpc-compiler-19.0/armpl/19.0.0               Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1                     Kunpeng920/RHEL/7/arm-hpc-compiler-19.1/armpl/19.1.0
+   Cortex-A72/RHEL/7/arm-hpc-compiler-19.1/armpl/19.1.0               Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2                     Kunpeng920/RHEL/7/gcc-8.2.0/armpl/19.1.0
+   Cortex-A72/RHEL/7/gcc-7.1.0/armpl/18.3.0                           Generic-AArch64/RHEL/7/arm-hpc-compiler/19.0                       ThunderX/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0
+   Cortex-A72/RHEL/7/gcc-7.1.0/armpl/18.4.0                           Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1                (D)    ThunderX/RHEL/7/gcc-7.1.0/armpl/18.3.0
+   Cortex-A72/RHEL/7/gcc-7.1.0/armpl/18.4.1                           Generic-AArch64/RHEL/7/arm-instruction-emulator/18.0               ThunderX2CN99/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0
+   Cortex-A72/RHEL/7/gcc-7.1.0/armpl/18.4.2                    (D)    Generic-AArch64/RHEL/7/arm-instruction-emulator/18.1               ThunderX2CN99/RHEL/7/arm-hpc-compiler-18.4.1/armpl/18.4.1
+   Cortex-A72/RHEL/7/gcc-8.2.0/armpl/19.0.0                           Generic-AArch64/RHEL/7/arm-instruction-emulator/18.3               ThunderX2CN99/RHEL/7/arm-hpc-compiler-18.4.2/armpl/18.4.2
+   Cortex-A72/RHEL/7/gcc-8.2.0/armpl/19.1.0                    (D)    Generic-AArch64/RHEL/7/arm-instruction-emulator/18.4               ThunderX2CN99/RHEL/7/arm-hpc-compiler-18.4/armpl/18.4.0
+   Falkor/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0                   Generic-AArch64/RHEL/7/arm-instruction-emulator/19.0        (D)    ThunderX2CN99/RHEL/7/arm-hpc-compiler-19.0/armpl/19.0.0
+   Falkor/RHEL/7/arm-hpc-compiler-18.4.1/armpl/18.4.1                 Generic-AArch64/RHEL/7/gcc-7.1.0/armpl/18.3.0                      ThunderX2CN99/RHEL/7/arm-hpc-compiler-19.1/armpl/19.1.0
+   Falkor/RHEL/7/arm-hpc-compiler-18.4.2/armpl/18.4.2                 Generic-AArch64/RHEL/7/gcc-7.1.0/armpl/18.4.0                      ThunderX2CN99/RHEL/7/gcc-7.1.0/armpl/18.3.0
+   Falkor/RHEL/7/arm-hpc-compiler-18.4/armpl/18.4.0                   Generic-AArch64/RHEL/7/gcc-7.1.0/armpl/18.4.1                      ThunderX2CN99/RHEL/7/gcc-7.1.0/armpl/18.4.0
+   Falkor/RHEL/7/gcc-7.1.0/armpl/18.3.0                               Generic-AArch64/RHEL/7/gcc-7.1.0/armpl/18.4.2               (D)    ThunderX2CN99/RHEL/7/gcc-7.1.0/armpl/18.4.1
+   Falkor/RHEL/7/gcc-7.1.0/armpl/18.4.0                               Generic-AArch64/RHEL/7/gcc-8.2.0/armpl/19.0.0                      ThunderX2CN99/RHEL/7/gcc-7.1.0/armpl/18.4.2               (D)
+   Falkor/RHEL/7/gcc-7.1.0/armpl/18.4.1                               Generic-AArch64/RHEL/7/gcc-8.2.0/armpl/19.1.0               (D)    ThunderX2CN99/RHEL/7/gcc-8.2.0/armpl/19.0.0
+   Falkor/RHEL/7/gcc-7.1.0/armpl/18.4.2                        (D)    Generic-AArch64/RHEL/7/gcc/7.1.0                                   ThunderX2CN99/RHEL/7/gcc-8.2.0/armpl/19.1.0               (D)
+   Generic-AArch64/RHEL/7/arm-hpc-compiler-18.3/armpl/18.3.0          Generic-AArch64/RHEL/7/gcc/8.2.0                            (D)
+   Generic-AArch64/RHEL/7/arm-hpc-compiler-18.4.1/armpl/18.4.1        Generic-AArch64/RHEL/7/gcc_runtimes/7.1.0
+
+--------------------------------------------------------------------------------------------------- /projects/darwin/modulefiles/aarch64 ---------------------------------------------------------------------------------------------------
+   allinea/forge/18.1.3               gcc/8.2.0                                    openmpi/2.1.5-arm_hpc-compiler-19.0.0    openmpi/3.0.4-arm_gcc-8.2.0-19.1.0       openmpi/3.1.3-arm_hpc-compiler-18.4.2
+   allinea/forge/18.2.1               gcc/8.3.0                                    openmpi/2.1.5-gcc_8.1.0                  openmpi/3.0.4-arm_hpc-compiler-19.1.0    openmpi/3.1.3-arm_hpc-compiler-19.0.0
+   allinea/forge/18.2.2               gcc/9.1.0                             (D)    openmpi/2.1.5-gcc_8.2.0                  openmpi/3.1.1-arm_gcc-7.1.0-18.4.0       openmpi/3.1.3-arm_hpc-compiler-19.1.0
+   allinea/forge/18.3.0        (D)    git/2.15.2                                   openmpi/2.1.5-ohpc_gcc-7.3.0             openmpi/3.1.1-arm_gcc-7.1.0-18.4.1       openmpi/3.1.3-gcc_8.2.0
+   allinea/perf-reports/18.1.3        git/2.16.4                                   openmpi/2.1.6-arm_gcc-8.2.0-19.1.0       openmpi/3.1.1-arm_hpc-compiler-18.4.0    openmpi/3.1.3-ohpc_gcc-7.3.0
+   allinea/perf-reports/18.2.1        git/2.17.1                            (D)    openmpi/2.1.6-arm_hpc-compiler-19.1.0    openmpi/3.1.1-arm_hpc-compiler-18.4.1    openmpi/3.1.4-arm_gcc-8.2.0-19.1.0
+   allinea/perf-reports/18.2.2        openmpi/2.1.3-arm_gcc-7.1.0-18.4.0           openmpi/3.0.1-arm_gcc-7.1.0-18.4.0       openmpi/3.1.1-gcc_8.1.0                  openmpi/3.1.4-arm_hpc-compiler-19.1.0
+   allinea/perf-reports/18.3.0 (D)    openmpi/2.1.3-arm_gcc-7.1.0-18.4.1           openmpi/3.0.1-arm_gcc-7.1.0-18.4.1       openmpi/3.1.1-gcc_8.2.0                  openmpi/4.0.0-arm_gcc-8.2.0-19.1.0
+   boost/1.70.0                       openmpi/2.1.3-arm_hpc-compiler-18.4.0        openmpi/3.0.1-arm_hpc-compiler-18.4.0    openmpi/3.1.1-ohpc_gcc-7.3.0             openmpi/4.0.0-arm_hpc-compiler-19.1.0
+   charliecloud/0.9.9                 openmpi/2.1.3-arm_hpc-compiler-18.4.1        openmpi/3.0.1-arm_hpc-compiler-18.4.1    openmpi/3.1.2-arm_gcc-7.1.0-18.4.0       openmpi/4.0.1-arm_gcc-8.2.0-19.1.0
+   charliecloud/0.9.10         (D)    openmpi/2.1.3-gcc_8.1.0                      openmpi/3.0.1-gcc_8.1.0                  openmpi/3.1.2-arm_gcc-7.1.0-18.4.1       openmpi/4.0.1-arm_hpc-compiler-19.1.0
+   clang/7.0.0                        openmpi/2.1.3-gcc_8.2.0                      openmpi/3.0.1-gcc_8.2.0                  openmpi/3.1.2-arm_hpc-compiler-18.4.0    papi/5.6.1
+   clang/8.0.0                 (D)    openmpi/2.1.3-ohpc_gcc-7.3.0                 openmpi/3.0.1-ohpc_gcc-7.3.0             openmpi/3.1.2-arm_hpc-compiler-18.4.1    tmux/2.8
+   cmake/3.12.1                       openmpi/2.1.5-arm_gcc-7.1.0-18.4.0           openmpi/3.0.3-arm_gcc-7.1.0-18.4.2       openmpi/3.1.2-arm_hpc-compiler-19.0.0    totalview/2018.3.8
+   cmake/3.12.4                       openmpi/2.1.5-arm_gcc-7.1.0-18.4.1           openmpi/3.0.3-arm_gcc-8.2.0-19.0.0       openmpi/3.1.2-gcc_8.1.0                  totalview/2019.0.4
+   deprecated                         openmpi/2.1.5-arm_gcc-7.1.0-18.4.2           openmpi/3.0.3-arm_gcc-8.2.0-19.1.0       openmpi/3.1.2-gcc_8.2.0                  totalview/2019.1.4                    (D)
+   gcc/5.5.0                          openmpi/2.1.5-arm_gcc-8.2.0-19.0.0           openmpi/3.0.3-arm_hpc-compiler-18.4.2    openmpi/3.1.2-ohpc_gcc-7.3.0             use.own
+   gcc/6.5.0                          openmpi/2.1.5-arm_hpc-compiler-18.4.0        openmpi/3.0.3-arm_hpc-compiler-19.0.0    openmpi/3.1.3-arm_gcc-7.1.0-18.4.2
+   gcc/7.4.0                          openmpi/2.1.5-arm_hpc-compiler-18.4.1        openmpi/3.0.3-arm_hpc-compiler-19.1.0    openmpi/3.1.3-arm_gcc-8.2.0-19.0.0
+   gcc/8.1.0                          openmpi/2.1.5-arm_hpc-compiler-18.4.2        openmpi/3.0.3-ohpc_gcc-7.3.0             openmpi/3.1.3-arm_gcc-8.2.0-19.1.0
+
+---------------------------------------------------------------------- /scratch/users/dantopa/repos/spack/home-brew-gcc.spack/share/spack/modules/linux-rhel7-aarch64 ----------------------------------------------------------------------
+   gcc/7.4.0-gcc_4.8.5
+
+  Where:
+   D:  Default Module
+
+Use "module spider" to find all possible modules.
+Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
