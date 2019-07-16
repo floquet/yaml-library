@@ -1,0 +1,6 @@
+# LAP dependencies
+# calico  cashdsd  dsd  eospac5  gandolf  intergrid  ndi  perflib  rewrite  shapo  trident
+#   Mon Jul 15 10:21:21 MDT 2019
+repos:
+  - /usr/projects/artab/users/dantopa/spack-repositories/lap-dev
+  - $spack/var/spack/repos/builtin

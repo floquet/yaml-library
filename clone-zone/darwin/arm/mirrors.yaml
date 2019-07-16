@@ -1,4 +1,5 @@
 mirrors:
   # local_filesystem: file:///scratch/vendors/spack.mirror
-  local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
-  # local_filesystem: file:///scratch/users/dantopa/repos/gitlab/topa-mirror-spack
+  # local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
+  topa_mirror:    file:///scratch/users/dantopa/repos/gitlab/topa-mirror-spack
+  lap_dev_mirror: file:///usr/projects/artab/users/dantopa/spack-mirrors/lap-dev
