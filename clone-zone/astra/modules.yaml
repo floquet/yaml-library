@@ -7,7 +7,7 @@
 #  #  #  . share/spack/setup-env.sh
 #  #  which modules.yaml files does spack use:
 #  #  #  spack config blame modules
-#  #  regenerate modules created by spack:
+#  #  regenerate modules    created by spack:
 #  #  #  spack module tcl refresh --delete-tree
 #  #  if the modules don't appear, reinitialize spack, then refresh modules
 #  #  check file syntax after edits:

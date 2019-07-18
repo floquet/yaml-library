@@ -1,0 +1,7 @@
+#
+# Ansible managed: /var/ansible/roles/spack.Config/templates/mirrors.yaml modified on 2019-03-19 14:27:42
+#
+# vim: set sw=2 ft=yaml:
+
+mirrors:
+  mymirror: file:///usr/projects/packages/user_contrib/spack.mirror
