@@ -2,4 +2,5 @@ mirrors:
   # local_filesystem: file:///pfs/cpscratch1/turquoise/dantopa/spack/spack.mirror
   # local_filesystem: file:///usr/projects/user_contrib/
   # local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
-  local_filesystem: file:///lustre/cpscratch1/dantopa/repos/gitlab/topa-mirror-spack
+  # local_filesystem: file:///lustre/cpscratch1/dantopa/repos/gitlab/topa-mirror-spack
+  local_filesystem: file:///lustre/scratch4/dantopa/repos/gitlab/topa-mirror-spack
