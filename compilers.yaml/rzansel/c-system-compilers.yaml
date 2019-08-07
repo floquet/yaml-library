@@ -4,7 +4,8 @@ compilers:
     extra_rpaths: []
     flags:
       fflags: -qzerosize
-    modules: []
+    modules:
+    - xl/2019.06.12
     operating_system: rhel7
     paths:
       cc:  /usr/tcetmp/bin/xlc-gpu
@@ -17,8 +18,7 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules:
-    - xl/2019.06.12
+    modules: []
     operating_system: rhel7
     paths:
       cc:  /usr/tcetmp/bin/clang-gpu

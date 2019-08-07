@@ -1,0 +1,84 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/9.1.0-gcc/4.8.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-9.1.0-dfacyxlcyf3w55625rju7emvj7w5zynw/bin/gcc
+      cxx: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-9.1.0-dfacyxlcyf3w55625rju7emvj7w5zynw/bin/g++
+      f77: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-9.1.0-dfacyxlcyf3w55625rju7emvj7w5zynw/bin/gfortran
+      fc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-9.1.0-dfacyxlcyf3w55625rju7emvj7w5zynw/bin/gfortran
+    spec: gcc@9.1.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.3.0-gcc/4.8.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-8.3.0-zyz4gjzyzihsnqmbthuvgcfaa4yxvgt6/bin/gcc
+      cxx: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-8.3.0-zyz4gjzyzihsnqmbthuvgcfaa4yxvgt6/bin/g++
+      f77: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-8.3.0-zyz4gjzyzihsnqmbthuvgcfaa4yxvgt6/bin/gfortran
+      fc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-8.3.0-zyz4gjzyzihsnqmbthuvgcfaa4yxvgt6/bin/gfortran
+    spec: gcc@8.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0-gcc/4.8.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-7.4.0-k5qa6mq3ud7ychs4h3pmiorukbrnwdav/bin/gcc
+      cxx: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-7.4.0-k5qa6mq3ud7ychs4h3pmiorukbrnwdav/bin/g++
+      f77: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-7.4.0-k5qa6mq3ud7ychs4h3pmiorukbrnwdav/bin/gfortran
+      fc:  /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gcc-7.4.0-k5qa6mq3ud7ychs4h3pmiorukbrnwdav/bin/gfortran
+    spec: gcc@7.4.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - llvm/8.0.0-gcc/9.1.0
+    operating_system: rhel7
+    paths:
+      cc: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-8.0.0-ijdzs4ggegml4n4jl5v2nc7uvk4gfno6/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-8.0.0-ijdzs4ggegml4n4jl5v2nc7uvk4gfno6/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@8.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - llvm/7.0.1-gcc/9.1.0  
+    operating_system: rhel7
+    paths:
+      cc: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.1-uxfrca7unep3d2q7hgh6vldadxxn6jxo/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/ucx-rzansel-power9.spack/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.1-uxfrca7unep3d2q7hgh6vldadxxn6jxo/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.1
+    target: ppc64le
