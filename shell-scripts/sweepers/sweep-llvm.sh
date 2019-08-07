@@ -7,8 +7,8 @@ export arch=$(spack arch)
 
 for v in ${versions}; do
     echo ""
-    echo "spack install ${tpl} @ ${v} % ${gcc_system_compiler} arch=${arch}"
-          spack install ${tpl} @ ${v} % ${gcc_system_compiler} arch=${arch}
+    echo "spack install ${tpl} @ ${v} % ${1} arch=${arch}"
+          spack install ${tpl} @ ${v} % ${1} arch=${arch}
 
     echo ""
     echo "spack compiler find $(spack location --install-dir ${tpl} @ ${v})"

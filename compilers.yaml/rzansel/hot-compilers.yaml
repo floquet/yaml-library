@@ -1,157 +1,174 @@
 # # RZAnsel Power9
 # # 2019-02-13
 # # ppc64le compilers
-# #   clang  4.0.0  3.9.1
-# #   gcc    8.2.0  7.3.1  7.3.0  6.4.0  4.9.3  4.8.5
-# #   pgi    18.7  16.10
-# #   xl     16.1
+# # # system compilers
 compilers:
-    #  #  clang  8.0.0  6.0.0
 - compiler:
     environment: {}
     extra_rpaths: []
-    flags: {}
+    flags:
+      fflags: -qzerosize
     modules: []
     operating_system: rhel7
     paths:
-      cc:  /usr/tcetmp/bin/clang
-      cxx: /usr/tcetmp/bin/clang++
-      f77: null
-      fc:  null
-    spec: clang@8.0.0
+      cc:  /usr/tcetmp/bin/xlc-gpu
+      cxx: /usr/tcetmp/bin/xlC-gpu
+      f77: /usr/tcetmp/bin/xlf-gpu
+      fc:  /usr/tcetmp/bin/xlf90-gpu
+    spec: xl@16.1
     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [clang/6.0.0]
+    modules:
+    - xl/2019.06.12
     operating_system: rhel7
     paths:
-      cc:  /usr/tcetmp/bin/clang-archer
-      cxx: null
-      f77: null
-      fc:  null
-    spec: clang@6.0.0
-    target: ppc64le
-# #   gcc    7.3.1  7.2.1  4.9.3  4.8.5
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [gcc/7.3.1]
-    operating_system: rhel7
-    paths:
-      cc:  /usr/tce/packages/gcc/gcc-7.3.1/bin/gcc
-      cxx: /usr/tce/packages/gcc/gcc-7.3.1/bin/g++
-      f77: /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
-      fc:  /usr/tce/packages/gcc/gcc-7.3.1/bin/gfortran
-    spec: gcc@7.3.1
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [gcc/7.2.1-redhat ]
-    operating_system: rhel7
-    paths:
-      cc:  /usr/tce/packages/gcc/gcc-7.2.1-redhat/bin/gcc
-      cxx: /usr/tce/packages/gcc/gcc-7.2.1-redhat/bin/g++
-      f77: /usr/tce/packages/gcc/gcc-7.2.1-redhat/bin/gfortran
-      fc:  /usr/tce/packages/gcc/gcc-7.2.1-redhat/bin/gfortran
-    spec: gcc@7.2.1
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [gcc/4.9.3]
-    operating_system: rhel7
-    paths:
-      cc:  /usr/tcetmp/bin/gcc
-      cxx: /usr/tcetmp/bin/g++
-      f77: /usr/tcetmp/bin/gfortran
-      fc:  /usr/tcetmp/bin/gfortran
-    spec: gcc@4.9.3
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: []
-    operating_system: rhel7
-    paths:
-      cc:  /usr/bin/gcc
-      cxx: /usr/bin/g++
+      cc:  /usr/tcetmp/bin/clang-gpu
+      cxx: /usr/tcetmp/bin/clang++-gpu
       f77: /usr/bin/gfortran
       fc:  /usr/bin/gfortran
-    spec: gcc@4.8.5
+    spec: clang@9.0.0
     target: ppc64le
-# #   pgi    18.10  18.7  16.10
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/18.10]
+    modules:
+    - pgi/19.7
+    operating_system: rhel7
+    paths:
+      cc:  /usr/tce/packages/pgi/pgi-19.7/bin/pgcc
+      cxx: /usr/tce/packages/pgi/pgi-19.7/bin/pgc++
+      f77: /usr/tce/packages/pgi/pgi-19.7/bin/pgfortran
+      fc:  /usr/tce/packages/pgi/pgi-19.7/bin/pgf90
+    spec: pgi@19.7
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
     operating_system: rhel7
     paths:
       cc:  /usr/tce/packages/pgi/pgi-18.10/bin/pgcc
       cxx: /usr/tce/packages/pgi/pgi-18.10/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-18.10/bin/pgfortran
       fc:  /usr/tce/packages/pgi/pgi-18.10/bin/pgf90
-    spec:   pgi@18.10
+    spec: pgi@18.10
     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: [pgi/18.7]
-    operating_system: rhel7
-    paths:
-      cc:  /usr/tce/packages/pgi/pgi-18.7/bin/pgcc
-      cxx: /usr/tce/packages/pgi/pgi-18.7/bin/pgc++
-      f77: /usr/tce/packages/pgi/pgi-18.7/bin/pgfortran
-      fc:  /usr/tce/packages/pgi/pgi-18.7/bin/pgf90
-    spec:   pgi@18.7
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [pgi/17.10]
+    modules:
+    - pgi/17.10
     operating_system: rhel7
     paths:
       cc:  /usr/tce/packages/pgi/pgi-17.10/bin/pgcc
       cxx: /usr/tce/packages/pgi/pgi-17.10/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-17.10/bin/pgfortran
       fc:  /usr/tce/packages/pgi/pgi-17.10/bin/pgf90
-    spec:   pgi@17.10
+    spec: pgi@17.10
     target: ppc64le
-# #   xl     16.1  16.0.5
+# # # spack built compilers
 - compiler:
     environment: {}
     extra_rpaths: []
-    flags:
-      fflags: -qzerosize
-    modules: [xl/2019.02.07]
+    flags: {}
+    modules:
+    - llvm-8.0.0-gcc-9.1.0
     operating_system: rhel7
     paths:
-      cc:  /usr/tce/packages/xl/xl-2019.02.07/bin/xlc
-      cxx: /usr/tce/packages/xl/xl-2019.02.07/bin/xlC
-      f77: /usr/tce/packages/xl/xl-2019.02.07/bin/xlf
-      fc:  /usr/tce/packages/xl/xl-2019.02.07/bin/xlf2003
-    spec: xl@16.1
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-8.0.0-gmiswb2rmjs6mq5lommcuolwout4mji5/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-8.0.0-gmiswb2rmjs6mq5lommcuolwout4mji5/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@8.0.0
     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
-    flags:
-      fflags: -qzerosize
-    modules: [xl/2018.04.29]
+    flags: {}
+    modules:
+    - llvm-7.0.1-gcc-9.1.0
     operating_system: rhel7
     paths:
-      cc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlc_r
-      cxx: /usr/tce/packages/xl/xl-2018.04.29/bin/xlC_r
-      f77: /usr/tce/packages/xl/xl-2018.04.29/bin/xlf_r
-      fc:  /usr/tce/packages/xl/xl-2018.04.29/bin/xlf2003_r
-    spec: xl_r@16.0.5
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.1-5uhthqaddb4vc4nbi3bsencdjidhypfc/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.1-5uhthqaddb4vc4nbi3bsencdjidhypfc/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - llvm-7.0.0-gcc-9.1.0
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.0-2bmpqejt2j6swxe5laqfafrkqr2v7sfj/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-7.0.0-2bmpqejt2j6swxe5laqfafrkqr2v7sfj/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - llvm-6.0.1-gcc-9.1.0
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-6.0.1-2sv5x6nrobs6ql2eiamaykzwjtumg3me/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-6.0.1-2sv5x6nrobs6ql2eiamaykzwjtumg3me/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@6.0.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - llvm-6.0.0-gcc-9.1.0
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-6.0.0-w3lr4im67pidqg3ajljz7jttedei3tzu/bin/clang
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-9.1.0/llvm-6.0.0-w3lr4im67pidqg3ajljz7jttedei3tzu/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@6.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc-9.1.0-gcc-4.9.3
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-9.1.0-m6epktnymugvqgdg4r7i37jg74rv6tm7/bin/gcc
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-9.1.0-m6epktnymugvqgdg4r7i37jg74rv6tm7/bin/g++
+      f77: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-9.1.0-m6epktnymugvqgdg4r7i37jg74rv6tm7/bin/gfortran
+      fc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-9.1.0-m6epktnymugvqgdg4r7i37jg74rv6tm7/bin/gfortran
+    spec: gcc@9.1.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc-8.3.0-gcc-4.9.3
+    operating_system: rhel7
+    paths:
+      cc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-8.3.0-rbidaennduelltgsziwo5n7uwww6mq6m/bin/gcc
+      cxx: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-8.3.0-rbidaennduelltgsziwo5n7uwww6mq6m/bin/g++
+      f77: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-8.3.0-rbidaennduelltgsziwo5n7uwww6mq6m/bin/gfortran
+      fc:  /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gcc-8.3.0-rbidaennduelltgsziwo5n7uwww6mq6m/bin/gfortran
+    spec: gcc@8.3.0
     target: ppc64le
