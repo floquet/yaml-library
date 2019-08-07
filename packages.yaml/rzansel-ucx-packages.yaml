@@ -1,0 +1,85 @@
+packages:
+  all:
+    compiler: [gcc, intel, pgi, clang, xl, nag]
+    providers:
+      #
+      #blas: [intel-mkl]
+      #lapack: [intel-mkl]
+      #
+      blas: [openblas]
+      lapack: [openblas]
+      #
+      #blas: [netlib-lapack]
+      #lapack: [netlib-lapack]
+      #
+      mpi: [openmpi]
+      #
+      awk: [gawk]
+      daal: [intel-daal]
+      elf: [elfutils]
+      golang: [gcc]
+      ipp: [intel-ipp]
+      java: [jdk]
+      mkl: [intel-mkl]
+      mpe: [mpe2]
+      opencl: [pocl]
+      openfoam: [openfoam-com, openfoam-org, foam-extend]
+      pkgconfig: [pkg-config]
+      pil: [py-pillow]
+      scalapack: [netlib-scalapack]
+      szip: [libszip, libaec]
+      tbb: [intel-tbb]
+      jpeg: [libjpeg-turbo, libjpeg]
+  # # # # #
+  bzip2:
+    modules:
+      bzip2 % xl arch=linux-rhel7-ppc64le: bzip2/1.0.8-gcc/9.1.0
+  # # # # #
+  cmake:
+    modules:
+      cmake % clang arch=linux-rhel7-ppc64le: cmake-3.15.1-gcc-9.1.0
+      cmake % pgi   arch=linux-rhel7-ppc64le: cmake-3.15.1-gcc-9.1.0
+      cmake % xl    arch=linux-rhel7-ppc64le: cmake-3.15.1-gcc-9.1.0
+  # # # # #
+  diffutils:
+    modules:
+      diffutils % pgi arch=linux-rhel7-ppc64le: diffutils/3.7-gcc/9.1.0
+  # # # # #
+  libnl:
+    modules:
+      libnl % pgi arch=linux-rhel7-ppc64le: libnl/3.3.0-gcc/4.8.5
+      libnl % xl  arch=linux-rhel7-ppc64le: libnl/3.3.0-gcc/4.8.5
+  # # # # #
+  numactl:
+    modules:
+      numactl % xl  arch=linux-rhel7-ppc64le: numactl/2.0.12-gcc/9.1.0
+      numactl % pgi arch=linux-rhel7-ppc64le: numactl/2.0.12-gcc/9.1.0
+  # # # # #
+  ncurses:
+    modules:
+      ncurses % xl arch=linux-rhel7-ppc64le: ncurses/6.1-gcc/9.1.0
+  # # # # #
+  openssl:
+    paths:
+      openssl: /usr
+    buildable: false
+  # # # # #
+  perl:
+    paths:
+      perl: /usr
+    buildable: false
+  # # # # #
+  pkg-config:
+    modules:
+      pkg-config % pgi arch=linux-rhel7-ppc64le: pkg-config/0.29.2-gcc/9.1.0
+  # # # # #
+  rdma-core:
+    modules:
+      rdma-core % pgi arch=linux-rhel7-ppc64le: rdma-core/20-gcc/4.8.5
+      rdma-core % xl  arch=linux-rhel7-ppc64le: rdma-core/20-gcc/4.8.5
+  # # # # #
+  tar:
+    modules:
+      tar % xl  arch=linux-rhel7-ppc64le: tar/1.31-gcc/9.1.0
+      tar % pgi arch=linux-rhel7-ppc64le: tar/1.31-gcc/9.1.0
+  # # # # #
