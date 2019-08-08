@@ -1,0 +1,105 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: sierra
+    paths:
+      cc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/gcc
+      cxx: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/g++
+      f77: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/gfortran
+      fc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/gfortran
+    spec: gcc@9.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: sierra
+    paths:
+      cc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-7.4.0-5tbkxyvwyqc3ck44yzldahplhu52redu/bin/gcc
+      cxx: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-7.4.0-5tbkxyvwyqc3ck44yzldahplhu52redu/bin/g++
+      f77: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-7.4.0-5tbkxyvwyqc3ck44yzldahplhu52redu/bin/gfortran
+      fc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-7.4.0-5tbkxyvwyqc3ck44yzldahplhu52redu/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: sierra
+    paths:
+      cc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-8.3.0-qn43p42zgym7wvuxafvj5ty3ngn5vg5u/bin/gcc
+      cxx: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-8.3.0-qn43p42zgym7wvuxafvj5ty3ngn5vg5u/bin/g++
+      f77: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-8.3.0-qn43p42zgym7wvuxafvj5ty3ngn5vg5u/bin/gfortran
+      fc: /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-8.3.0-qn43p42zgym7wvuxafvj5ty3ngn5vg5u/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /usr/local/bin/gcc-9
+      cxx: /usr/local/bin/g++-9
+      f77: /usr/local/bin/gfortran-9
+      fc:  /usr/local/bin/gfortran-9
+    spec: gcc@9.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /usr/local/bin/gcc-8
+      cxx: /usr/local/bin/g++-8
+      f77: /usr/local/bin/gfortran-8
+      fc:  /usr/local/bin/gfortran-8
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc:  /usr/local/bin/clang
+      cxx: /usr/local/bin/clang++
+      f77: /usr/local/bin/flang
+      fc:  /usr/local/bin/flang
+    spec: clang@4.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc: /usr/bin/clang
+      cxx: /usr/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@9.0.0-apple
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: mojave
+    paths:
+      cc: /usr/local/bin/gcc-7
+      cxx: /usr/local/bin/g++-7
+      f77: /usr/local/bin/gfortran-7
+      fc: /usr/local/bin/gfortran-7
+    spec: gcc@7.4.0
+    target: x86_64
