@@ -54,10 +54,10 @@ packages:
       bzip2: /usr
     buildable: false
   # # # # #
-  cmake:
-    modules:
-      cmake: cmake/3.12.1
-    buildable: false
+  # cmake:
+  #   modules:
+  #     cmake: cmake/3.12.1
+  #   buildable: false
   # # # # #
   curl:
     paths:
@@ -181,6 +181,11 @@ packages:
   tk:
     paths:
       tk: /usr/lib64
+    buildable: False
+  # # # # #
+  valgrind:
+    paths:
+      valgrind: /usr
     buildable: False
   # # # # #
   xz:
