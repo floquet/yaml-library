@@ -5,9 +5,8 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-gnu
-    - !!python/unicode
-      'gcc/7.3.0'
-    operating_system: cnl6
+    - gcc/7.3.0
+    operating_system: cnl7
     paths:
       cc:  cc
       cxx: CC
@@ -21,15 +20,29 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-gnu
-    - !!python/unicode
-      'gcc/6.1.0'
-    operating_system: cnl6
+    - gcc/8.3.0
+    operating_system: cnl7
     paths:
       cc:  cc
       cxx: CC
       f77: ftn
       fc:  ftn
-    spec: gcc@6.1.0
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - gcc/9.2.0-gcc_7.3.0
+    operating_system: cnl7
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@9.2.0
     target: any
 - compiler:
     environment: {}
@@ -46,22 +59,6 @@ compilers:
       f77: ftn
       fc:  ftn
     spec: cce@9.0.1
-    target: any
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    implicit_rpaths: []
-    modules:
-    - PrgEnv-cray
-    - cce/9.0.1.80
-    operating_system: cnl7
-    paths:
-      cc:  cc
-      cxx: CC
-      f77: ftn
-      fc:  ftn
-    spec: cce@9.0.1.80
     target: any
 - compiler:
     environment: {}
