@@ -1,2 +1,2 @@
 mirrors:
-  local_filesystem: file:///usr/projects/draco/vendors/spack.mirror
+  local_filesystem: file:///lustre/ttscratch1/dantopa/repos/gitlab/topa-mirror-spacksp
