@@ -1,0 +1,69 @@
+packages:
+  all:
+    compiler: [gcc, intel, pgi, clang, xl, nag]
+    providers:
+      #
+      #blas: [intel-mkl]
+      #lapack: [intel-mkl]
+      #
+      blas: [openblas]
+      lapack: [openblas]
+      #
+      #blas: [netlib-lapack]
+      #lapack: [netlib-lapack]
+      #
+      mpi: [openmpi]
+      #
+      awk: [gawk]
+      daal: [intel-daal]
+      elf: [elfutils]
+      golang: [gcc]
+      ipp: [intel-ipp]
+      java: [jdk]
+      mkl: [intel-mkl]
+      mpe: [mpe2]
+      opencl: [pocl]
+      openfoam: [openfoam-com, openfoam-org, foam-extend]
+      pkgconfig: [pkg-config]
+      pil: [py-pillow]
+      scalapack: [netlib-scalapack]
+      szip: [libszip, libaec]
+      tbb: [intel-tbb]
+      jpeg: [libjpeg-turbo, libjpeg]
+  # # # # #
+  libpciaccess:
+    paths:
+      libpciaccess % pgi arch=linux-centos7-haswell: /usr
+      libpciaccess % gcc @ 9.2.0 arch=linux-centos7-haswell: /usr
+  # # # # #
+  libsigsegv:
+    paths:
+      libsigsegv % gcc @ 9.2.0 arch=linux-centos7-haswell: /usr
+  # # # # #
+  libtool:
+    paths:
+      libtool % gcc @ 9.2.0 arch=linux-centos7-haswell: /usr
+  # # # # #
+  m4:
+    paths:
+      m4 % gcc @ 9.2.0 arch=linux-centos7-haswell: /usr
+  # # # # #
+  numactl:
+    paths:
+      numactl % pgi arch=linus-centos7-haswell: /usr
+  # # # # #
+  openssl:
+    paths:
+      openssl arch=linux-centos7-haswell: /usr
+    buildable: false
+  # # # # #
+  pkg-config:
+    paths:
+      pkg-config % pgi arch=linux-centos7-haswell: /usr
+      pkg-config % gcc @ 9.2.0 arch=linux-centos7-haswell: /usr
+  # # # # #
+  perl:
+    paths:
+      perl arch=linux-centos7-haswell: /usr
+    buildable: false
+  # # # # #

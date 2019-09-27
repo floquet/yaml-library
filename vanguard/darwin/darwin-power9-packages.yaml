@@ -1,0 +1,87 @@
+packages:
+  all:
+    compiler: [gcc, intel, pgi, clang, xl, nag]
+    providers:
+      #
+      #blas: [intel-mkl]
+      #lapack: [intel-mkl]
+      #
+      blas: [openblas]
+      lapack: [openblas]
+      #
+      #blas: [netlib-lapack]
+      #lapack: [netlib-lapack]
+      #
+      mpi: [openmpi]
+      #
+      awk: [gawk]
+      daal: [intel-daal]
+      elf: [elfutils]
+      golang: [gcc]
+      ipp: [intel-ipp]
+      java: [jdk]
+      mkl: [intel-mkl]
+      mpe: [mpe2]
+      opencl: [pocl]
+      openfoam: [openfoam-com, openfoam-org, foam-extend]
+      pkgconfig: [pkg-config]
+      pil: [py-pillow]
+      scalapack: [netlib-scalapack]
+      szip: [libszip, libaec]
+      tbb: [intel-tbb]
+      jpeg: [libjpeg-turbo, libjpeg]
+  # # # # #
+  hwloc:
+    paths:
+      hwloc % clang arch=linux-rhel7-power9le: /scratch/users/dantopa/repos/spack/vanguard/darwin-power9.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/hwloc-1.11.11-xxe7kpygwachkvf4qcht3lv5d4vgqwgy
+  # # # # #
+  libiconv:
+    paths:
+      libiconv % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  libsigsegv:
+    paths:
+      libsigsegv % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  libpciaccess:
+    paths:
+      libpciaccess % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  libtool:
+    paths:
+      libtool % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  libxml2:
+    paths:
+      libxml2 % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  m4:
+    paths:
+      m4 % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  numactl:
+    paths:
+      numactl % clang arch=linus-centos7-haswell: /usr
+  # # # # #
+  openssl:
+    paths:
+      openssl arch=linux-rhel7-power9le: /usr
+    buildable: false
+  # # # # #
+  perl:
+    paths:
+      perl arch=linux-rhel7-power9le: /usr
+    buildable: false
+  # # # # #
+  pkg-config:
+    paths:
+      pkg-config % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  xz:
+    paths:
+      xz % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
+  zlib:
+    paths:
+      zlib % clang arch=linux-rhel7-power9le: /usr
+  # # # # #
