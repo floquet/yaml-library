@@ -42,7 +42,7 @@ modules:
             #
         #^openblas@0.2.20: 'openblas@0.2.20'
     whitelist: ['gcc','llvm','openmpi','mpich']
-    blacklist: ['gcc@4.8.5','gcc@6.4.0','autoconf','automake','gmp','isl','libsigsegv','libtool','m4','mpc','mpfr','perl','zlib']
+    blacklist: ['gcc@4.9.3','gcc@6.4.0','autoconf','automake','gmp','isl','libsigsegv','libtool','m4','mpc','mpfr','perl','zlib']
   prefix_inspections:
     bin:
       - PATH

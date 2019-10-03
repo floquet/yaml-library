@@ -1,0 +1,157 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+# ==> Error: cannot produce optimized binary for micro-architecture 'skylake_avx512' with gcc@4.8.5 [supported compiler versions are 5.3:]
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+#  optane
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/9.2.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-4smlzmj5oiksfop3kxr7o2nqdpbtsmsp/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-4smlzmj5oiksfop3kxr7o2nqdpbtsmsp/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-4smlzmj5oiksfop3kxr7o2nqdpbtsmsp/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-4smlzmj5oiksfop3kxr7o2nqdpbtsmsp/bin/gfortran
+    spec: gcc@9.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/8.3.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/7.4.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+# # power 9
+# ==> Error: cannot produce optimized binary for micro-architecture 'power9le' with gcc@4.8.5 [supported compiler versions are 6:]
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/7.3.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/7.3.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: ppc64le
+# # arm
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/9.2.0-gcc/4.8.5-linux-rhel7-aarch64
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-3hpbwbysvkzbygonfwofh3htpisoupz5/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-3hpbwbysvkzbygonfwofh3htpisoupz5/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-3hpbwbysvkzbygonfwofh3htpisoupz5/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-3hpbwbysvkzbygonfwofh3htpisoupz5/bin/gfortran
+    spec: gcc@9.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/8.3.0-gcc/4.8.5-linux-rhel7-aarch64
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.3.0-3a6klz6z5iazslrw573gdhxcplw55kk7/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.3.0-3a6klz6z5iazslrw573gdhxcplw55kk7/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.3.0-3a6klz6z5iazslrw573gdhxcplw55kk7/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-8.3.0-3a6klz6z5iazslrw573gdhxcplw55kk7/bin/gfortran
+    spec: gcc@8.3.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/7.4.0-gcc/4.8.5-linux-rhel7-aarch64
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-7.4.0-aqlx4u2euhqyea2i3etlyyaef7j4fokf/bin/gfortran
+    spec: gcc@7.4.0
+    target: aarch64
