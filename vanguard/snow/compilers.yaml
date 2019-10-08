@@ -17,20 +17,6 @@ compilers:
     spec: gcc@4.8.5
     target: x86_64
     #
-- compiler:  #
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: [gcc/6.4.0]
-    operating_system: rhel7
-    paths:
-      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
-      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
-      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
-      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
-    spec: gcc@6.4.0
-    target: x86_64
-    #
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -67,14 +53,15 @@ compilers:
     extra_rpaths: []
     flags: {}
     modules:
-    - intel/17.0.4
+    - friendly-testing
+    - intel/19.0.4
     operating_system: rhel7
     paths:
-      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
-      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
-      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
-      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
-    spec: intel@17.0.4
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.4.070/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.4.070/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.4.070/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.4.070/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.4
     target: x86_64
     #
 - compiler:
@@ -98,15 +85,14 @@ compilers:
     extra_rpaths: []
     flags: {}
     modules:
-    - friendly-testing
-    - intel/19.0.1
+    - intel/17.0.4
     operating_system: rhel7
     paths:
-      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
-      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
-      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
-      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
-    spec: intel@19.0.1
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
     target: x86_64
   #  #  pgi
 - compiler:
