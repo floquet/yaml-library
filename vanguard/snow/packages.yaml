@@ -12,7 +12,7 @@ packages:
       #blas: [netlib-lapack]
       #lapack: [netlib-lapack]
       #
-      mpi: [openmpi]
+      mpi: [openmpi,mpich]
       #
       awk: [gawk]
       daal: [intel-daal]
@@ -40,8 +40,3 @@ packages:
     paths:
       perl: /usr
     buildable: false
-  # # # # #
-  pkg-config:
-    paths:
-      pkg-config % pgi arch=linux-centos7-nehalem: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/pkg-config-0.29.2-rz5zfprwamhypwgzbzwp2pu5pn32eyll
-  # # # # #

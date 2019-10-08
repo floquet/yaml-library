@@ -398,7 +398,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - gcc/9.2.0-gcc/7.3.0-linux-rhel7-power9le
     operating_system: rhel7
     paths:
       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-7.3.0/gcc-9.2.0-ft2dxy4ewgikmvouiplsqqaxxe74fffs/bin/gcc
@@ -411,7 +412,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - gcc/8.3.0-gcc/7.3.0-linux-rhel7-power9le
     operating_system: rhel7
     paths:
       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-7.3.0/gcc-8.3.0-hyclpkuedpdsjijye7dxqykqrxumnccl/bin/gcc
@@ -424,7 +426,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - gcc/7.4.0-gcc/7.3.0-linux-rhel7-power9le
     operating_system: rhel7
     paths:
       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-7.3.0/gcc-7.4.0-kip33v5qm4ehpbdavapfcxq6vnksyehc/bin/gcc
@@ -437,7 +440,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - pgi/19.7
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/19.7/bin/pgcc
@@ -450,7 +454,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - pgi/18.10
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
@@ -463,7 +468,8 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - pgi/17.10
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
@@ -476,20 +482,22 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - clang/8.0.1
     operating_system: rhel7
     paths:
-      cc:  /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
-      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
+      cc:  /projects/opt/ppc64le/clang/8.0.1/bin/clang
+      cxx: /projects/opt/ppc64le/clang/8.0.1/bin/clang++
       f77: /usr/bin/gfortran
       fc:  /usr/bin/gfortran
-    spec: clang@7.0.0
+    spec: clang@8.0.1
     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - clang/8.0.0
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/p9/clang/8.0.0/bin/clang
@@ -502,40 +510,44 @@ compilers:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules: []
+    modules:
+      - clang/7.0.0
     operating_system: rhel7
     paths:
-      cc:  /projects/opt/ppc64le/clang/8.0.1/bin/clang
-      cxx: /projects/opt/ppc64le/clang/8.0.1/bin/clang++
+      cc:  /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
+      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
       f77: /usr/bin/gfortran
       fc:  /usr/bin/gfortran
-    spec: clang@8.0.1
+    spec: clang@7.0.0
     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
     flags:
       fflags: -qzerosize
-    modules: []
+    modules:
+      - ibm/xlc-16.1.1.3-xlf-16.1.1.3
     operating_system: rhel7
     paths:
       cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlc
-      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlc++
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: xl@16.1
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.3/xlf/16.1.1/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1.3/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1.1.3
     target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags:
-      fflags: -qzerosize
-    modules: []
-    operating_system: rhel7
-    paths:
-      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlc_r
-      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlc++_r
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: xl_r@16.1
-    target: ppc64le
+# ==> Error: '/projects/opt/ppc64le/ibm/xlc-16.1.1.5/xlC/16.1.1/bin' is not a valid compiler.
+# - compiler:
+#     environment: {}
+#     extra_rpaths: []
+#     flags:
+#       fflags: -qzerosize
+#     modules:
+#       - ibm/xlc-16.1.1.5-xlf-16.1.1.5
+#     operating_system: rhel7
+#     paths:
+#       cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.5/xlC/16.1.1/bin
+#       cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.5/xlC/16.1.1/bin
+#       f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.5/xlf/16.1.1/bin
+#       fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1.5/xlf/16.1.1/bin
+#     spec: xl@16.1.1.5
+#     target: ppc64le
