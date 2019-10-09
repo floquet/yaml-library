@@ -1,7 +1,7 @@
 #! /bin/bash
 printf '%s\n' "$(date) ${BASH_SOURCE[0]}"
 
-dir_from="${build_ompi}/vanguard"
+dir_from="${yaml_library}/vanguard"
   dir_to="${SPACK_ROOT}/etc/spack/defaults"
 
 set -x
