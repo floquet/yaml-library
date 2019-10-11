@@ -22,21 +22,6 @@ compilers:
     extra_rpaths: []
     flags: {}
     modules:
-    - gcc/7.4.0
-    operating_system: rhel7
-    paths:
-      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
-      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
-      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
-      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
-    spec: gcc@7.4.0
-    target: x86_64
-    #
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
     - friendly-testing
     - gcc/8.2.0
     operating_system: rhel7
@@ -46,6 +31,64 @@ compilers:
       f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
       fc:  /projects/opt/centos7/gcc/8.2.0/bin/gfortran
     spec: gcc@8.2.0
+    target: x86_64
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/9.2.0-gcc/4.8.5-linux-rhel7-haswell
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-9.2.0-4poakiysj6xyomyhg7x4qjajzg6nwfu4/bin/gcc
+      cxx: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-9.2.0-4poakiysj6xyomyhg7x4qjajzg6nwfu4/bin/g++
+      f77: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-9.2.0-4poakiysj6xyomyhg7x4qjajzg6nwfu4/bin/gfortran
+      fc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-9.2.0-4poakiysj6xyomyhg7x4qjajzg6nwfu4/bin/gfortran
+    spec: gcc@9.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.3.0-gcc/4.8.5-linux-rhel7-haswell
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.3.0-kcwbkddtrbsmko4p33uwcgsxx4favlux/bin/gcc
+      cxx: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.3.0-kcwbkddtrbsmko4p33uwcgsxx4favlux/bin/g++
+      f77: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.3.0-kcwbkddtrbsmko4p33uwcgsxx4favlux/bin/gfortran
+      fc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.3.0-kcwbkddtrbsmko4p33uwcgsxx4favlux/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/7.4.0-gcc/4.8.5-linux-rhel7-haswell
+    operating_system: rhel7
+    paths:
+      cc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-broadwell/gcc-6.4.0/gcc-7.4.0-rhpftxfkn7wcpnjkt64vwycxlnfwwyfw/bin/gcc
+      cxx: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-broadwell/gcc-6.4.0/gcc-7.4.0-rhpftxfkn7wcpnjkt64vwycxlnfwwyfw/bin/g++
+      f77: /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-broadwell/gcc-6.4.0/gcc-7.4.0-rhpftxfkn7wcpnjkt64vwycxlnfwwyfw/bin/gfortran
+      fc:  /net/scratch4/.mdt2/dantopa/vanguard/snow.spack/opt/spack/linux-rhel7-broadwell/gcc-6.4.0/gcc-7.4.0-rhpftxfkn7wcpnjkt64vwycxlnfwwyfw/bin/gfortran
+    spec: gcc@7.4.0
     target: x86_64
   #  #  intel
 - compiler:
