@@ -2,7 +2,6 @@
 modules:
   enable:
     - tcl
-    - dotkit
   tcl:
     hash_length: 0
     naming_scheme: '${PACKAGE}-${VERSION}-${COMPILERNAME}-${COMPILERVER}'
