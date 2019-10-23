@@ -31,57 +31,21 @@ packages:
       tbb: [intel-tbb]
       jpeg: [libjpeg-turbo, libjpeg]
   # # # # #
-  hwloc:
+  binutils:
     paths:
-      hwloc % clang arch=linux-rhel7-power9le: /scratch/users/dantopa/repos/spack/vanguard/darwin-power9.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/hwloc-1.11.11-xxe7kpygwachkvf4qcht3lv5d4vgqwgy
+      binutils % gcc @ 9.2.0 arch=linux-rhel7-power9le: /scratch/users/dantopa/vanguard/darwin-haswell-ompi.spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/binutils-2.32-tzncnazwinaoc5dhmfjqq5uh7bbalnpq
   # # # # #
-  libiconv:
-    paths:
-      libiconv % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  libsigsegv:
-    paths:
-      libsigsegv % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  libpciaccess:
-    paths:
-      libpciaccess % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  libtool:
-    paths:
-      libtool % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  libxml2:
-    paths:
-      libxml2 % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  m4:
-    paths:
-      m4 % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  numactl:
-    paths:
-      numactl % clang arch=linus-centos7-haswell: /usr
+  cmake:
+    modules:
+      cmake % xl arch=linux-rhel7-power9le: cmake/3.15.3-gcc/9.2.0-linux-rhel7-power9le
   # # # # #
   openssl:
     paths:
-      openssl arch=linux-rhel7-power9le: /usr
+      openssl: /usr
     buildable: false
   # # # # #
   perl:
     paths:
-      perl arch=linux-rhel7-power9le: /usr
+      perl: /usr
     buildable: false
-  # # # # #
-  pkg-config:
-    paths:
-      pkg-config % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  xz:
-    paths:
-      xz % clang arch=linux-rhel7-power9le: /usr
-  # # # # #
-  zlib:
-    paths:
-      zlib % clang arch=linux-rhel7-power9le: /usr
   # # # # #
