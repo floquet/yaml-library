@@ -74,8 +74,8 @@ compilers:
     paths:
       cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.1-i43rqtjr3jigl5pehsnvu2yiizwj3q3y/bin/clang
       cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.1-i43rqtjr3jigl5pehsnvu2yiizwj3q3y/bin/clang++
-      f77: null
-      fc: null
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
     spec: clang@6.0.1
     target: x86_64
 - compiler:
@@ -87,7 +87,7 @@ compilers:
     paths:
       cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.0-dhs2fu5uubhnlqnkal2weukwqtzpcziv/bin/clang
       cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.0-dhs2fu5uubhnlqnkal2weukwqtzpcziv/bin/clang++
-      f77: null
-      fc: null
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
     spec: clang@6.0.0
     target: x86_64

@@ -1,0 +1,254 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/9.2.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-fxjdqn5lwkopxqqdheqkrdstifj5pam2/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-fxjdqn5lwkopxqqdheqkrdstifj5pam2/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-fxjdqn5lwkopxqqdheqkrdstifj5pam2/bin/gfortran
+      fc: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-9.2.0-fxjdqn5lwkopxqqdheqkrdstifj5pam2/bin/gfortran
+    spec: gcc@9.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/8.3.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gfortran
+      fc: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-8.3.0-kih6ev3tdqy6tivvebhfjfuxbjmfvye6/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - gcc/7.4.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/gcc-7.4.0-7ni5rdydpx7c4s2sqwo7wnyvvu6lvcny/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - intel/19.0.5
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/ifort
+    spec: intel@19.0.5.281
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - intel/18.0.3
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+    spec: intel@18.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+     - intel/17.0.6
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec: intel@17.0.6
+    target: x86_64
+    # clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/9.0.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-9.0.0-fd5dc765x5li73ijoq2d6k7bx2lojr36/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-9.0.0-fd5dc765x5li73ijoq2d6k7bx2lojr36/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@9.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/8.0.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-8.0.0-dd4crlek2ypo3twgipa4qsccroxo4tvk/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-8.0.0-dd4crlek2ypo3twgipa4qsccroxo4tvk/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@8.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/7.0.1-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-7.0.1-h7hn32nkqkkxjxpsudwhoftfkmkoju24/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-7.0.1-h7hn32nkqkkxjxpsudwhoftfkmkoju24/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/7.0.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-9.2.0/llvm-7.0.0-am7i7sv7lsz7aqavfoso34ccy5qa3wxu/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-9.2.0/llvm-7.0.0-am7i7sv7lsz7aqavfoso34ccy5qa3wxu/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/6.0.1-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.1-i43rqtjr3jigl5pehsnvu2yiizwj3q3y/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.1-i43rqtjr3jigl5pehsnvu2yiizwj3q3y/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@6.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - llvm/6.0.0-gcc/6.4.0-linux-centos7-skylake_avx512
+    operating_system: centos7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.0-dhs2fu5uubhnlqnkal2weukwqtzpcziv/bin/clang
+      cxx: /scratch/users/dantopa/vanguard/darwin-optane-ompi.spack/opt/spack/linux-centos7-skylake_avx512/gcc-6.4.0/llvm-6.0.0-dhs2fu5uubhnlqnkal2weukwqtzpcziv/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@6.0.0
+    target: x86_64
+    #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/19.7
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/19.7/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/19.7/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/19.7/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/19.7/bin/pgf90
+    spec: pgi@19.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/18.10
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgf77
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      - pgi/17.10
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgf77
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
