@@ -1,0 +1,28 @@
+compilers:
+compilers:
+- compiler:
+    spec: gcc@4.8.5
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    flags: {}
+    operating_system: rhel7
+    target: aarch64
+    modules: []
+    environment: {}
+    extra_rpaths: []
+- compiler:
+    spec: gcc@9.2.0
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-lxwyofkkcwc7bjis5pd4hwiog6sadlab/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-lxwyofkkcwc7bjis5pd4hwiog6sadlab/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-lxwyofkkcwc7bjis5pd4hwiog6sadlab/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/gcc-9.2.0-lxwyofkkcwc7bjis5pd4hwiog6sadlab/bin/gfortran
+    flags: {}
+    operating_system: rhel7
+    target: aarch64
+    modules: []
+    environment: {}
+    extra_rpaths: []
