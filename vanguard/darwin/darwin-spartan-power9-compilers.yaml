@@ -1,0 +1,56 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  gcc/9.2.0-gcc/6.4.0-linux-rhel7-power9le
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-9.2.0-vdolqnkbcxem5t6g26gjyoo3m7exyfel/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-9.2.0-vdolqnkbcxem5t6g26gjyoo3m7exyfel/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-9.2.0-vdolqnkbcxem5t6g26gjyoo3m7exyfel/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-9.2.0-vdolqnkbcxem5t6g26gjyoo3m7exyfel/bin/gfortran
+    spec: gcc@9.2.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  gcc/8.3.0-gcc/6.4.0-linux-rhel7-power9le
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-8.3.0-tmdkztwgut24rnujsdicc462whjcjmpe/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-8.3.0-tmdkztwgut24rnujsdicc462whjcjmpe/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-8.3.0-tmdkztwgut24rnujsdicc462whjcjmpe/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-8.3.0-tmdkztwgut24rnujsdicc462whjcjmpe/bin/gfortran
+    spec: gcc@8.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+      -  gcc/7.4.0-gcc/6.4.0-linux-rhel7-power9le
+    operating_system: rhel7
+    paths:
+      cc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-7.4.0-3qqqi57mlvehgdrjmffrrwbi7gaw4gds/bin/gcc
+      cxx: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-7.4.0-3qqqi57mlvehgdrjmffrrwbi7gaw4gds/bin/g++
+      f77: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-7.4.0-3qqqi57mlvehgdrjmffrrwbi7gaw4gds/bin/gfortran
+      fc:  /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power9le/gcc-6.4.0/gcc-7.4.0-3qqqi57mlvehgdrjmffrrwbi7gaw4gds/bin/gfortran
+    spec: gcc@7.4.0
+    target: ppc64le
