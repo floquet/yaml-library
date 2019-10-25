@@ -33,19 +33,27 @@ packages:
   # # # # #
   binutils:
     paths:
-      binutils % gcc @ 9.2.0 arch=linux-rhel7-aarch64: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/binutils-2.32-tf2d5engl6d7vtbos3yqbftc4b3lxz7m # # # # #
+      binutils % gcc @ 9.2.0 arch=linux-rhel7-aarch64: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/binutils-2.32-tf2d5engl6d7vtbos3yqbftc4b3lxz7m
   # # # # #
   cmake:
     paths:
       cmake % gcc @ 9.2.0 arch=linux-rhel7-aarch64: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/cmake-3.15.4-p2ern3dpc3kzqph3qa62u3rkr6loys2l
-   # # # # #
- openssl:
+  # # # # #
+  openssl:
     paths:
       openssl: /usr
     buildable: false
+  # # # # #
+  pcre:
+    paths:
+      pcre % gcc @ 9.2.0  arch=linux-rhel7-aarch64: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pcre-8.42-cxjj2a4usrgb2jl5sftmimeralkgkdi6
   # # # # #
   perl:
     paths:
       perl: /usr
     buildable: false
+  # # # # #
+  swig:
+    paths:
+      swig % gcc @ 9.2.0  arch=linux-rhel7-aarch64: /scratch/users/dantopa/vanguard/darwin-arm-ompi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/swig-4.0.0-wro4nxes45jgixfrkabt7eprxllvcoqo
   # # # # #

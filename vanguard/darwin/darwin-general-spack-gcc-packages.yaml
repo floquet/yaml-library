@@ -38,6 +38,7 @@ packages:
   libpciaccess:
     paths:
       libpciaccess % pgi arch=linux-centos7-haswell: /usr
+      libpciaccess % pgi arch=linux-centos7-skylake_avx512: /scratch/users/dantopa/repos/spack/vanguard/darwin-general.spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/hwloc-1.11.11-dyztf2zlfws43ao2hwu2fi7lgzlwns62
   # # # # #
   numactl:
     paths:
