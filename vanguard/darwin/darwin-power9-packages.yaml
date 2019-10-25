@@ -39,6 +39,10 @@ packages:
     modules:
       cmake % xl arch=linux-rhel7-power9le: cmake/3.15.3-gcc/9.2.0-linux-rhel7-power9le
   # # # # #
+  numactl:
+    paths:
+      numactl % pgi arch=linux-rhel7-power9le: /scratch/users/dantopa/vanguard/darwin-power9-ompi.spack/opt/spack/linux-rhel7-power8le/gcc-4.8.5/numactl-2.0.12-c54kwj3xoxglg5foo5zy6dojhbwrb33s
+  # # # # #
   openssl:
     paths:
       openssl: /usr
