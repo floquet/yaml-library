@@ -19,20 +19,20 @@ compilers:
       fc:  /usr/bin/gfortran
     spec: clang@8.0.1
     target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-      - clang/7.0.1
-    operating_system: rhel7
-    paths:
-      cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-7.0.1-w2pdap5wldjli5y2bqd3opb73yk6m7sc/bin/clang
-      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-7.0.1-w2pdap5wldjli5y2bqd3opb73yk6m7sc/bin/clang++
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: clang@7.0.1
-    target: ppc64le
+# - compiler:
+#     environment: {}
+#     extra_rpaths: []
+#     flags: {}
+#     modules:
+#       - clang/7.0.1
+#     operating_system: rhel7
+#     paths:
+#       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-7.0.1-w2pdap5wldjli5y2bqd3opb73yk6m7sc/bin/clang
+#       cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-7.0.1-w2pdap5wldjli5y2bqd3opb73yk6m7sc/bin/clang++
+#       f77: /usr/bin/gfortran
+#       fc:  /usr/bin/gfortran
+#     spec: clang@7.0.1
+#     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -47,34 +47,34 @@ compilers:
       fc:  /usr/bin/gfortran
     spec: clang@7.0.0
     target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-      - llvm/6.0.1-gcc/9.2.0-linux-rhel7-power9le
-    operating_system: rhel7
-    paths:
-      cc: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.1-oj6jtvouhwum6xq7fgxfdlvcufb3hrq6/bin/clang
-      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.1-oj6jtvouhwum6xq7fgxfdlvcufb3hrq6/bin/clang++
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: clang@6.0.1
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-      - llvm/6.0.0-gcc/9.2.0-linux-rhel7-power9le
-    operating_system: rhel7
-    paths:
-      cc: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.0-zvnbqncy2zj6ireuhd7joocjt5uexzah/bin/clang
-      cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.0-zvnbqncy2zj6ireuhd7joocjt5uexzah/bin/clang++
-      f77: /usr/bin/gfortran
-      fc:  /usr/bin/gfortran
-    spec: clang@6.0.0
-    target: ppc64le
+# - compiler:
+#     environment: {}
+#     extra_rpaths: []
+#     flags: {}
+#     modules:
+#       - llvm/6.0.1-gcc/9.2.0-linux-rhel7-power9le
+#     operating_system: rhel7
+#     paths:
+#       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.1-oj6jtvouhwum6xq7fgxfdlvcufb3hrq6/bin/clang
+#       cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.1-oj6jtvouhwum6xq7fgxfdlvcufb3hrq6/bin/clang++
+#       f77: /usr/bin/gfortran
+#       fc:  /usr/bin/gfortran
+#     spec: clang@6.0.1
+#     target: ppc64le
+# - compiler:
+#     environment: {}
+#     extra_rpaths: []
+#     flags: {}
+#     modules:
+#       - llvm/6.0.0-gcc/9.2.0-linux-rhel7-power9le
+#     operating_system: rhel7
+#     paths:
+#       cc:  /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.0-zvnbqncy2zj6ireuhd7joocjt5uexzah/bin/clang
+#       cxx: /scratch/users/dantopa/vanguard/darwin.spack/opt/spack/linux-rhel7-power9le/gcc-9.2.0/llvm-6.0.0-zvnbqncy2zj6ireuhd7joocjt5uexzah/bin/clang++
+#       f77: /usr/bin/gfortran
+#       fc:   /usr/bin/gfortran
+#     spec: clang@6.0.0
+#     target: ppc64le
 - compiler:
     environment: {}
     extra_rpaths: []
@@ -175,29 +175,15 @@ compilers:
 - compiler:
     environment: {}
     extra_rpaths: []
-    flags: {}
-    modules:
-    - pgi/16.10
-    operating_system: rhel7
-    paths:
-      cc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc
-      cxx: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgc++
-      f77: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
-      fc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
-    spec: pgi@16.10
-    target: ppc64le
-- compiler:
-    environment: {}
-    extra_rpaths: []
     flags:
       fflags: -qzerosize
     modules:
-      - ibm/xlc-16.1.1.3-xlf-16.1.1.3
+      - ibm/xlc-16.1.1.5-xlf-16.1.1.5
     operating_system: rhel7
     paths:
-      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlc
-      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.3/xlC/16.1.1/bin/xlC
-      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.3/xlf/16.1.1/bin/xlf
-      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1.3/xlf/16.1.1/bin/xlf95
-    spec: xl@16.1.1.3
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.5/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.5/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.5/xlf/16.1.1/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1.5/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1.1.5
     target: ppc64le
