@@ -114,16 +114,16 @@
     modules: []
     environment: {}
     extra_rpaths: []
-  - compiler:
-      spec: nag@6.2
-      paths:
-        cc:
-        cxx:
-        f77: /usr/local/bin/nagfor
-        fc:  /usr/local/bin/nagfor
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
+- compiler:
+    spec: nag@6.2
+    paths:
+      cc:
+      cxx:
+      f77: /usr/local/bin/nagfor
+      fc:  /usr/local/bin/nagfor
+    flags: {}
+    operating_system: catalina
+    target: x86_64
+    modules: []
+    environment: {}
+    extra_rpaths: []
