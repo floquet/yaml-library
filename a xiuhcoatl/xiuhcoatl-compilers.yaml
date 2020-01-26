@@ -1,129 +1,142 @@
-  # dantopa:.spack/darwin % date
-  # Tue Dec 17 13:02:41 MST 2019
+# dantopa:.spack/darwin % date
+# Tue Dec 17 13:02:41 MST 2019
 
-  # dantopa:.spack/darwin % port select --list gcc
-  # Available versions for gcc:
-  # 	mp-gcc9 (active)
-  # 	none
+# dantopa:.spack/darwin % port select --list gcc
+# Available versions for gcc:
+# 	mp-gcc9 (active)
+# 	none
 
-  # l127914@pn1248056.lanl.gov:spack $ pwd
-  # /Users/l127914/repos/spack/spack
-    # sudo port select --set gcc mp-gcc9
-  compilers:
-  - compiler:
-      spec: clang@11.0.0-apple
-      paths:
-        cc:  /usr/bin/clang
-        cxx: /usr/bin/clang++
-        f77: /opt/local/bin/gfortran
-        fc:  /opt/local/bin/gfortran
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
-  - compiler:
-      spec: clang@8.0.1
-      paths:
-        cc:  /opt/local/bin/clang-mp-8.0
-        cxx: /opt/local/bin/clang++-mp-8.0
-        f77:
-        fc:
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
-  - compiler:
-      spec: clang@7.0.1
-      paths:
-        cc:  /opt/local/bin/clang-mp-7.0
-        cxx: /opt/local/bin/clang++-mp-7.0
-        f77:
-        fc:
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
-  - compiler:
-      spec: gcc@9.2.0
-      paths:
-        cc:  /opt/local/bin/gcc
-        cxx: /opt/local/bin/g++
-        f77: /opt/local/bin/gfortran
-        fc:  /opt/local/bin/gfortran
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
-  - compiler:
-      spec: gcc@8.3.0
-      paths:
-        cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gcc
-        cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/g++
-        f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gfortran
-        fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gfortran
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
-  - compiler:
-      spec: gcc@7.4.0
-      paths:
-        cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gcc
-        cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/g++
-        f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gfortran
-        fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gfortran
-      flags: {}
-      operating_system: catalina
-      target: x86_64
-      modules: []
-      environment: {}
-      extra_rpaths: []
+# l127914@pn1248056.lanl.gov:spack $ pwd
+# /Users/l127914/repos/spack/spack
+# sudo port select --set gcc mp-gcc9
+compilers:
 - compiler:
-    spec: gcc@6.5.0
-    paths:
-      cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gcc
-      cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/g++
-      f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gfortran
-      fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gfortran
-    flags: {}
-    operating_system: catalina
-    target: x86_64
-    modules: []
-    environment: {}
-    extra_rpaths: []
+  spec: clang@11.0.0-apple
+  paths:
+    cc:  /usr/bin/clang
+    cxx: /usr/bin/clang++
+    f77: /opt/local/bin/gfortran
+    fc:  /opt/local/bin/gfortran
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
 - compiler:
-    spec: gcc@5.5.0
-    paths:
-      cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gcc
-      cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/g++
-      f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gfortran
-      fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gfortran
-    flags: {}
-    operating_system: catalina
-    target: x86_64
-    modules: []
-    environment: {}
-    extra_rpaths: []
+  spec: clang@8.0.1
+  paths:
+    cc:  /opt/local/bin/clang-mp-8.0
+    cxx: /opt/local/bin/clang++-mp-8.0
+    f77:
+    fc:
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
 - compiler:
-    spec: nag@6.2
-    paths:
-      cc:
-      cxx:
-      f77: /usr/local/bin/nagfor
-      fc:  /usr/local/bin/nagfor
-    flags: {}
-    operating_system: catalina
-    target: x86_64
-    modules: []
-    environment: {}
-    extra_rpaths: []
+spec: clang@9.0.1
+paths:
+  cc: /opt/local/bin/clang-mp-9.0
+  cxx: /opt/local/bin/clang++-mp-9.0
+  f77:
+  fc:
+flags: {}
+operating_system: catalina
+target: x86_64
+modules: []
+environment: {}
+extra_rpaths: []
+- compiler:
+  spec: clang@7.0.1
+  paths:
+    cc:  /opt/local/bin/clang-mp-7.0
+    cxx: /opt/local/bin/clang++-mp-7.0
+    f77:
+    fc:
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
+- compiler:
+  spec: gcc@9.2.0
+  paths:
+    cc:  /opt/local/bin/gcc
+    cxx: /opt/local/bin/g++
+    f77: /opt/local/bin/gfortran
+    fc:  /opt/local/bin/gfortran
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
+- compiler:
+  spec: gcc@8.3.0
+  paths:
+    cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gcc
+    cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/g++
+    f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gfortran
+    fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-8.3.0-fxj4m5svuktydrjgtfkbxyifibwf6wsi/bin/gfortran
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
+- compiler:
+  spec: gcc@7.4.0
+  paths:
+    cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gcc
+    cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/g++
+    f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gfortran
+    fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-7.4.0-o3v6vfx5lwpzedmlwt3scvlhrro3kyyd/bin/gfortran
+  flags: {}
+  operating_system: catalina
+  target: x86_64
+  modules: []
+  environment: {}
+  extra_rpaths: []
+- compiler:
+spec: gcc@6.5.0
+paths:
+  cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gcc
+  cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/g++
+  f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gfortran
+  fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-6.5.0-qhqu7bc53djgmobfu7m6kbv5e5j5hc7u/bin/gfortran
+flags: {}
+operating_system: catalina
+target: x86_64
+modules: []
+environment: {}
+extra_rpaths: []
+- compiler:
+spec: gcc@5.5.0
+paths:
+  cc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gcc
+  cxx: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/g++
+  f77: /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gfortran
+  fc:  /Users/dantopa/scratch/spack-folder/spack-primary/opt/spack/darwin-catalina-x86_64/clang-11.0.0-apple/gcc-5.5.0-xxy3kiwyboq5yvhifxvav3wj6c22ywzf/bin/gfortran
+flags: {}
+operating_system: catalina
+target: x86_64
+modules: []
+environment: {}
+extra_rpaths: []
+- compiler:
+spec: nag@6.2
+paths:
+  cc:
+  cxx:
+  f77: /usr/local/bin/nagfor
+  fc:  /usr/local/bin/nagfor
+flags: {}
+operating_system: catalina
+target: x86_64
+modules: []
+environment: {}
+extra_rpaths: []
