@@ -12,6 +12,7 @@ modules:
     all:
       suffixes:
           #
+        ^openmpi@4.0.1:  'openmpi@4.0.2'
         ^openmpi@4.0.1:  'openmpi@4.0.1'
         ^openmpi@4.0.0:  'openmpi@4.0.0'
           #
