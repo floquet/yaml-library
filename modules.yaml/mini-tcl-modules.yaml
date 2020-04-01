@@ -1,0 +1,10 @@
+modules:
+  tcl:
+    whitelist:
+      - cmake
+      - gcc
+      - llvm
+      - python
+      - paraview
+    blacklist:
+      - '%gcc'
